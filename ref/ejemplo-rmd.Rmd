@@ -1,0 +1,47 @@
+---
+output: github_document
+bibliography: biblio.bib
+csl: apa.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse=TRUE,
+  fig.path = "../img/"
+)
+```
+
+<!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
+
+# Introducción a R y análisis exploratorio de datos (EDA)
+
+...
+
+```{r}
+library(ade4)
+data(doubs)
+```
+
+...
+
+### Diagrama de dispersión
+
+Lee sobre el [diagrama de dispersión](https://es.wikipedia.org/wiki/Diagrama_de_dispersi%C3%B3n).
+Si observas detenidamente las variables `dfs` y `flo` de la [tabla `doubs$env`](#doubs), quizá
+no detectes a golpe de vista que existe correlación entre ambas; es precisamente en este punto
+donde los gráficos te pueden ayudar.
+
+```{r, message=FALSE}
+library(tidyverse)
+```
+
+...
+
+El gráfico de dispersión a continuación muestra que existe  correlación positiva entre las
+variables seleccionadas.
+
+```{r intro-doubscatter}
+ggplot(data = doubs$env) +
+  geom_point(mapping = aes(x = dfs, y = flo))
+```
