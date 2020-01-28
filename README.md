@@ -6,4 +6,4 @@
 
 * [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
 
-* [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)
+<!--* [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)-->
