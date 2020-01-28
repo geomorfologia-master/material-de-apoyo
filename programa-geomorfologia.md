@@ -32,23 +32,24 @@ Enero 2020 <br/> *José Ramón Martínez Batlle*
 > cual “nos \[te\] interesa \[para aprobar o para lo que veas\]”
 > aprender a leer (Anderson & Anderson, 2010).
 
-Guarda ésto: “…el principal proceso activo en la configuración del
-paisaje…”, y quédate también con esta otra cita:
+Guarda ésto: “…el principal proceso activo…”, y quédate también con esta
+otra cita:
 
 > La Geomorfología, como otras ramas de la ciencia, necesita pasar de la
 > simple descripción a la cuantificación y para ello tiene que utilizar
 > métodos de otras áreas científicas, fundamentalmente la Física
 > (Gutiérrez Elorza, 2008)
 
-Tricart (1956) auguraba que la Geomorfología debía apoyarse en el
-estudio de los procesos y también en la morfogénesis antrópica. No se
-equivocó, porque desde mediados del siglo XX hasta la actualidad, la
-geomorfología de procesos ha sido la nota dominante. Este enfoque se
-preocupa más por el proceso que por la forma, lo cual deja de lado la
-evolución de los grandes conjuntos de relieve (Gutiérrez Elorza, 2008).
+Tricart (1956) aseguraba que la Geomorfología debía apoyarse en el
+estudio de los procesos y también en la morfogénesis antrópica. No
+porque lo haya dicho él, sino por la propia evolución de esta
+disciplina, la geomorfología de procesos ha sido la nota dominante desde
+mediados del siglo XX hasta la actualidad. Este paradigma se preocupa
+más por el proceso que por la forma, lo cual deja de lado la evolución
+de los grandes conjuntos de relieve (Gutiérrez Elorza, 2008).
 
 Dos grupos de procesos geomorfológicos convergen en la superficie del
-planeta:
+planeta (Anderson & Anderson, 2010):
 
 1.  Las rocas de la superficie son movidas por procesos geofísicos
     profundos.
@@ -70,27 +71,32 @@ vez más precisas a problemas de ciencias de la Tierra, como los riesgos
 de desastres.
 
 Puedes presuponer seguiré un esquema de geomorfología de procesos
-(to’eta plepla no e’de’barde), pero en esta edición además introduciré
-soporte matemático y aplicaciones tecnológicas usando software de código
-abierto, centrando el aprendizaje en asignaciones y en un manuscrito que
-escribirás.
+(to’eta plepla no e’de’barde) en la parte teórica, pero en esta
+edición además introduciré geomorfometría, soporte matemático y
+aplicaciones tecnológicas usando software de código abierto, centrando
+el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito
+que escribirás.
 
 **Me apoyaré en [R](https://www.r-project.org/) y en [GRASS
 GIS](https://grass.osgeo.org/)** (las vainas del tali), y tienes la
 opción de usar Python. Para visualizar salidas, opcionalmente podrás
-usar [QGIS](https://qgis.org/es/site/) (por ejemplo, localmente en una
-PC tuya o en las del SIGCART). Con suerte, y si alcanza el tiempo, verás
-posibles usos de [OpenDroneMap](https://www.opendronemap.org/) en
-geomorfología.
+usar [**QGIS**](https://qgis.org/es/site/) (por ejemplo, localmente en
+una PC tuya o en las del SIGCART). Con suerte, y si alcanza el tiempo,
+verás posibles usos de [**OpenDroneMap**](https://www.opendronemap.org/)
+en geomorfología, así como de herramientas fotogramétricas, de
+navegación por satélite para mediciones precisas y de teledetección.
 
 En cuanto a escribir código, te adelanto que para superar las
-dificultades y los desafíos que te supongan las asignaciones y el
+dificultades y los desafíos inherentes de las asignaciones y el
 manuscrito, tendrás que:
 
-1.  Sufrir. Nadie dijo que fajarse con R, GRASS o Python iba a ser como
-    una sesión de coaching. Cuesta esfuerzo y mucho. Lo mismo aplica a
-    la redacción; escribir con concisión apoyándote en tus resultados es
-    tarea complicada. Por lo tanto, sufre, pero con un motivo.
+1.  Sufrir. Nadie dijo que fajarse con geomorfometría con R, GRASS GIS o
+    Python fuese placentero. A diferencia de los software de pago, aquí
+    no hay un botoncito que lo resuelva todo. Cuesta esfuerzo, mucho;
+    eso sí, es gratis, como todas las cosas buenas. Adelanto también que
+    este mismo principio aplica a la redacción; escribir con concisión
+    apoyándote en tus resultados es tarea complicada. Por lo tanto,
+    sufre, pero con un motivo.
 
 2.  Recibir tutorías. Estoy de lunes a jueves, de 8 am a 1 pm en la
     pecera del piso 7 (Facultad de Ciencias) del “Edificio
@@ -98,99 +104,190 @@ manuscrito, tendrás que:
     escribas (jmartinez19@uasd.edu.do) por si tuviese compromisos fuera
     el día que elijas visitarme.
 
-3.  Aprender a pedir ayuda. Elimina esta expresión de tu cabeza: “Da
-    error”. Con eso nadie puede ayudarte. Lo importante es qué error
-    obtienes al ejecutar qué cosa. Por ello, cuando pidas ayuda, por
-    ejemplo, mediante *issues* de GitHub, deberás ofrecer un ejemplo
-    reproducible. Evita las capturas de pantalla y prefiere código
-    reproducible + error.
+3.  Aprender a pedir ayuda. Elimina esta expresión de tu vocabulario:
+    “da error”. Con eso nadie podrá ayudarte. Lo importante es qué
+    error obtienes al ejecutar qué cosa. Por ello, cuando pidas ayuda,
+    por ejemplo, mediante *issues* de GitHub, deberás ofrecer un ejemplo
+    reproducible. En la medida de lo posible, evita las capturas de
+    pantalla y prefiere código reproducible + error. El *ecrinchó ’ta
+    bien pa’guasá* y otras vainas, pero no para pedir ayuda con código
+    informático.
 
 No tendrás que preocuparte por el hardware (ya me ensucio yo las manos
-con esa cosa tan mundana llamada computadora), pero ocúpate por razonar
-bien las asignaciones y, especialmente, lo que escribas en tu
-manuscrito. Dispondrás de un servidor de RStudio de modestas
-prestaciones habilitado por mí, con los paquetes requeridos en el curso
-ya pre-instalados. Así podrás realizar tus asignaciones sin preocuparte
-de instalaciones ni dependencias.
+con esa cosa tan mundana llamada computadora), pero ocúpate por escribir
+código con sentido, por razonar bien tus asignaciones y, especialmente,
+por lo que escribas en tu manuscrito. Dispondrás de un servidor de
+RStudio de modestas prestaciones habilitado por mí, con los paquetes
+requeridos en el curso ya pre-instalados. Así podrás realizar tus
+asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de
+instalaciones de paquetes.
 
 Parecería “natural” utilizar interfaz gráfico de usuario para analizar
-datos geomorfológicos, pero verás a lo largo de esta asignatura que lo
-razonable es utilizar código. Realizar de manera eficiente análisis
-reproducibles sólo se logra escribiendo y ejecutando código. Igualmente,
-para visualizar patrones espaciales se requiere de herramientas
-versátiles, que tanto R como otros lenguajes proveen normalmente a
-través de paquetes.
+datos geomorfológicos y hacer análisis geomorfométrico, pero a lo largo
+de esta asignatura verás que lo razonable es utilizar código. Realizar
+análisis reproducibles de manera eficiente sólo se logra escribiendo y
+ejecutando código. Igualmente, para visualizar patrones espaciales se
+requiere de herramientas versátiles, que tanto R como otros lenguajes
+proveen normalmente a través de
+paquetes.
 
-## Manuscrito
+## Evaluación
 
-> El plagio y la falsificación de datos supondrán la reprobación
-> inmediata de la asignatura.
+| Ítem                                                   | % de la  nota final |
+| ------------------------------------------------------ | ------------------: |
+| [Manuscrito (basado en trabajo de campo)](#manuscrito) |                 40% |
+| [Presentación oral](#presentación-oral)                |                 10% |
+| [Trabajo de campo](#trabajo-de-campo)                  |                 20% |
+| [Asignaciones](#asignaciones)                          |                 30% |
+
+Brevemente, cada ítem a evaluar consistirá en lo siguiente (más detalles
+por medio de asignaciones a lo largo del curso):
+
+### Manuscrito
+
+Tratará sobre procesos geomorfológicos en morfosistemas o elementos
+morfológicos puntuales, prefiriendo una localidad cercana a Santo
+Domingo, de manera que puedas combinar técnicas de geocomputación,
+geomorfometría y trabajo de campo. Lo elaborarás siguiendo las
+siguientes fases:
+
+1.  Selección del tema. Hay muchas opciones, pero elige una (consulta al
+    profesor, libros y artículos de geomorfología):
+    1.  Geomorfología tectónica. Algunos ejemplos: deformación,
+        ¿depósitos? (difíciles de conseguir), perfiles de ríos
+        afectados.
+    2.  Ríos. Evolución de canales, distribución de depósitos,
+        inundaciones, abanicos aluviales, cuencas.
+    3.  Vertientes. Debris flows, deslizamientos, geometría de
+        vertientes.
+    4.  Litorales. Costas rocosas, costas no rocosas, evolución,
+        depósitos.
+    5.  Formas eólicas. Depósitos, dunas, evolución.
+2.  Formulación del problema/pregunta(s) de investigación, siendo
+    preceptiva la sencillez de diseño. Las preguntas de investigación a
+    responder las diseñarás tú. Consulta al profesor para construir tus
+    preguntas en una sesión de clase, para que las preguntas formuladas
+    sean “respondibles” sin caer en simplismos.
+3.  Revisión bibliográfica. Busca fuentes en línea, pero evita abrumarte
+    con la enorme disponibilidad de publicaciones científicas sobre
+    geomorfología. Prefiere las publicaciones disponibles en acceso
+    libre.
+4.  Selección de metodología, incluyendo técnicas cuantitativas de forma
+    preceptiva.
+5.  Recogida de datos de campo.
+6.  Análisis de datos.
+7.  Redacción.
+
+Los criterios de evaluación que usaré para el manuscrito son:
+
+1.  Cumplimiento de los requisitos exigidos por el Anuario, tanto los de
+    forma (estilos de documento) como los de fondo.
+2.  Redacción coherente y concisa.
+3.  Resultados, con el debido apoyo estadístico y gráfico, que respondan
+    a las preguntas formuladas.
+4.  Concisa extracción de conclusiones. Los resultados negativos son
+    igualmente válidos.
+
+Para preparar tu manuscrito, sigue las normas para autores/as del
+[Anuario de Investigaciones Científicas de la
+UASD](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf).
+Fungiré como editor ficticio de la revista, e incluso como revisor.
+
+  - Como verás, el manuscrito requiere los siguientes ítems:
+      - Título.
+      - Nombre de autor/a.
+      - Resumen y palabras clave.
+      - *Abstract* y *keywords* (optativo).
+      - Metodología.
+      - Resultados.
+      - Discusión.
+      - Agradecimientos (optativo).
+      - Referencias citadas.
+      - Declaración de cumplimientos legales y de no conflictos de
+        intereses (optativo).
+      - Otros requerimientos (ponle atención también a esta parte en las
+        [normas](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf)).
+
+Toma en consideración lo siguiente: \* No impartiré lecciones sobre
+redacción ni sobre procesadores de texto, por lo que se recomienda
+consultar material tanto vía web como en el economato, como forma de
+mejorar dichas capacidades. \* El plagio y la falsificación de datos
+supondrán la reprobación inmediata de la asignatura. \* Te recomiendo
+consultar [uno o varios artículos de cualquier número del
+Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas),
+para que te familiarices con el estilo de redacción.
 
 ### Presentación oral
 
-Dispondrás de 15 minutos para presentar oralmente tu trabajo al final de
-la asignatura. Valoraré el dominio que muestres sobre tu trabajo.
+Dispondrás de 15 minutos para presentar oralmente tu trabajo al final
+del semestre. Valoraré el dominio que muestres del tema y de tus
+resultados.
 
-### Código informático reproducible
+### Trabajo de campo
 
-Este es el fuerte de la asignatura, y es imprescindible para culminar
-con éxito tu proyecto. Por correo electrónico, te enviaré asignaciones
-que te ayudarán a construir tu código reproducible. Las podrás realizar
-utilizando el servidor RStudio habilitado por el profesor (sólo
-necesitarás una PC con conexión a Internet y un navegador), o utilizando
-tu propia PC, pero en este último caso tendrás que instalar R, RStudio y
-los paquetes requeridos.
+Dependerá mucho del tema que elijas. En todo caso, incluirá recogida de
+datos que posteriormente puedan procesarse informáticamente.
 
-Orientaré con ejemplos y soluciones a través de *issues* que abrirás tú
-o yo en el GitHub. De esta forma las discusiones quedarán disponibles
-para otras personas. Evita preguntar por correo electrónico, porque
-cualquier consulta que realices, así como las posibles soluciones que
-surjan, quedarán en privado y sólo serán aprovechables por ti.
+### Asignaciones
 
-Al abrir un *issue* de GitHub debes plantear el problema al que te
-enfrentas, cómo has intentado resolverlo o qué soluciones has probado.
-Si se trata de cuestiones relacionadas con programación o análisis de
-datos, deberás aportar **código reproducible y mensaje de error (si lo
-hubiere)**. Evita el típico comentario “da error”, puesto que no conduce
-a nada.
+Te enviaré asignaciones sobre geomorfometría por correo electrónico, que
+te ayudarán a manejar herramientas reproducibles en geomorfología.
+Podrás realizar tus asignaciones utilizando el servidor RStudio
+habilitado por mí (sólo necesitarás una PC con conexión a Internet y un
+navegador), o utilizando tu propia PC, pero en este último caso tendrás
+que instalar R, RStudio y los paquetes requeridos.
 
-## Examen basado en código
+Orientaré con ejemplos y soluciones de forma pública a través de
+*issues* que abrirás en el GitHub. De esta forma las discusiones quedan
+disponibles para otras personas. Al abrir un *issue* de GitHub debes
+plantear el problema al que te enfrentas, cómo has intentado resolverlo
+o qué soluciones has probado. Si se trata de cuestión relacionada con
+programación o análisis de datos, deberás facilitar **código
+reproducible y mensaje de error (si lo hubiere)**. Cuando escribas tus
+dudas, no recurras al típico “da error”, puesto que no conduce a nada.
 
-Bueno, sobre ésto tengo poco que decir, sólo que preferiría no evaluar
-por medio de exámenes.
+Evita preguntar por correo electrónico, porque cualquier consulta que
+realices, así como las posibles soluciones que surjan, quedarán en
+privado y sólo serán aprovechables por ti.
 
-## Contenido de la asignatura
+## Contenido teórico
 
-El típico “temario” de la asignatura, AKA “teoría”, el cual impartiré
-con breves introducciones, pero principalmente por medio de
-asignaciones. En la medida de lo posible, haré que este contenido sea de
-utilidad para los proyectos.
+  - Tema 1. Epistemología, conceptos, bases geológicas. Geomorfología
+    estructural Definición de geomorfología, disciplinas auxiliares,
+    epistemología, métodos Estructura y composición del interior de la
+    Tierra, rocas (rocas comunes en RD), placas y límites de placa
+    (reflejo de la tectónica de placas en el Caribe, deformaciones),
+    fallas, pliegues, diaclasas. Páginas en Gutiérrez Elorza (2008): 1 a
+    45, ambas inclusive.
 
-1.  Datos espaciales, y datos espaciales en R (tipos, importar,
-    exportar). Capítulo 1 de Loonis & Bellefon (2018), capítulos 1 a 3
-    de Lovelace, Nowosad, & Muenchow (2019), capítulos 1 y 2 de Bivand,
-    Pebesma, & Gomez-Rubio (2008), capítulo 3 y 4 de Mas (2013).
+  - Tema 2. Meteorización y tiempo en geomorfología. Técnicas de
+    datación relativas, técnicas de datación absoluta. En Gutiérrez
+    Elorza (2008): capítulo 5 y páginas 52 a 54, ambas inclusive.
 
-2.  Manipulación de datos espaciales (operaciones con atributos y
-    geométricas). Capítulos 2, 4 y 5 de Bivand et al. (2008), capítulos
-    3 a 5 de Lovelace et al. (2019), capítulo 5 de Mas (2013), capítulo
-    10 de Olaya (2014).
+  - Tema 3. Procesos fluviales. Conceptos básicos de hidrología e
+    hidráulica fluvial, procesos fluviales. Formas y depósitos
+    fluviales (aluvionamientos, terrazas, diques, barras, etc.),
+    abanicos. En Gutiérrez Elorza (2008): capítulos 8 y 9.
 
-3.  Vecindad y autocorrelación espacial (análisis exploratorio,
-    funciones de homogeneidad espacial, tipos de vecindad, ponderadores,
-    índices). Sección 9.2 de Bivand et al. (2008), Capítulos 2 y 3 de
-    Loonis & Bellefon (2018), capítulo 12 de Olaya (2014), capítulos B.2
-    y B.3 de Fischer & Getis (2009).
+  - Tema 4. Procesos de laderas y movimientos en masa. Laderas, balance
+    de masa, y otros. Procesos elementales: rainsplash, solifluxión,
+    procesos biogeomorfológicos, y otros. Movimientos de masa (procesos
+    gravitacionales/de laderas): principios físicos, tipologías (caída,
+    deslizamiento, flujo, reptación), debris flow, modelos de
+    laderas/morfometría. En Gutiérrez Elorza (2008): capítulo 7.
 
-4.  Datos puntuales, geoestadística (funciones aleatorias, variograma,
-    kriging). Capítulo B.6 de Fischer & Getis (2009), Capítulos 1, 2, 5
-    y 6 de Hengl (2009), capítulos 4 y 5 de Loonis & Bellefon (2018),
-    capítulos 7 y 8 de Bivand et al. (2008), capítulo 7 de Mas (2013),
-    capítulo 13 de Olaya (2014),
+  - Tema 5. Procesos litorales. Aguas marinas litorales, productos
+    característicos de la dinámica litoral. Básicos: conceptos, dinámica
+    de las aguas litorales (oleajes, mareas, corrientes). Zonas,
+    subzonas, elementos del litoral, productos morfológicos (costas
+    arenosas, costas rocosas). En Gutiérrez Elorza (2008): capítulo 11.
 
-5.  Modelización de entidades poligonales. Capítulo 9 de Bivand et al.
-    (2008), capítulos 6 a 9 de Loonis & Bellefon (2018), capítulos C.1 a
-    C.7 de Fischer & Getis (2009).
+  - Tema 6. Geomorfología kárstica. En Gutiérrez Elorza (2008): capítulo
+    6.
+
+  - Tema 7. Geomorfología climática: medios áridos y semi-áridos,
+    dominio tropical. En Gutiérrez Elorza (2008): capítulos 12, 16, 17 y
+    18.
 
 ## Referencias
 
@@ -203,58 +300,9 @@ and chemistry of landscapes*. Cambridge University Press.
 
 </div>
 
-<div id="ref-bivand2008applied">
-
-Bivand, R. S., Pebesma, E. J., & Gomez-Rubio, V. (2008). *Applied
-spatial data analysis with R* (Vol. 747248717). Springer.
-
-</div>
-
-<div id="ref-fischer2009handbook">
-
-Fischer, M. M., & Getis, A. (2009). *Handbook of applied spatial
-analysis: Software tools, methods and applications*. Springer Science &
-Business Media.
-
-</div>
-
 <div id="ref-gutierrez2008geomorfologia">
 
 Gutiérrez Elorza, M. (2008). *Geomorfologı'a*.
-
-</div>
-
-<div id="ref-hengl2009practical">
-
-Hengl, T. (2009). *A practical guide to geostatistical mapping*.
-
-</div>
-
-<div id="ref-loonis2018handbook">
-
-Loonis, V., & Bellefon, M.-P. de. (2018). *Handbook of spatial
-analysis*.
-
-</div>
-
-<div id="ref-lovelace2019geocomputation">
-
-Lovelace, R., Nowosad, J., & Muenchow, J. (2019). *Geocomputation with
-R*. Retrieved from <https://geocompr.robinlovelace.net/>
-
-</div>
-
-<div id="ref-mas2013analisis">
-
-Mas, J.-F. (2013). *Análisis espacial con R. Usa R como un sistema de
-información geográfica*. European Scientific Institue (ESI).
-
-</div>
-
-<div id="ref-olaya2014sistemas">
-
-Olaya, V. (2014). *Sistemas de informacion geográfica*. Retrieved from
-<https://volaya.github.io/libro-sig/>
 
 </div>
 
