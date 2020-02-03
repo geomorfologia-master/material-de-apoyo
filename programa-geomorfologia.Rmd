@@ -40,7 +40,7 @@ Guarda ésto: "...el principal proceso activo...", y quédate también con esta 
 
 >La Geomorfología, como otras ramas de la ciencia, necesita pasar de la simple descripción a la cuantificación y para ello tiene que utilizar métodos de otras áreas científicas, fundamentalmente la Física [@gutierrez2008geomorfologia]
 
-@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino por la propia evolución de esta disciplina, la geomorfología de procesos ha sido la nota dominante desde mediados del siglo XX hasta la actualidad. Este paradigma se preocupa más por el proceso que por la forma, lo cual deja de lado la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
+@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino porque la historia reciente le ha dado la razón: la geomorfología de procesos se ha convertido en la rama dominante  desde mediados del siglo XX hasta la actualidad. Como su nombre indica, esta rama se preocupa más por el proceso que por la forma, lo cual deja de lado la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
 
 Dos grupos de procesos geomorfológicos convergen en la superficie del planeta [@anderson2010geomorphology]:
 
@@ -52,7 +52,7 @@ Aunque seguiré un guión de geomorfología de procesos, no olvidaré aproximaci
 
 La geomorfología de procesos no sería posible sin el avance de los últimos siglos en matemáticas. Igualmente, sin la irrupción de la tecnología y el desarrollo de la programación en la segunda mitad del siglo XX, tampoco sería posible estudiar procesos a escalas grandes. Estas herramientas han permitido que la geomorfología dé respuestas cada vez más precisas a problemas de ciencias de la Tierra, como los riesgos de desastres.
 
-Puedes presuponer seguiré un esquema de geomorfología de procesos (to'eta plepla no e'de'barde) en la parte teórica, pero en esta edición además introduciré geomorfometría, soporte matemático y aplicaciones tecnológicas usando software de código abierto, centrando el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito que escribirás.
+Puedes presuponer que seguiré un esquema de geomorfología de procesos (to'eta plepla no e'de'barde) en la parte teórica, pero en esta edición además introduciré geomorfometría, soporte matemático y aplicaciones tecnológicas usando software de código abierto, centrando el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito que escribirás tú.
 
 __Me apoyaré en [R](https://www.r-project.org/) y en [GRASS GIS](https://grass.osgeo.org/)__ (las vainas del tali), y tienes la opción de usar Python. Para visualizar salidas, opcionalmente podrás usar [__QGIS__](https://qgis.org/es/site/) (por ejemplo, localmente en una PC tuya o en las del SIGCART). Con suerte, y si alcanza el tiempo, verás posibles usos de [__OpenDroneMap__](https://www.opendronemap.org/) en geomorfología, así como de herramientas fotogramétricas, de navegación por satélite para mediciones precisas y de teledetección.
 
@@ -64,7 +64,7 @@ En cuanto a escribir código, te adelanto que para superar las dificultades y lo
 
 3. Aprender a pedir ayuda. Elimina esta expresión de tu vocabulario: "da error". Con eso nadie podrá ayudarte. Lo importante es qué error obtienes al ejecutar qué cosa. Por ello, cuando pidas ayuda, por ejemplo, mediante *issues* de GitHub, deberás ofrecer un ejemplo reproducible. En la medida de lo posible, evita las capturas de pantalla y prefiere código reproducible + error. El *ecrinchó 'ta bien pa'guasá* y  otras vainas, pero no para pedir ayuda con código informático.
 
-No tendrás que preocuparte por el hardware (ya me ensucio yo las manos con esa cosa tan mundana llamada computadora), pero ocúpate por escribir código con sentido, por razonar bien tus asignaciones y, especialmente, por lo que escribas en tu manuscrito. Dispondrás de un servidor de RStudio de modestas prestaciones habilitado por mí, con los paquetes requeridos en el curso ya pre-instalados. Así podrás realizar tus asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de instalaciones de paquetes.
+No tendrás que preocuparte por el hardware (ya me ensucio yo las manos con esa cosa tan mundana llamada computadora), pero ocúpate por escribir código con sentido, por razonar bien tus asignaciones y, especialmente, por escribir bien tu manuscrito; escribe que se te entienda, yo pediré a monesvol para que te ilumine. Dispondrás de un servidor de RStudio de modestas prestaciones habilitado por mí, con los paquetes requeridos en el curso ya pre-instalados. Así podrás realizar tus asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de instalaciones de paquetes.
 
 Parecería "natural" utilizar interfaz gráfico de usuario para analizar datos geomorfológicos y hacer análisis geomorfométrico, pero a lo largo de esta asignatura verás que lo razonable es utilizar código. Realizar análisis reproducibles de manera eficiente sólo se logra escribiendo y ejecutando código. Igualmente, para visualizar patrones espaciales se requiere de herramientas versátiles, que tanto R como otros lenguajes proveen normalmente a través de paquetes. 
 
@@ -76,6 +76,8 @@ Parecería "natural" utilizar interfaz gráfico de usuario para analizar datos g
 | [Presentación oral](#presentación-oral) | 10% |
 | [Trabajo de campo](#trabajo-de-campo) | 20% |
 | [Asignaciones](#asignaciones) | 30% |
+
+Sí sí, lo que viste, no hay examen.
 
 Brevemente, cada ítem a evaluar consistirá en lo siguiente (más detalles por medio de asignaciones a lo largo del curso):
 
