@@ -42,11 +42,12 @@ otra cita:
 
 Tricart (1956) aseguraba que la Geomorfología debía apoyarse en el
 estudio de los procesos y también en la morfogénesis antrópica. No
-porque lo haya dicho él, sino por la propia evolución de esta
-disciplina, la geomorfología de procesos ha sido la nota dominante desde
-mediados del siglo XX hasta la actualidad. Este paradigma se preocupa
-más por el proceso que por la forma, lo cual deja de lado la evolución
-de los grandes conjuntos de relieve (Gutiérrez Elorza, 2008).
+porque lo haya dicho él, sino porque la historia reciente le ha dado la
+razón: la geomorfología de procesos se ha convertido en la rama
+dominante desde mediados del siglo XX hasta la actualidad. Como su
+nombre indica, esta rama se preocupa más por el proceso que por la
+forma, lo cual deja de lado la evolución de los grandes conjuntos de
+relieve (Gutiérrez Elorza, 2008).
 
 Dos grupos de procesos geomorfológicos convergen en la superficie del
 planeta (Anderson & Anderson, 2010):
@@ -70,12 +71,12 @@ Estas herramientas han permitido que la geomorfología dé respuestas cada
 vez más precisas a problemas de ciencias de la Tierra, como los riesgos
 de desastres.
 
-Puedes presuponer seguiré un esquema de geomorfología de procesos
-(to’eta plepla no e’de’barde) en la parte teórica, pero en esta
-edición además introduciré geomorfometría, soporte matemático y
-aplicaciones tecnológicas usando software de código abierto, centrando
-el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito
-que escribirás.
+Puedes presuponer que seguiré un esquema de geomorfología de procesos
+(to’eta plepla no e’de’barde) en la parte teórica, pero en esta edición
+además introduciré geomorfometría, soporte matemático y aplicaciones
+tecnológicas usando software de código abierto, centrando el aprendizaje
+en asignaciones sobre geomorfometría y en un manuscrito que escribirás
+tú.
 
 **Me apoyaré en [R](https://www.r-project.org/) y en [GRASS
 GIS](https://grass.osgeo.org/)** (las vainas del tali), y tienes la
@@ -116,11 +117,12 @@ manuscrito, tendrás que:
 No tendrás que preocuparte por el hardware (ya me ensucio yo las manos
 con esa cosa tan mundana llamada computadora), pero ocúpate por escribir
 código con sentido, por razonar bien tus asignaciones y, especialmente,
-por lo que escribas en tu manuscrito. Dispondrás de un servidor de
-RStudio de modestas prestaciones habilitado por mí, con los paquetes
-requeridos en el curso ya pre-instalados. Así podrás realizar tus
-asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de
-instalaciones de paquetes.
+por escribir bien tu manuscrito; escribe que se te entienda, yo pediré a
+monesvol para que te ilumine. Dispondrás de un servidor de RStudio de
+modestas prestaciones habilitado por mí, con los paquetes requeridos en
+el curso ya pre-instalados. Así podrás realizar tus asignaciones sobre
+geomorfometría y tu manuscrito sin preocuparte de instalaciones de
+paquetes.
 
 Parecería “natural” utilizar interfaz gráfico de usuario para analizar
 datos geomorfológicos y hacer análisis geomorfométrico, pero a lo largo
@@ -139,6 +141,8 @@ paquetes.
 | [Presentación oral](#presentación-oral)                |                 10% |
 | [Trabajo de campo](#trabajo-de-campo)                  |                 20% |
 | [Asignaciones](#asignaciones)                          |                 30% |
+
+Sí sí, lo que viste, no hay examen.
 
 Brevemente, cada ítem a evaluar consistirá en lo siguiente (más detalles
 por medio de asignaciones a lo largo del curso):
