@@ -261,8 +261,10 @@ privado y sólo serán aprovechables por ti.
     epistemología, métodos Estructura y composición del interior de la
     Tierra, rocas (rocas comunes en RD), placas y límites de placa
     (reflejo de la tectónica de placas en el Caribe, deformaciones),
-    fallas, pliegues, diaclasas. Páginas en Gutiérrez Elorza (2008): 1 a
-    45, ambas inclusive.
+    fallas, pliegues, diaclasas. Introducción a los procesos de la
+    superficie terrestre. Páginas en Gutiérrez Elorza (2008): 1 a 45,
+    ambas inclusive. Páginas Anderson & Anderson (2010): 1 a 15, ambas
+    inclusive.
 
   - Tema 2. Meteorización y tiempo en geomorfología. Técnicas de
     datación relativas, técnicas de datación absoluta. En Gutiérrez

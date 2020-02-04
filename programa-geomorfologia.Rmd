@@ -143,9 +143,7 @@ Evita preguntar por correo electrónico, porque cualquier consulta que realices,
 
 ## Contenido teórico
 
-* Tema 1. Epistemología, conceptos, bases geológicas. Geomorfología estructural
-Definición de geomorfología, disciplinas auxiliares, epistemología, métodos
-Estructura y composición del interior de la Tierra, rocas (rocas comunes en RD), placas y límites de placa (reflejo de la tectónica de placas en el Caribe, deformaciones), fallas, pliegues, diaclasas. Páginas en @gutierrez2008geomorfologia: 1 a 45, ambas inclusive.
+* Tema 1. Epistemología, conceptos, bases geológicas e introducción a los procesos de la superficie terrestre. Páginas en @gutierrez2008geomorfologia: 1 a 45, ambas inclusive. Páginas @anderson2010geomorphology: 1 a 15, ambas inclusive.
 
 * Tema 2. Meteorización y tiempo en geomorfología. Técnicas de datación relativas, técnicas de datación absoluta. En @gutierrez2008geomorfologia: capítulo 5 y páginas 52 a 54, ambas inclusive.
 
