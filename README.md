@@ -10,3 +10,11 @@
 
 * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)
 
+
+* Asignaciones:
+
+    * [Asignación introductoria. Hola mundo](https://github.com/geomorfologia-master/unidad-0-asignacion-0-hola-mundo)
+    * [Asignación introductoria. RStudio, notificaciones por GitHub, issues](https://github.com/geomorfologia-master/unidad-0-asignacion-1-asig-conrstudio-issues)
+    * [Asignación introductoria. Mi primer RMarkdown](https://github.com/geomorfologia-master/unidad-0-asignacion-2-mi-primer-rmd)
+    * [Asignación de la unidad 1. Movimiento de las placas tectónicas, temperatura de fusión del hielo a presión mayor que la atmosférica, porcentaje de rocas por provincias
+](https://github.com/geomorfologia-master/unidad-1-asignacion-1-movimiento-temperatura-mapageo)
