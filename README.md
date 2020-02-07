@@ -6,4 +6,7 @@
 
 * [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
 
-<!--* [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)-->
+* [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)
+
+* [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)
+
