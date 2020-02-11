@@ -261,32 +261,35 @@ privado y sólo serán aprovechables por ti.
     (2008): 1 a 45, ambas inclusive. Páginas Anderson & Anderson (2010):
     1 a 15, ambas inclusive.
 
-  - Tema 2. Meteorización y tiempo en geomorfología. Técnicas de
-    datación relativas, técnicas de datación absoluta. En Gutiérrez
-    Elorza (2008): capítulo 5 y páginas 52 a 54, ambas inclusive.
+  - Tema 2. Tiempo en geomorfología. Técnicas de datación relativas,
+    técnicas de datación absoluta. En Gutiérrez Elorza (2008): páginas
+    52 a 54, ambas inclusive. En Anderson & Anderson (2010): capítulo 6.
 
-  - Tema 3. Procesos fluviales. Conceptos básicos de hidrología e
+  - Tema 3. Meteorización. En Gutiérrez Elorza (2008): capítulo 5. En
+    Anderson & Anderson (2010): capítulo 7.
+
+  - Tema 4. Procesos fluviales. Conceptos básicos de hidrología e
     hidráulica fluvial, procesos fluviales. Formas y depósitos
     fluviales (aluvionamientos, terrazas, diques, barras, etc.),
     abanicos. En Gutiérrez Elorza (2008): capítulos 8 y 9.
 
-  - Tema 4. Procesos de laderas y movimientos en masa. Laderas, balance
+  - Tema 5. Procesos de laderas y movimientos en masa. Laderas, balance
     de masa, y otros. Procesos elementales: rainsplash, solifluxión,
     procesos biogeomorfológicos, y otros. Movimientos de masa (procesos
     gravitacionales/de laderas): principios físicos, tipologías (caída,
     deslizamiento, flujo, reptación), debris flow, modelos de
     laderas/morfometría. En Gutiérrez Elorza (2008): capítulo 7.
 
-  - Tema 5. Procesos litorales. Aguas marinas litorales, productos
+  - Tema 6. Procesos litorales. Aguas marinas litorales, productos
     característicos de la dinámica litoral. Básicos: conceptos, dinámica
     de las aguas litorales (oleajes, mareas, corrientes). Zonas,
     subzonas, elementos del litoral, productos morfológicos (costas
     arenosas, costas rocosas). En Gutiérrez Elorza (2008): capítulo 11.
 
-  - Tema 6. Geomorfología kárstica. En Gutiérrez Elorza (2008): capítulo
+  - Tema 7. Geomorfología kárstica. En Gutiérrez Elorza (2008): capítulo
     6.
 
-  - Tema 7. Geomorfología climática: medios áridos y semi-áridos,
+  - Tema 8. Geomorfología climática: medios áridos y semi-áridos,
     dominio tropical. En Gutiérrez Elorza (2008): capítulos 12, 16, 17 y
     18.
 
