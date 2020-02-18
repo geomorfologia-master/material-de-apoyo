@@ -147,7 +147,7 @@ Evita preguntar por correo electrónico, porque cualquier consulta que realices,
 
 * Tema 2. Tiempo en geomorfología. Técnicas de datación relativas, técnicas de datación absoluta. En @gutierrez2008geomorfologia: páginas 52 a 54, ambas inclusive. En @anderson2010geomorphology: capítulo 6.
 
-* Tema 3. Meteorización. En @gutierrez2008geomorfologia: capítulo 5. En @anderson2010geomorphology: capítulo 7.
+* Tema 3. Meteorización y formas resultantes. En @gutierrez2008geomorfologia: capítulo 5. En @anderson2010geomorphology: capítulo 7.
 
 * Tema 4. Procesos fluviales. Conceptos básicos de hidrología e hidráulica fluvial, procesos fluviales. Formas y depósitos fluviales (aluvionamientos, terrazas, diques, barras, etc.), abanicos. En @gutierrez2008geomorfologia: capítulos 8 y 9.
 
