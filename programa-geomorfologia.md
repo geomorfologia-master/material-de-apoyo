@@ -265,8 +265,8 @@ privado y sólo serán aprovechables por ti.
     técnicas de datación absoluta. En Gutiérrez Elorza (2008): páginas
     52 a 54, ambas inclusive. En Anderson & Anderson (2010): capítulo 6.
 
-  - Tema 3. Meteorización. En Gutiérrez Elorza (2008): capítulo 5. En
-    Anderson & Anderson (2010): capítulo 7.
+  - Tema 3. Meteorización y formas resultantes. En Gutiérrez Elorza
+    (2008): capítulo 5. En Anderson & Anderson (2010): capítulo 7.
 
   - Tema 4. Procesos fluviales. Conceptos básicos de hidrología e
     hidráulica fluvial, procesos fluviales. Formas y depósitos
