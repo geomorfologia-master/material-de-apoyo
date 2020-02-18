@@ -10,6 +10,7 @@
 
 * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)
 
+* [Tema 2. Tiempo en geomorfología](https://drive.google.com/file/d/1I7kNCS3oj5NpXsinVGaIZAezsZCAyRqI/view?usp=sharing)
 
 * Asignaciones:
 
