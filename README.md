@@ -1,5 +1,13 @@
 # Material de apoyo de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
 
+* [Material de apoyo (este repositorio)](./)
+
+* Repositorios de manuscritos completados por alumnas:
+
+    * [Cambios en los trazados de las líneas de costa y formación del beachrock en playa Najayo San Cristóbal, República Dominicana: Playa de Carlos Pinto. Ana Hilda Valera Arias Estudiante, Universidad Autónoma de Santo Domingo (UASD)](https://github.com/geomorfologia-202001/unidad-0-asignacion-99-mi-manuscrito-anavalera29)
+    * [Cambio en la línea de costa en la playa Najayo
+Carolain Pérez Ureña Estudiante, Universidad Autónoma de Santo Domingo (UASD)](https://github.com/geomorfologia-202001/unidad-0-asignacion-99-mi-manuscrito-carolainperez)
+
 * [Programa](programa-geomorfologia.md)
 
 * [¿Cómo realizar una asignación?](ref/como-hacer-una-asignacion.md)
