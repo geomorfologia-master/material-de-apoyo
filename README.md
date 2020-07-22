@@ -1,6 +1,6 @@
 # Material de apoyo de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
 
-* [Material de apoyo (este repositorio)](./)
+* [Material de apoyo (este repositorio)]()
 
 * Repositorios de manuscritos completados por alumnas:
 
