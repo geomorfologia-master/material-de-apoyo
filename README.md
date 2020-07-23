@@ -1,5 +1,7 @@
 # Material de apoyo de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
 
+![](fringes.jpg){height=80px}
+
 * [Programa](programa-geomorfologia.md)
 
 * [¿Cómo realizar una asignación?](ref/como-hacer-una-asignacion.md)
