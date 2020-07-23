@@ -1,6 +1,6 @@
 # Material de apoyo de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
 
-<img src="fringes.jpg" width="80"/>
+<img src="vista-playa.jpg" width="200"/>
 
 * [Programa](programa-geomorfologia.md)
 
@@ -64,3 +64,5 @@ Carolain Pérez Ureña Estudiante, Universidad Autónoma de Santo Domingo (UASD)
     * [Asignación de las unidades 2 y 3. Datación relativa usando la elevación topográfica y la edad de las rocas. Datación absoluta a partir del porcentaje isotópico remanente. Vida media y semivida (periodo de semidesintegración) isotópica. Tasa de denudación. Tamaños de clastos de tipos de rocas comunes en distintos tramos de río](https://github.com/geomorfologia-master/unidades-2y3-asignacion-1-tiempo-meteorizacion)
 
     * [Asignación de la unidad 4. Región de GRASS, resolución/extensión. Comparar mapas de GRASS y R. Extraer el límite de una cuenca hidrográfica. Extraer la red de drenaje de una cuenca utilizando dos umbrales de acumulación distintos.](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales)
+    
+<img src="fringes.jpg" width="80"/>
