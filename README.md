@@ -10,12 +10,6 @@
 
 * [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)
 
-* Repositorios de manuscritos completados por alumnas:
-
-    * [Cambios en los trazados de las líneas de costa y formación del beachrock en playa Najayo San Cristóbal, República Dominicana: Playa de Carlos Pinto. Ana Hilda Valera Arias Estudiante, Universidad Autónoma de Santo Domingo (UASD)](https://github.com/geomorfologia-202001/unidad-0-asignacion-99-mi-manuscrito-anavalera29)
-    * [Cambio en la línea de costa en la playa Najayo
-Carolain Pérez Ureña Estudiante, Universidad Autónoma de Santo Domingo (UASD)](https://github.com/geomorfologia-202001/unidad-0-asignacion-99-mi-manuscrito-carolainperez)
-
 * Diapositivas
 
     * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)

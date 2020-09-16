@@ -12,7 +12,7 @@ Al finalizar esta lectura (o mientras vas leyendo), practica varias veces con tu
 
 3. Al hacer clic, el navegador te dirigirá a aceptar la asignación. Te pedirá que inicies tu cuenta de Github si aún no lo has hecho. Usa siempre una ventana de incógnito o privada, asegurándote de que es tu cuenta la que figura como cuenta iniciada en GitHub (compruébalo en el botón derecho superior, donde verás tu avatar o imagen de perfil). Presiona `Accept this assignment`. Cuando quieras volver a tu asignación, puedes usar el vínculo del mensaje de invitación (...siempre que el tali no la borre, ejem).
 
-4. Automáticamente se creará, en una "organización" de GitHub que se corresponde con la asignatura y el semestre actual ([geomorfologia-202001](https://github.com/geomorfologia-202001), administrada por el profesor y de la cual formas o formarás parte), un repo conteniendo tu asignación. Listo, tienes ya un repo con tu asignación, donde realizarás tus actualizaciones. Normalmente, tú y el profesor serán los únicos contribuidores de dicho repo.
+4. Automáticamente se creará, en una "organización" de GitHub que se corresponde con la asignatura y el semestre actual ([geomorfologia-202002](https://github.com/geomorfologia-202002), administrada por el profesor y de la cual formas o formarás parte), un repo conteniendo tu asignación. Listo, tienes ya un repo con tu asignación, donde realizarás tus actualizaciones. Normalmente, tú y el profesor serán los únicos contribuidores de dicho repo.
 
 * Nota: estos 4 pasos se ejecutan una sola vez
 
@@ -54,7 +54,7 @@ Utiliza RStudio como editor o cuaderno (*notebook*) si necesitas ejecutar códig
 
 5. Ve al navegador y, en tu repo de asignación, copia la URL del repo presionando el botón verde `Clone or download` ![](../img/bt_clone_or_download.png) y luego el botón `Copiar URL del repo` ![](../img/bt_copy_repo_url.png). La URL se encuentra ahora en el clipboard.
 
-6. Regresa a RStudio. En la caja `Repository URL`, pega la URL que tienes en el portapapeles (en Linux y Windows, `Ctrl+V`). Dicho texto será algo tal que `https://github.com/geomorfologia-202001/<nombredelrepo>.git`. El nombre del repo normalmente terminará con tu nombre de usuario, por ejemplo, para "estudianteficticio" `https://github.com/geomorfologia-202001/<unidad-0-asignacion-0-hola-mundo-estudianteficticio>.git`
+6. Regresa a RStudio. En la caja `Repository URL`, pega la URL que tienes en el portapapeles (en Linux y Windows, `Ctrl+V`). Dicho texto será algo tal que `https://github.com/geomorfologia-202002/<nombredelrepo>.git`. El nombre del repo normalmente terminará con tu nombre de usuario, por ejemplo, para "estudianteficticio" `https://github.com/geomorfologia-202002/<unidad-0-asignacion-0-hola-mundo-estudianteficticio>.git`
 
 7. En la caja `Project directory name`, puedes dejar el valor por defecto, que será el mismo nombre del repo (por ejemplo, `unidad-0-asignacion-0-hola-mundo`). Este será el nombre del directorio donde se clonará el repo.
 

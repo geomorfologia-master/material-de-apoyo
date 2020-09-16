@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 <!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
 
 # Programa de "Geomorfología" <br/> Licenciatura en Geografía <br/> Universidad Autónoma de Santo Domingo (UASD)
-Enero 2020 <br/>
+Septiembre 2020 <br/>
 *José Ramón Martínez Batlle*
 
 ## Básicos:
