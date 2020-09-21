@@ -95,7 +95,7 @@ manuscrito, tendrás que:
     datos. No hay horario para pedirme ayuda, y pregunta lo que quieras
     preguntar. Intentaré darte soluciones cuando te tranques, pero con
     la condición de que, antes de preguntarme, intentes avanzar
-    soluciones del problema. Lee el punto 3 más abajo.
+    soluciones del problema. Lee los puntos 3 y 4 más abajo.
 
 2.  Sufrir. Nadie dijo que fajarse con geomorfometría mediante R, GRASS
     GIS o Python fuese placentero. A diferencia de los software de pago,
@@ -117,20 +117,20 @@ manuscrito, tendrás que:
     2.  A mi correo: jmartinez19@uasd.edu.do
     3.  Creando *issues* en GitHub.
 
-4.  Utilizar estrategias proactivas para pedir ayuda. Elimina esta
-    expresión de tu vocabulario: “da error”. Con eso nadie podrá
-    ayudarte. Lo importante es informar qué intentaste hacer y qué error
-    o problema te surgió. Por ello, cuando pidas ayuda, deberás ofrecer
-    un ejemplo reproducible. En la medida de lo posible, evita las
-    capturas de pantalla y prefiere código reproducible + error. Si la
-    captura de pantalla es el único camino que tienes para mostrar tu
-    problema, entonces úsala, pero no olvides incluir los dos elementos
-    primordiales: 1) qué intentaste hacer y 2) qué error/problema se te
-    presentó. Otras estrategias son: consultar posibles soluciones a tu
-    problema en foros ya existentes (como stackoverflow), probar
-    alternativas, documentar lo que hiciste, explicar qué entiendes que
-    pudo provocar el error. En definitiva, sólo pide ayuda cuando
-    realmente te hayas “trancado”.
+4.  Al hilo del punto anterior, utilizar estrategias proactivas para
+    pedir ayuda. Elimina esta expresión de tu vocabulario: “da error”.
+    Con eso nadie podrá ayudarte. Lo importante es informar qué
+    intentaste hacer y qué error o problema te surgió. Por ello, cuando
+    pidas ayuda, deberás ofrecer un ejemplo reproducible. En la medida
+    de lo posible, evita las capturas de pantalla y prefiere código
+    reproducible + error. Si la captura de pantalla es el único camino
+    que tienes para mostrar tu problema, entonces úsala, pero no olvides
+    incluir los dos elementos primordiales: 1) qué intentaste hacer y 2)
+    qué error/problema se te presentó. Otras estrategias son: consultar
+    posibles soluciones a tu problema en foros ya existentes (como
+    stackoverflow), probar alternativas, documentar lo que hiciste,
+    explicar qué entiendes que pudo provocar el error. En definitiva,
+    sólo pide ayuda cuando realmente te hayas “trancado”.
 
 No tendrás que preocuparte por el hardware (ya me ensucio yo las manos
 con esa cosa tan mundana llamada computadora), pero sí ocúpate por
@@ -156,11 +156,11 @@ paquetes.
 
 ## Evaluación
 
-| Ítem                                                   | % de la  nota final |
-| ------------------------------------------------------ | ------------------: |
-| [Manuscrito (basado en trabajo de campo)](#manuscrito) |                 50% |
-| [Presentación oral](#presentación-oral)                |                 20% |
-| [Asignaciones](#asignaciones)                          |                 30% |
+| Ítem                                                       | % de la  nota final |
+| ---------------------------------------------------------- | ------------------: |
+| [Manuscrito (basado en datos pre-existentes)](#manuscrito) |                 50% |
+| [Presentación oral](#presentación-oral)                    |                 20% |
+| [Asignaciones](#asignaciones)                              |                 30% |
 
 Sí sí, lo que viste, no hay examen.
 
@@ -251,11 +251,6 @@ para que te familiarices con el estilo de redacción.
 Dispondrás de 15 minutos para presentar oralmente tu trabajo al final
 del semestre. Valoraré el dominio que muestres del tema y de tus
 resultados.
-
-### Trabajo de campo
-
-Dependerá mucho del tema que elijas. En todo caso, incluirá recogida de
-datos que posteriormente puedan procesarse informáticamente.
 
 ### Asignaciones
 
