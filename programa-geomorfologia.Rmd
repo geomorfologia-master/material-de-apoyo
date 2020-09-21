@@ -19,18 +19,15 @@ knitr::opts_chunk$set(
 Septiembre 2020 <br/>
 *José Ramón Martínez Batlle*
 
+
 ## Básicos:
 * Correo: jmartinez19@uasd.edu.do
-* Lugar y horario: FC-203, Martes de 2 a 6 pm
-
-## URLs del contenido del curso:
-* [Programa (hipervínculo recursivo)](programa-geomorfologia.md)
-* [¿Cómo realizar una asignación?](ref/como-hacer-una-asignacion.md)
-* [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
-* [Introducción a R](ref/introduccion-a-r.md)
+* Lugar y horario: [UASD virtual](https://uasdvirtual.uasd.edu.do), Lunes de 4 a 8 pm
+* [Programa (vínculo recursivo)](https://github.com/geomorfologia-master/material-de-apoyo/blob/master/programa-geomorfologia.md)
 
 ## Descripción
 
+Comienzo con una cita, primero en su idioma original, luego traducida:
 
 >Earth’s landscapes are sculpted by a suite of geomorphic processes that vary with position on the Earth and with time due to changes in the climate. Landscapes contain signatures of the principal active processes that we would like to learn to read [@anderson2010geomorphology].
 
@@ -52,29 +49,34 @@ Aunque seguiré un guión de geomorfología de procesos, no olvidaré aproximaci
 
 La geomorfología de procesos no sería posible sin el avance de los últimos siglos en matemáticas. Igualmente, sin la irrupción de la tecnología y el desarrollo de la programación en la segunda mitad del siglo XX, tampoco sería posible estudiar procesos a escalas grandes. Estas herramientas han permitido que la geomorfología dé respuestas cada vez más precisas a problemas de ciencias de la Tierra, como los riesgos de desastres.
 
-Puedes presuponer que seguiré un esquema de geomorfología de procesos (to'eta plepla no e'de'barde) en la parte teórica, pero en esta edición además introduciré geomorfometría, soporte matemático y aplicaciones tecnológicas usando software de código abierto, centrando el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito que escribirás tú.
+Puedes presuponer que seguiré un esquema de geomorfología de procesos (to'eta plepla no e'de'barde) en la parte teórica, pero además introduciré geomorfometría, soporte matemático y aplicaciones tecnológicas usando software de código abierto, centrando el aprendizaje en asignaciones sobre geomorfometría y en un manuscrito que escribirás tú.
 
-__Me apoyaré en [R](https://www.r-project.org/) y en [GRASS GIS](https://grass.osgeo.org/)__ (las vainas del tali), y tienes la opción de usar Python. Para visualizar salidas, opcionalmente podrás usar [__QGIS__](https://qgis.org/es/site/) (por ejemplo, localmente en una PC tuya o en las del SIGCART). Con suerte, y si alcanza el tiempo, verás posibles usos de [__OpenDroneMap__](https://www.opendronemap.org/) en geomorfología, así como de herramientas fotogramétricas, de navegación por satélite para mediciones precisas y de teledetección.
+__Me apoyaré en [R](https://www.r-project.org/) y en [GRASS GIS](https://grass.osgeo.org/)__ (las vainas del tali), y tienes la opción de usar Python, o quizá Julia, Javascript o cualquier otro lenguaje que sepas. Para visualizar salidas, opcionalmente podrás usar [__QGIS__](https://qgis.org/es/site/) (por ejemplo, en tu propia PC). Con suerte, y si alcanza el tiempo, verás posibles aplicaciones en geomorfología de la fotogrametría digital (e.g. [__OpenDroneMap__](https://www.opendronemap.org/)), de las técnicas de navegación por satélite para mediciones precisas, y de la teledetección, especialmente radar.
 
-En cuanto a escribir código, te adelanto que para superar las dificultades y los desafíos inherentes de las asignaciones y el manuscrito, tendrás que:
+En cuanto a escribir código, te adelanto que, para superar las dificultades y los desafíos inherentes de las asignaciones y el manuscrito, tendrás que:
 
-1. Sufrir. Nadie dijo que fajarse con geomorfometría con R, GRASS GIS o Python fuese placentero. A diferencia de los software de pago, aquí no hay un botoncito que lo resuelva todo. Cuesta esfuerzo, mucho; eso sí, es gratis, como todas las cosas buenas. Adelanto también que este mismo principio aplica a la redacción; escribir con concisión apoyándote en tus resultados es tarea complicada. Por lo tanto, sufre, pero con un motivo.
+1. Contar con el profesor. No te abandonaré a tu suerte al analizar datos. No hay horario para pedirme ayuda, y pregunta lo que quieras preguntar. Intentaré darte soluciones cuando te tranques, pero con la condición de que, antes de preguntarme, intentes avanzar soluciones del problema. Lee el punto 3 más abajo.
 
-2. Recibir tutorías. Estoy de lunes a jueves, de 8 am a 1 pm en la pecera del piso 7 (Facultad de Ciencias) del "Edificio Administrativo". No necesitas cita previa, pero recomiendo que me escribas (jmartinez19\@uasd.edu.do) por si tuviese compromisos fuera el día que elijas visitarme.
+2. Sufrir. Nadie dijo que fajarse con geomorfometría mediante R, GRASS GIS o Python fuese placentero. A diferencia de los software de pago, aquí no hay un botoncito mágico que lo resuelve todo. Cuesta esfuerzo, mucho; eso sí, es gratis, como todas las cosas buenas. Además, te obliga a la abstracción y a la resolución de problemas, algo que siempre viene bien en términos profesionales y académicos. Adelanto también que este mismo principio aplica a la redacción; escribir concisamente apoyándote en tus resultados es tarea complicada. Por lo tanto, sufre, pero con motivo.
 
-3. Aprender a pedir ayuda. Elimina esta expresión de tu vocabulario: "da error". Con eso nadie podrá ayudarte. Lo importante es qué error obtienes al ejecutar qué cosa. Por ello, cuando pidas ayuda, por ejemplo, mediante *issues* de GitHub, deberás ofrecer un ejemplo reproducible. En la medida de lo posible, evita las capturas de pantalla y prefiere código reproducible + error. El *ecrinchó 'ta bien pa'guasá* y  otras vainas, pero no para pedir ayuda con código informático.
+3. Pedir ayuda. Escríbeme o pide ayuda a tus compañeros y compañeras cuando te surjan dudas. Tienes varias alternativas:
+      a. Vía los foros de la plataforma. El foro apropiado será el que cree para la tarea en cuestión, pero también existe un foro en la portada de la asignatura denominado "Foro de dudas e inquietudes".
+      b. A mi correo: jmartinez19\@uasd.edu.do
+      c. Creando *issues* en GitHub.
 
-No tendrás que preocuparte por el hardware (ya me ensucio yo las manos con esa cosa tan mundana llamada computadora), pero ocúpate por escribir código con sentido, por razonar bien tus asignaciones y, especialmente, por escribir bien tu manuscrito; escribe que se te entienda, yo pediré a monesvol para que te ilumine. Dispondrás de un servidor de RStudio de modestas prestaciones habilitado por mí, con los paquetes requeridos en el curso ya pre-instalados. Así podrás realizar tus asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de instalaciones de paquetes.
+4. Utilizar estrategias proactivas para pedir ayuda. Elimina esta expresión de tu vocabulario: "da error". Con eso nadie podrá ayudarte. Lo importante es informar qué intentaste hacer y qué error o problema te surgió. Por ello, cuando pidas ayuda, deberás ofrecer un ejemplo reproducible. En la medida de lo posible, evita las capturas de pantalla y prefiere código reproducible + error. Si la captura de pantalla es el único camino que tienes para mostrar tu problema, entonces úsala, pero no olvides incluir los dos elementos primordiales: 1) qué intentaste hacer y 2) qué error/problema se te presentó. Otras estrategias son: consultar posibles soluciones a tu problema en foros ya existentes (como stackoverflow), probar alternativas, documentar lo que hiciste, explicar qué entiendes que pudo provocar el error. En definitiva, sólo pide ayuda cuando realmente te hayas "trancado".
 
-Parecería "natural" utilizar interfaz gráfico de usuario para analizar datos geomorfológicos y hacer análisis geomorfométrico, pero a lo largo de esta asignatura verás que lo razonable es utilizar código. Realizar análisis reproducibles de manera eficiente sólo se logra escribiendo y ejecutando código. Igualmente, para visualizar patrones espaciales se requiere de herramientas versátiles, que tanto R como otros lenguajes proveen normalmente a través de paquetes. 
+
+No tendrás que preocuparte por el hardware (ya me ensucio yo las manos con esa cosa tan mundana llamada computadora), pero sí ocúpate por escribir código con sentido, por razonar bien tus asignaciones y, especialmente, por escribir bien tu manuscrito; escribe que se te entienda, yo pediré a monesvol para que te ilumine. Dispondrás de un servidor de RStudio de modestas prestaciones administrado por "yo mesmamente", con los paquetes requeridos en el curso ya pre-instalados. Así podrás realizar tus asignaciones sobre geomorfometría y tu manuscrito sin preocuparte de instalaciones de software/paquetes. Queda a opción tuya hacer visualizaciones de datos y mapas usando software de interfaz gráfica (e.g. QGIS), pero necesitarás instalarlo en tu propia PC.
+
+Parecería "natural" utilizar interfaz gráfica de usuario para analizar datos geomorfológicos y hacer análisis geomorfométrico, pero a lo largo de esta asignatura verás que lo razonable es utilizar código. Realizar análisis reproducibles de manera eficiente sólo se logra escribiendo y ejecutando código. Igualmente, para visualizar patrones espaciales se requiere de herramientas versátiles, que tanto R como otros lenguajes proveen normalmente a través de paquetes. 
 
 ## Evaluación
 
 | Ítem | % de la \ nota final |
 |-|-:|
-| [Manuscrito (basado en trabajo de campo)](#manuscrito) | 40% |
-| [Presentación oral](#presentación-oral) | 10% |
-| [Trabajo de campo](#trabajo-de-campo) | 20% |
+| [Manuscrito (basado en trabajo de campo)](#manuscrito) | 50% |
+| [Presentación oral](#presentación-oral) | 20% |
 | [Asignaciones](#asignaciones) | 30% |
 
 Sí sí, lo que viste, no hay examen.
@@ -83,24 +85,28 @@ Brevemente, cada ítem a evaluar consistirá en lo siguiente (más detalles por 
 
 ### Manuscrito
 
-Tratará sobre procesos geomorfológicos en morfosistemas o elementos morfológicos puntuales, prefiriendo una localidad cercana a Santo Domingo, de manera que puedas combinar técnicas de geocomputación, geomorfometría y trabajo de campo. Lo elaborarás siguiendo las siguientes fases:
+Tratará sobre cuencas hidrográficas, con especial énfasis en morfometería,  de manera que puedas combinar técnicas de geocomputación y geomorfometría digital.
 
-1. Selección del tema. Hay muchas opciones, pero elige una (consulta al profesor, libros y artículos de geomorfología):
+Alternativamente, tu manuscrito puede tratar sobre procesos geomorfológicos en morfosistemas o elementos morfológicos específicos elegidos por ti. Si eliges este camino, para la selección de tema, debe existir un interés puntual de tu parte. Hay muchas opciones, elige una (consulta al profesor, mira en libros y artículos de geomorfología):
     a. Geomorfología tectónica. Algunos ejemplos: deformación, ¿depósitos? (difíciles de conseguir), perfiles de ríos afectados.
     b. Ríos. Evolución de canales, distribución de depósitos, inundaciones, abanicos aluviales, cuencas.
     c. Vertientes. Debris flows, deslizamientos, geometría de vertientes.
     d. Litorales. Costas rocosas, costas no rocosas, evolución, depósitos. 
     e. Formas eólicas. Depósitos, dunas, evolución.
-2. Formulación del problema/pregunta(s) de investigación, siendo preceptiva la sencillez de diseño. Las preguntas de investigación a responder las diseñarás tú. Consulta al profesor para construir tus preguntas en una sesión de clase, para que las preguntas formuladas sean "respondibles" sin caer en simplismos.
-3. Revisión bibliográfica. Busca fuentes en línea, pero evita abrumarte con la enorme disponibilidad de publicaciones científicas sobre geomorfología. Prefiere las publicaciones disponibles en acceso libre.
-4. Selección de metodología, incluyendo técnicas cuantitativas de forma preceptiva. 
-5. Recogida de datos de campo.
-6. Análisis de datos.
-7. Redacción.
+    f. Karst. Morfometría kárstica, procesos, depósitos, evolución.
+
+Con independencia de si tu tema es cuencas hidrográficas, o uno elegido por ti libremente, elaborarás tu manuscrito siguiendo estas fases:
+
+1. Formulación del problema/pregunta(s) de investigación, siendo preceptiva la sencillez de diseño. Las preguntas de investigación a responder las diseñarás tú. Consulta al profesor para construir tus preguntas en una sesión de clase, para que las preguntas formuladas sean "respondibles" sin caer en simplismos.
+2. Revisión bibliográfica. Busca fuentes en línea, pero evita abrumarte con la enorme disponibilidad de publicaciones científicas sobre geomorfología. Prefiere las publicaciones disponibles en acceso libre, y no olvides el [Sci-Hub](https://sci-hub.tw).
+3. Selección de metodología, incluyendo técnicas cuantitativas de forma preceptiva. 
+4. Recogida de datos a partir de bases de datos.
+5. Análisis de datos.
+6. Redacción. Volver a 5 hasta que la redacción quede "nítida".
 
 Los criterios de evaluación que usaré para el manuscrito son:
 
-1. Cumplimiento de los requisitos exigidos por el Anuario, tanto los de forma (estilos de documento) como los de fondo.
+1. Cumplimiento de los requisitos exigidos por el [Anuario de Investigaciones Científicas](https://www.uasd.edu.do/index.php/publicaciones-cientificas) de la UASD.
 2. Redacción coherente y concisa.
 3. Resultados, con el debido apoyo estadístico y gráfico, que respondan a las preguntas formuladas.
 4. Concisa extracción de conclusiones. Los resultados negativos son igualmente válidos.
@@ -121,7 +127,7 @@ Para preparar tu manuscrito, sigue las normas para autores/as del [Anuario de In
     * Otros requerimientos (ponle atención también a esta parte en las [normas](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf)).
 
 Toma en consideración lo siguiente:
-* No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que se recomienda consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades. 
+* No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que te recomiendo consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades. 
 * El plagio y la falsificación de datos supondrán la reprobación inmediata de la asignatura.
 * Te recomiendo consultar [uno o varios artículos de cualquier número del Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas), para que te familiarices con el estilo de redacción.
 
