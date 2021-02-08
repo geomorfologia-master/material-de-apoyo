@@ -3,12 +3,13 @@
 
 # Programa de “Geomorfología” <br/> Licenciatura en Geografía <br/> Universidad Autónoma de Santo Domingo (UASD)
 
-Septiembre 2020 <br/> *José Ramón Martínez Batlle*
+Febrero 2021 <br/> *José Ramón Martínez Batlle, el tali*
 
 ## Básicos:
 
   - Correo: <jmartinez19@uasd.edu.do>
-  - Lugar y horario: [UASD virtual](https://uasdvirtual.uasd.edu.do),
+  - Lugar y horario:
+    [Zoom](https://us02web.zoom.us/j/86492801455?pwd=YWd1MXNUeVpCbUhtcHp6bzVCNVYxZz09),
     Lunes de 4 a 8 pm
   - [Programa (vínculo
     recursivo)](https://github.com/geomorfologia-master/material-de-apoyo/blob/master/programa-geomorfologia.md)
@@ -93,9 +94,10 @@ manuscrito, tendrás que:
 
 1.  Contar con el profesor. No te abandonaré a tu suerte al analizar
     datos. No hay horario para pedirme ayuda, y pregunta lo que quieras
-    preguntar. Intentaré darte soluciones cuando te tranques, pero con
-    la condición de que, antes de preguntarme, intentes avanzar
-    soluciones del problema. Lee los puntos 3 y 4 más abajo.
+    preguntar, yo responderé cuando pueda. Intentaré darte soluciones
+    cuando te tranques, pero con la condición de que, antes de
+    preguntarme, intentes avanzar soluciones del problema. Lee los
+    puntos 3 y 4 más abajo.
 
 2.  Sufrir. Nadie dijo que fajarse con geomorfometría mediante R, GRASS
     GIS o Python fuese placentero. A diferencia de los software de pago,
@@ -110,10 +112,7 @@ manuscrito, tendrás que:
 3.  Pedir ayuda. Escríbeme o pide ayuda a tus compañeros y compañeras
     cuando te surjan dudas. Tienes varias alternativas:
     
-    1.  Vía los foros de la plataforma. El foro apropiado será el que
-        cree para la tarea en cuestión, pero también existe un foro en
-        la portada de la asignatura denominado “Foro de dudas e
-        inquietudes”.
+    1.  Vía el foro de la asignatura (vía más eficiente y preferida).
     2.  A mi correo: jmartinez19@uasd.edu.do
     3.  Creando *issues* en GitHub.
 
@@ -170,22 +169,28 @@ por medio de asignaciones a lo largo del curso):
 ### Manuscrito
 
 Tratará sobre cuencas hidrográficas, con especial énfasis en
-morfometería, de manera que puedas combinar técnicas de geocomputación
-y geomorfometría digital.
+morfometría, de manera que puedas combinar técnicas de geocomputación y
+geomorfometría digital.
 
 Alternativamente, tu manuscrito puede tratar sobre procesos
 geomorfológicos en morfosistemas o elementos morfológicos específicos
 elegidos por ti. Si eliges este camino, para la selección de tema, debe
 existir un interés puntual de tu parte. Hay muchas opciones, elige una
-(consulta al profesor, mira en libros y artículos de geomorfología): a.
-Geomorfología tectónica. Algunos ejemplos: deformación, ¿depósitos?
-(difíciles de conseguir), perfiles de ríos afectados. b. Ríos.
-Evolución de canales, distribución de depósitos, inundaciones, abanicos
-aluviales, cuencas. c. Vertientes. Debris flows, deslizamientos,
-geometría de vertientes. d. Litorales. Costas rocosas, costas no
-rocosas, evolución, depósitos. e. Formas eólicas. Depósitos, dunas,
-evolución. f. Karst. Morfometría kárstica, procesos, depósitos,
-evolución.
+(consulta al profesor, mira en libros y artículos de geomorfología):
+
+1.  Geomorfología tectónica. Algunos ejemplos: deformación, ¿depósitos?
+    (difíciles de conseguir), perfiles de ríos afectados.
+
+2.  Ríos. Evolución de canales, distribución de depósitos, inundaciones,
+    abanicos aluviales, cuencas.
+
+3.  Vertientes. Debris flows, deslizamientos, geometría de vertientes.
+
+4.  Litorales. Costas rocosas, costas no rocosas, evolución, depósitos.
+
+5.  Formas eólicas. Depósitos, dunas, evolución.
+
+6.  Karst. Morfometría kárstica, procesos, depósitos, evolución.
 
 Con independencia de si tu tema es cuencas hidrográficas, o uno elegido
 por ti libremente, elaborarás tu manuscrito siguiendo estas fases:
@@ -195,15 +200,22 @@ por ti libremente, elaborarás tu manuscrito siguiendo estas fases:
     responder las diseñarás tú. Consulta al profesor para construir tus
     preguntas en una sesión de clase, para que las preguntas formuladas
     sean “respondibles” sin caer en simplismos.
+
 2.  Revisión bibliográfica. Busca fuentes en línea, pero evita abrumarte
     con la enorme disponibilidad de publicaciones científicas sobre
     geomorfología. Prefiere las publicaciones disponibles en acceso
-    libre, y no olvides el [Sci-Hub](https://sci-hub.tw).
+    libre, y no olvides el [Sci-Hub](https://sci-hub.se).
+
 3.  Selección de metodología, incluyendo técnicas cuantitativas de forma
     preceptiva.
-4.  Recogida de datos a partir de bases de datos.
+
+4.  Recogida de datos, ya fuese un modelo digital de elevaciones (DEM) o
+    por levantamientos en campo.
+
 5.  Análisis de datos.
-6.  Redacción. Volver a 5 hasta que la redacción quede “nítida”.
+
+6.  Redacción. Volver eterna y recursivamente a 5 hasta que la redacción
+    quede “nítida”.
 
 Los criterios de evaluación que usaré para el manuscrito son:
 
@@ -211,16 +223,20 @@ Los criterios de evaluación que usaré para el manuscrito son:
     Investigaciones
     Científicas](https://www.uasd.edu.do/index.php/publicaciones-cientificas)
     de la UASD.
+
 2.  Redacción coherente y concisa.
+
 3.  Resultados, con el debido apoyo estadístico y gráfico, que respondan
     a las preguntas formuladas.
+
 4.  Concisa extracción de conclusiones. Los resultados negativos son
     igualmente válidos.
 
 Para preparar tu manuscrito, sigue las normas para autores/as del
 [Anuario de Investigaciones Científicas de la
 UASD](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf).
-Fungiré como editor ficticio de la revista, e incluso como revisor.
+Fungiré como editor ficticio de la revista, e incluso como revisor
+(*reviewer \#2*).
 
   - Como verás, el manuscrito requiere los siguientes ítems:
       - Título.
@@ -232,6 +248,7 @@ Fungiré como editor ficticio de la revista, e incluso como revisor.
       - Discusión.
       - Agradecimientos (optativo).
       - Referencias citadas.
+      - *Script* reproducible
       - Declaración de cumplimientos legales y de no conflictos de
         intereses (optativo).
       - Otros requerimientos (ponle atención también a esta parte en las
@@ -254,25 +271,28 @@ resultados.
 
 ### Asignaciones
 
-Te enviaré asignaciones sobre geomorfometría por correo electrónico, que
-te ayudarán a manejar herramientas reproducibles en geomorfología.
-Podrás realizar tus asignaciones utilizando el servidor RStudio
-habilitado por mí (sólo necesitarás una PC con conexión a Internet y un
-navegador), o utilizando tu propia PC, pero en este último caso tendrás
-que instalar R, RStudio y los paquetes requeridos.
+Ocasionalmente, te enviaré asignaciones sobre geomorfometría, que te
+ayudarán a manejar herramientas reproducibles en geomorfología. Podrás
+realizar tus asignaciones utilizando el servidor RStudio habilitado por
+mí (sólo necesitarás una PC con conexión a Internet y un navegador), o
+utilizando tu propia PC, pero en este último caso tendrás que instalar
+R, RStudio y los paquetes requeridos.
 
-Orientaré con ejemplos y soluciones de forma pública a través de
-*issues* que abrirás en el GitHub. De esta forma las discusiones quedan
-disponibles para otras personas. Al abrir un *issue* de GitHub debes
-plantear el problema al que te enfrentas, cómo has intentado resolverlo
-o qué soluciones has probado. Si se trata de cuestión relacionada con
-programación o análisis de datos, deberás facilitar **código
-reproducible y mensaje de error (si lo hubiere)**. Cuando escribas tus
-dudas, no recurras al típico “da error”, puesto que no conduce a nada.
+Orientaré con ejemplos y soluciones de forma pública en las sesiones de
+clases y en el foro. De esta forma, las discusiones quedan disponibles
+para otras personas. Al hacer una consulta, debes plantear el problema
+al que te enfrentas, cómo has intentado resolverlo o qué soluciones has
+probado. Si se trata de alguna cuestión relacionada con programación o
+análisis de datos, deberás facilitar **código reproducible y mensaje de
+error (si lo hubiere)**. Cuando escribas tus dudas, no recurras al
+típico “da error”, puesto que no conduce a nada. En su lugar prefiere
+estas expresiones *“intente este procedimiento … , dio este error, luego
+intenté esta solución … pero no consigo dar con el fallo”*.
 
-Evita preguntar por correo electrónico, porque cualquier consulta que
-realices, así como las posibles soluciones que surjan, quedarán en
-privado y sólo serán aprovechables por ti.
+Prefiere el foro como medio de consulta, porque la discusión que se
+genere quedará accesible a las demás personas. Además, el foro te ofrece
+múltiples herramientas para formatear tu código, y ¡puedes subir
+capturas de pantalla con facilidad\!
 
 ## Contenido teórico
 
