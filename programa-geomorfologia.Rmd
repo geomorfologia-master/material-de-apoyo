@@ -22,8 +22,8 @@ Febrero 2021 <br/>
 
 ## Básicos:
 * Correo: jmartinez19@uasd.edu.do
-* Lugar y horario: [Zoom](https://us02web.zoom.us/j/86492801455?pwd=YWd1MXNUeVpCbUhtcHp6bzVCNVYxZz09), Lunes de 4 a 8 pm
-* [Programa (vínculo recursivo)](https://github.com/geomorfologia-master/material-de-apoyo/blob/master/programa-geomorfologia.md)
+* Lugar y horario: Zoom, Lunes de 4 a 8 pm
+* [Programa (vínculo recursivo)](programa-geomorfologia.md)
 
 ## Descripción
 
@@ -35,9 +35,9 @@ Comienzo con una cita, primero en su idioma original, luego traducida:
 
 Guarda ésto: "...el principal proceso activo...", y quédate también con esta otra cita:
 
->La Geomorfología, como otras ramas de la ciencia, necesita pasar de la simple descripción a la cuantificación y para ello tiene que utilizar métodos de otras áreas científicas, fundamentalmente la Física [@gutierrez2008geomorfologia]
+>La Geomorfología, como otras ramas de la ciencia, necesita pasar de la simple descripción a la cuantificación y para ello tiene que utilizar métodos de otras áreas científicas, fundamentalmente de la Física [@gutierrez2008geomorfologia]
 
-@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino porque la historia reciente le ha dado la razón: la geomorfología de procesos se ha convertido en la rama dominante  desde mediados del siglo XX hasta la actualidad. Como su nombre indica, esta rama se preocupa más por el proceso que por la forma, lo cual deja de lado la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
+@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino porque la historia reciente le ha dado la razón: la geomorfología de procesos se ha convertido en la rama dominante desde mediados del siglo XX hasta la actualidad. Esta rama se preocupa más por el proceso que por la forma, lo cual la separa de la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
 
 Dos grupos de procesos geomorfológicos convergen en la superficie del planeta [@anderson2010geomorphology]:
 
