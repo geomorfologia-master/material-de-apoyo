@@ -140,10 +140,13 @@ Para preparar tu manuscrito, sigue las normas para autores/as del [Anuario de In
     * Declaración de cumplimientos legales y de no conflictos de intereses (optativo).
     * Otros requerimientos (ponle atención también a esta parte en las [normas](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf)).
 
-Toma en consideración lo siguiente:
-* No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que te recomiendo consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades. 
-* El plagio y la falsificación de datos supondrán la reprobación inmediata de la asignatura.
-* Te recomiendo consultar [uno o varios artículos de cualquier número del Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas), para que te familiarices con el estilo de redacción.
+* Toma en consideración lo siguiente:
+
+    * No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que te recomiendo consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades.
+
+    * El plagio y la falsificación de datos supondrán la reprobación inmediata de la asignatura.
+
+    * Te recomiendo consultar [uno o varios artículos de cualquier número del Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas), para que te familiarices con el estilo de redacción.
 
 ### Presentación oral
 

@@ -234,6 +234,7 @@ Fungiré como editor ficticio de la revista, e incluso como revisor
 (*reviewer \#2*).
 
 -   Como verás, el manuscrito requiere los siguientes ítems:
+
     -   Título.
     -   Nombre de autor/a.
     -   Resumen y palabras clave.
@@ -249,14 +250,19 @@ Fungiré como editor ficticio de la revista, e incluso como revisor
     -   Otros requerimientos (ponle atención también a esta parte en las
         [normas](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf)).
 
-Toma en consideración lo siguiente: \* No impartiré lecciones sobre
-redacción ni sobre procesadores de texto, por lo que te recomiendo
-consultar material tanto vía web como en el economato, como forma de
-mejorar dichas capacidades. \* El plagio y la falsificación de datos
-supondrán la reprobación inmediata de la asignatura. \* Te recomiendo
-consultar [uno o varios artículos de cualquier número del
-Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas),
-para que te familiarices con el estilo de redacción.
+-   Toma en consideración lo siguiente:
+
+    -   No impartiré lecciones sobre redacción ni sobre procesadores de
+        texto, por lo que te recomiendo consultar material tanto vía web
+        como en el economato, como forma de mejorar dichas capacidades.
+
+    -   El plagio y la falsificación de datos supondrán la reprobación
+        inmediata de la asignatura.
+
+    -   Te recomiendo consultar [uno o varios artículos de cualquier
+        número del
+        Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas),
+        para que te familiarices con el estilo de redacción.
 
 ### Presentación oral
 
