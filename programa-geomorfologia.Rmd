@@ -16,14 +16,30 @@ knitr::opts_chunk$set(
 <!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
 
 # Programa de "Geomorfología" <br/> Licenciatura en Geografía <br/> Universidad Autónoma de Santo Domingo (UASD)
-Febrero 2021 <br/>
+Septiembre 2021 <br/>
 *José Ramón Martínez Batlle, el tali*
 
 
 ## Básicos:
+
 * Correo: jmartinez19@uasd.edu.do
+
 * Lugar y horario: Zoom, Lunes de 4 a 8 pm
+
 * [Programa (vínculo recursivo)](programa-geomorfologia.md)
+
+## Recursos informático de la asignatura
+
+Sitúa apropiadamente los recursos de los que dispondrás en esta asignatura.
+
+- R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta temporalmente en mi servidor que ya ofrece estos paquetes de software a través del navegador. No obstante, puedes prescindir de mi servidor si instalas R+RStudio+GRASS GIS en modo "Desktop".
+
+- Foro. Opcional. Se trata de un servidor Mattermost, parecido a Slack, pero de código abierto. Envía tus preguntas por esa vía.
+
+- GitHub. Quizá ya dispones de una cuenta en GitHub, pero no es obligatorio para hacer consultas (este texto se encuentra en GH y no se requiere tener una cuenta para consultarlo). Sólo necesitarás cuenta de GH para crear tu propio contenido, como por ejemplo, tu manuscrito (más abajo te explico).
+
+- Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales se encuentran alojados en la lista de reproducción ["Asignatura Geomorfología"](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv). Consulta detalles sobre la lista y su contenido en [este resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md). Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar como fuente, y se encuentran en el repo [Geomorfología. Asignaciones del tema 4: procesos fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales). No es necesario clonar dicho repo (más adelante explico en detalle), es preferible visualizarlo desde GitHub, como verás en los vídeos tutoriales en cada caso (detalles en el próximo apartado). Si quieres clonarlo para reproducirlo, perfecto, pero te recomiendo que lo uses sólo como fuente de los propios scripts que crearás, adaptando los ya existentes.
+
 
 ## Descripción
 
