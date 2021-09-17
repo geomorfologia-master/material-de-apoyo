@@ -16,14 +16,30 @@ knitr::opts_chunk$set(
 <!-- Este .md fue generado a partir del .Rmd homónimo. Edítese el .Rmd -->
 
 # Programa de "Geomorfología" <br/> Licenciatura en Geografía <br/> Universidad Autónoma de Santo Domingo (UASD)
-Febrero 2021 <br/>
+Septiembre 2021 <br/>
 *José Ramón Martínez Batlle, el tali*
 
 
 ## Básicos:
+
 * Correo: jmartinez19@uasd.edu.do
-* Lugar y horario: [Zoom](https://us02web.zoom.us/j/86492801455?pwd=YWd1MXNUeVpCbUhtcHp6bzVCNVYxZz09), Lunes de 4 a 8 pm
-* [Programa (vínculo recursivo)](https://github.com/geomorfologia-master/material-de-apoyo/blob/master/programa-geomorfologia.md)
+
+* Lugar y horario: Zoom, Lunes de 4 a 8 pm
+
+* [Programa (vínculo recursivo)](programa-geomorfologia.md)
+
+## Recursos informático de la asignatura
+
+Sitúa apropiadamente los recursos de los que dispondrás en esta asignatura.
+
+- R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta temporalmente en mi servidor que ya ofrece estos paquetes de software a través del navegador. No obstante, puedes prescindir de mi servidor si instalas R+RStudio+GRASS GIS en modo "Desktop".
+
+- Foro. Opcional. Se trata de un servidor Mattermost, parecido a Slack, pero de código abierto. Envía tus preguntas por esa vía.
+
+- GitHub. Quizá ya dispones de una cuenta en GitHub, pero no es obligatorio para hacer consultas (este texto se encuentra en GH y no se requiere tener una cuenta para consultarlo). Sólo necesitarás cuenta de GH para crear tu propio contenido, como por ejemplo, tu manuscrito (más abajo te explico).
+
+- Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales se encuentran alojados en la lista de reproducción ["Asignatura Geomorfología"](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv). Consulta detalles sobre la lista y su contenido en [este resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md). Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar como fuente, y se encuentran en el repo [Geomorfología. Asignaciones del tema 4: procesos fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales). No es necesario clonar dicho repo (más adelante explico en detalle), es preferible visualizarlo desde GitHub, como verás en los vídeos tutoriales en cada caso (detalles en el próximo apartado). Si quieres clonarlo para reproducirlo, perfecto, pero te recomiendo que lo uses sólo como fuente de los propios scripts que crearás, adaptando los ya existentes.
+
 
 ## Descripción
 
@@ -35,9 +51,9 @@ Comienzo con una cita, primero en su idioma original, luego traducida:
 
 Guarda ésto: "...el principal proceso activo...", y quédate también con esta otra cita:
 
->La Geomorfología, como otras ramas de la ciencia, necesita pasar de la simple descripción a la cuantificación y para ello tiene que utilizar métodos de otras áreas científicas, fundamentalmente la Física [@gutierrez2008geomorfologia]
+>La Geomorfología, como otras ramas de la ciencia, necesita pasar de la simple descripción a la cuantificación y para ello tiene que utilizar métodos de otras áreas científicas, fundamentalmente de la Física [@gutierrez2008geomorfologia]
 
-@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino porque la historia reciente le ha dado la razón: la geomorfología de procesos se ha convertido en la rama dominante  desde mediados del siglo XX hasta la actualidad. Como su nombre indica, esta rama se preocupa más por el proceso que por la forma, lo cual deja de lado la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
+@tricart1956geomorphologie aseguraba que la Geomorfología debía apoyarse en el estudio de los procesos y también en la morfogénesis antrópica. No porque lo haya dicho él, sino porque la historia reciente le ha dado la razón: la geomorfología de procesos se ha convertido en la rama dominante desde mediados del siglo XX hasta la actualidad. Esta rama se preocupa más por el proceso que por la forma, lo cual la separa de la evolución de los grandes conjuntos de relieve [@gutierrez2008geomorfologia].
 
 Dos grupos de procesos geomorfológicos convergen en la superficie del planeta [@anderson2010geomorphology]:
 
@@ -140,10 +156,13 @@ Para preparar tu manuscrito, sigue las normas para autores/as del [Anuario de In
     * Declaración de cumplimientos legales y de no conflictos de intereses (optativo).
     * Otros requerimientos (ponle atención también a esta parte en las [normas](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf)).
 
-Toma en consideración lo siguiente:
-* No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que te recomiendo consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades. 
-* El plagio y la falsificación de datos supondrán la reprobación inmediata de la asignatura.
-* Te recomiendo consultar [uno o varios artículos de cualquier número del Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas), para que te familiarices con el estilo de redacción.
+* Toma en consideración lo siguiente:
+
+    * No impartiré lecciones sobre redacción ni sobre procesadores de texto, por lo que te recomiendo consultar material tanto vía web como en el economato, como forma de mejorar dichas capacidades.
+
+    * El plagio y la falsificación de datos supondrán la reprobación inmediata de la asignatura.
+
+    * Te recomiendo consultar [uno o varios artículos de cualquier número del Anuario](https://www.uasd.edu.do/index.php/publicaciones-cientificas), para que te familiarices con el estilo de redacción.
 
 ### Presentación oral
 
