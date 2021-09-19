@@ -4,7 +4,7 @@
 
 * [Programa](programa-geomorfologia.md)
 
-* [¿Cómo realizar una asignación?](ref/como-hacer-una-asignacion.md)
+* [Guía para la redacción de tu manuscrito](guia-redaccion-manuscrito.md)
 
 * [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
 

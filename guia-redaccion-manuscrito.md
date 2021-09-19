@@ -1,4 +1,5 @@
-Guía para la redacción de tu manuscrito
+Guía para la redacción de tu manuscrito <br> Asignatura Geomorfología
+(GEO-1140)
 ================
 José Ramón Martínez Batlle
 
@@ -30,7 +31,7 @@ José Ramón Martínez Batlle
 Realiza el [tutorial “Introducción a
 R”](https://geofis.shinyapps.io/tutorial1/). Se trata de una breve
 introduccion interactiva y autoguiada en la que conocerás los
-principales objetos de R. Este tutorial te muestra además trucos sobre
+principales objetos de R. Además, este tutorial te muestra trucos sobre
 cómo enfrentarte a la programación en R, por lo que **es muy importante
 que lo realices y practiques**.
 
@@ -39,15 +40,17 @@ que lo realices y practiques**.
 Tal como te comenté, necesitarás una cuenta de GitHub. Para crearla, ve
 a [github.com](https://github.com/), botón *Sign up* y sigue las
 indicaciones correspondientes. Una vez tengas tu cuenta de GitHub,
-podrás crear repositorios. Tu manuscrito se alojará en un repositorio, y
-esta es la razón por la que necesitas la cuenta.
+podrás crear repositorios. Tu manuscrito se alojará en un repositorio de
+GitHub, y esta es la razón por la que necesitas una cuenta en dicho
+servicio.
 
 Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu
 manuscrito desde el “repo local” (que alojarás en el servidor de
 RStudio) al repo remoto (en GitHub). Es decir, con usuario y password no
-podrás empujar cambios (*push*) al repo remoto, para lo cual necesitarás
-un token. Créalo en este momento, y resérvalo para uso posterior,
-siguiendo estos pasos ([también tienes esta guía
+podrás empujar cambios al repo remoto (proceso que en terminología git
+se conoce como *push*), para lo cual necesitarás un token. Créalo en
+este momento, y resérvalo para uso posterior, siguiendo estos pasos
+([también tienes esta guía
 ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 1.  Inicia sesión con tu cuenta en [github.com](https://github.com/)
@@ -74,12 +77,12 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
 5.  **¡IMPORTANTE! Copia el token a un archivo de texto o a un mensaje
     de correo; GH no te lo mostrará nuevamente**.
 
-### Crea tu repositorio remoto de manuscrito en GitHub
+### Crea tu repositorio remoto para el manuscrito en GitHub
 
 1.  Asegúrate de haber iniciado en tu cuenta de GitHub. Si estás usando
     una PC compartida, y otro usuario tuviese una cuenta de GitHub
     iniciada, el manuscrito se creará con dicha cuenta. Por tal razón,
-    asegúrate previamente de que tu cuenta de GH esté iniciada.
+    asegúrate previamente de que tu cuenta de GH la que esté iniciada.
 
 2.  Haz clic en la URL de la asignación (Classroom de GitHub):
     <https://classroom.github.com/a/IPHYG5uI>
@@ -92,16 +95,17 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
     plantilla, en la organización
     [geomorfologia-202102](https://github.com/geomorfologia-202102).
     Puedes consultarlo visitando la organización y presionando sobre el
-    nombre de tu repo, que tendrá será algo tal que
+    nombre de tu repo, que será algo tal que
     `unidad-0-asignacion-99-mi-manuscrito-TUNOMBREDEUSUARIOENGITHUB`.
 
-### Crea una copia local (clonar) de tu repo de manuscrito en mi servidor RStudio
+### Crea una copia local de tu repo de manuscrito en mi servidor RStudio
 
 Si ya tienes tu repo remoto de manuscrito, podrás hacer una copia local
-en mi servidor RStudio. En dicha copia local alojarás tus ediciones que
-luego sincronizarás con GitHub. Para clonar localmente tu repo,
-necesitarás el token que creaste en pasos anteriores. Pasos para crear
-tu copia local:
+en mi servidor RStudio; a este proceso se le denomina “clonar” en
+terminología git. En dicha copia local alojarás tus ediciones que luego
+sincronizarás con GitHub. Para clonar localmente tu repo, necesitarás el
+token que creaste en pasos anteriores, así que tenlo a mano. Pasos para
+crear tu copia local:
 
 -   Sigue [este tutorial HASTA el minuto
     5:10](https://www.youtube.com/watch?v=v1EX8OzAyBw).
@@ -160,7 +164,7 @@ la cuenca asignada, más un área buffer de 1 km):
 
 ### Preguntas de investigación, organizadas por temas
 
-Para tu manuscrito, podrás responder las preguntas de investigación
+En tu manuscrito, podrás responder las preguntas de investigación
 transcritas abajo a partir de análisis morfométricos. Para cada
 pregunta, te ofrezco recursos teóricos específicos. Igualmente, para
 cada una, o para grupos de preguntas, te servirá redactar una hipótesis
@@ -284,14 +288,14 @@ específica la verás en el calendario de la próxima sección.
 
 -   [Vídeo 1. Cómo hacer *commit&gt;push* de cambios a un repo remoto
     desde un repo local en el servidor RStudio (DESDE el minuto
-    5:10)](https://www.youtube.com/watch?v=v1EX8OzAyBw&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=1).
-    En párrafos anteriores te pedí que practicaras éste vídeo para
-    clonar tu repo localmente en el servidor RStudio. Ahora te pido que
-    continúes desde el minuto 5:10, para que hagas *commit&gt;push*, que
-    es el proceso mediante el cual, tus cambios locales (en el servidor
-    RStudio) se “sincronizan” con los del repo remoto (en GitHub). En el
-    vídeo muestro cómo subir unos cambios sencillos (e hipotéticos)
-    realizados al archivo `manuscrito.Rmd`.
+    5:10)](https://www.youtube.com/watch?v=v1EX8OzAyBw). En párrafos
+    anteriores te pedí que practicaras éste vídeo para clonar tu repo
+    localmente en el servidor RStudio. Ahora te pido que continúes desde
+    el minuto 5:10, para que hagas *commit&gt;push*, que es el proceso
+    mediante el cual, tus cambios locales (en el servidor RStudio) se
+    “sincronizan” con los del repo remoto (en GitHub). En el vídeo
+    muestro cómo subir unos cambios sencillos (e hipotéticos) realizados
+    al archivo `manuscrito.Rmd`.
 
 > El archivo `manuscrito.Rmd` es el que contendrá toda tu redacción, y
 > desde allí podrás generar tu salida en formato PDF.
@@ -307,10 +311,10 @@ En el minuto 11:54 verás que GitHub pide clave. En tu caso, deberás
 colocar el token que generaste en pasos anteriores.
 
 -   [Vídeo 2. Cómo insertar referencias, figuras,
-    tablas](https://www.youtube.com/watch?v=5PARNk6QTgY&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=2).
-    Este vídeo explica cómo insertar referencias bibliográficas usando
-    entradas BibTeX, cómo insertar figuras a partir de archivos de
-    imágenes, y cómo insertar tablas de Markdown.
+    tablas](https://www.youtube.com/watch?v=5PARNk6QTgY). Este vídeo
+    explica cómo insertar referencias bibliográficas usando entradas
+    BibTeX, cómo insertar figuras a partir de archivos de imágenes, y
+    cómo insertar tablas de Markdown.
 
 A continuación, 11 vídeos tutoriales del canal de YouTube pelempito1,
 esenciales para desarrollar tu manuscrito, que tratan sobre análisis
@@ -434,9 +438,12 @@ morfometría fluvial que ya habrás leído. No se trata de un examen en el
 que rellenas “preguntas de desarrollo”; se trata de escribir un
 manuscrito con todas las secciones que tiene el “esqueleto” facilitado
 por mí (e.g. Resumen, Introducción, Metodología, Resultados, Discusión,
-etc.), siguiendo las normas del Anuario de Investigaciones Científicas
-de la UASD (este es un buen momento para repasar el programa de la
-asignatura).
+etc.), siguiendo las [normas del Anuario de Investigaciones Científicas
+de la
+UASD](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf).
+Cuentas con la plantilla del manuscrito—y que se encuentra en tu repo de
+manuscrito—que satisface bastante bien los requisitos del Anuario, así
+que al menos en cuanto a la forma no tendrás que preocuparte mucho.
 
 Como norma general, **nunca copies y pegues texto, puesto que es plagio
 y lo penalizo con la reprobación de la asignatura. Si necesitas citar a
@@ -450,21 +457,22 @@ respuesta a cada pregunta. No te esfuerces en formular “la hipótesis
 correcta”; formula una posible respuesta a cada pregunta de acuerdo a lo
 que entiendas lógico.
 
-Sobre las secciones de un manuscrito, te doy un vistazo general. La
-**introducción** responde a ¿Por qué haces el estudio en cuestión? ¿Por
-qué es importante o por qué elegiste un método específico? ¿qué vacío
-rellena el estudio? Por otra parte, la **metodología** describe el cómo,
-ofreciendo tantos detalles como sean necesarios, sin desarrollar métodos
-que han creado otros y que ya están debidamente explicados en sus
-respectivas fuentes; redactas y resumes con tus palabras, remitiendo a
-las referencias convenientemente. En los **resultados** expones el qué,
-el lugar donde muestras lo que encontraste luego de colectar y analizar,
-con tus métodos, los datos fuente. Finalmente, en la **discusión**
-respondes a la pregunta ¿Y ahora qué?; es decir, aclaras si respondiste
-tus preguntas, qué vacío llenaste y qué nuevas preguntas de
-investigación (o, más amplio, problemas) surgieron a partir de tu
-trabajo. Explico más detalles sobre qué contienen las secciones de un
-manuscrito en los apartados siguientes.
+Sobre el contenido que normalmente se desarrolla en las secciones un
+manuscrito común, te doy un vistazo general. La **introducción**
+responde a ¿Por qué haces el estudio en cuestión? ¿Por qué es importante
+o por qué elegiste un método específico? ¿qué vacío rellena el estudio?
+Por otra parte, la **metodología** describe el cómo, ofreciendo tantos
+detalles como sean necesarios, sin desarrollar métodos que han creado
+otros y que ya están debidamente explicados en sus respectivas fuentes;
+redactas y resumes con tus palabras, remitiendo a las referencias
+convenientemente. En los **resultados** expones el qué, el lugar donde
+muestras lo que encontraste luego de colectar y analizar, con tus
+métodos, los datos fuente. Finalmente, en la **discusión** respondes a
+la pregunta ¿Y ahora qué?; es decir, aclaras si respondiste tus
+preguntas, qué vacío llenaste y qué nuevas preguntas de investigación
+(o, más amplio, problemas) surgieron a partir de tu trabajo. Explico más
+detalles sobre qué contienen las secciones de un manuscrito en los
+apartados siguientes.
 
 #### Sobre la introducción
 
@@ -477,13 +485,13 @@ problema. Normalmente, un problema por resolver es algo muy global
 enfocas en preguntas de investigación específicas (piensa en éstas como
 los tradicionales objetivos específicos).
 
-Por lo anterior, normalmente verás que en tutoriales sobre redacción, se
-recomienda que el último párrafo de la introducción formules tus
-preguntas de investigación o tus objetivos; si te es posible, también
-formula hipótesis para cada pregunta. Considera una hipótesis como una
-posible respuesta a cada pregunta, pero no te esfuerces en formular “la
-hipótesis correcta”; formula una posible respuesta a cada pregunta de
-acuerdo a lo que entiendas lógico.
+Por el mismo razonamiento anterior, normalmente verás que en tutoriales
+sobre redacción, se recomienda que el último párrafo de la introducción
+formules tus preguntas de investigación o tus objetivos; si te es
+posible, también formula hipótesis para cada pregunta. Considera una
+hipótesis como una posible respuesta a cada pregunta, pero no te
+esfuerces en formular “la hipótesis correcta”; formula una posible
+respuesta a cada pregunta de acuerdo a lo que entiendas lógico.
 
 Finalmente, algunas referencias. Esto es lo mejor que conozco sobre
 [pautas para elaborar una introducción en
@@ -494,7 +502,7 @@ Puedes usar el traductor [DeepL](https://www.deepl.com/translator),
 porque produce frases más naturales.
 
 Sobre las demás secciones (metodología, resultados, y discusión), te
-sugerirá algunos tips próximamente.
+sugeriré algunos tips próximamente.
 
 ## URLs de referencia
 
