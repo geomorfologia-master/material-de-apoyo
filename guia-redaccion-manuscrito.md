@@ -90,13 +90,16 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
     iniciada, el manuscrito se creará con dicha cuenta. Por tal razón,
     asegúrate previamente de que tu cuenta de GH la que esté iniciada.
 
-2.  Haz clic en la URL de la asignación (Classroom de GitHub):
+2.  También asegúrate de que eres parte de la organización de GitHub de
+    la asignatura.
+
+3.  Haz clic en la URL de la asignación (Classroom de GitHub):
     <https://classroom.github.com/a/IPHYG5uI>
 
-3.  Al hacer clic sobre la URL, te preguntará si aceptas la asignación
+4.  Al hacer clic sobre la URL, te preguntará si aceptas la asignación
     del Classroom de GitHub. Presiona el botón *Accept this assignment*.
 
-4.  Tras presionar el botón, se creará una copia remota vacía (un
+5.  Tras presionar el botón, se creará una copia remota vacía (un
     “esqueleto”) del repositorio de manuscrito, a partir de una
     plantilla, en la organización
     [geomorfologia-202102](https://github.com/geomorfologia-202102).
