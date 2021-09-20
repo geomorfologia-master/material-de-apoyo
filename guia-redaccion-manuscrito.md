@@ -519,8 +519,6 @@ sugeriré algunos tips próximamente.
 
 -   [Esta guía](guia-redaccion-manuscrito.md).
 
--   [Esta guía en PDF](guia-redaccion-manuscrito.pdf).
-
 -   [Programa de la
     asignatura](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/programa-geomorfologia.md).
 
