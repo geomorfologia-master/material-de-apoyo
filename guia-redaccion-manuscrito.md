@@ -41,8 +41,14 @@ Tal como te comenté, necesitarás una cuenta de GitHub. Para crearla, ve
 a [github.com](https://github.com/), botón *Sign up* y sigue las
 indicaciones correspondientes. Una vez tengas tu cuenta de GitHub,
 podrás crear repositorios. Tu manuscrito se alojará en un repositorio de
-GitHub, y esta es la razón por la que necesitas una cuenta en dicho
-servicio.
+GitHub, concretamente, en la organización creada al efecto para esta
+asignatura, y esta es la razón por la que necesitas una cuenta en dicho
+servicio. **No olvides notificarme tu usuario de GitHub tan pronto lo
+tengas, para invitarte a la organización de la asignatura. Luego de que
+te envíe la invitación, te llegará un mensaje de correo con una
+invitación que debes aceptar para formar parte de la organización. Es
+importante que completes el dicho proceso, porque de lo contrario, NO
+podrás realizar las asignaciones.**
 
 Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu
 manuscrito desde el “repo local” (que alojarás en el servidor de
@@ -124,7 +130,9 @@ crear tu copia local:
 Antes de comenzar a redactar tu manuscrito, repasa la siguiente lista de
 control:
 
-1.  Tienes cuenta de GitHub y token.
+1.  Tienes cuenta de GitHub y token. También verifica que formas parte
+    de la organización de la asignatura, porque de lo contrario, no
+    podrás realizar asignaciones.
 
 2.  Creaste una copia remota del repositorio de manuscrito al aceptar la
     asignación del Classroom de GitHub.

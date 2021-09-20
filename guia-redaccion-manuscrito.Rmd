@@ -31,7 +31,7 @@ Realiza el [tutorial "Introducción a R"](https://geofis.shinyapps.io/tutorial1/
 
 ### Regístrate en GitHub y crea un token
 
-Tal como te comenté, necesitarás una cuenta de GitHub. Para crearla, ve a [github.com](https://github.com/), botón *Sign up* y sigue las indicaciones correspondientes. Una vez tengas tu cuenta de GitHub, podrás crear repositorios. Tu manuscrito se alojará en un repositorio de GitHub, y esta es la razón por la que necesitas una cuenta en dicho servicio.
+Tal como te comenté, necesitarás una cuenta de GitHub. Para crearla, ve a [github.com](https://github.com/), botón *Sign up* y sigue las indicaciones correspondientes. Una vez tengas tu cuenta de GitHub, podrás crear repositorios. Tu manuscrito se alojará en un repositorio de GitHub, concretamente, en la organización creada al efecto para esta asignatura, y esta es la razón por la que necesitas una cuenta en dicho servicio. **No olvides notificarme tu usuario de GitHub tan pronto lo tengas, para invitarte a la organización de la asignatura. Luego de que te envíe la invitación, te llegará un mensaje de correo con una invitación que debes aceptar para formar parte de la organización. Es importante que completes el dicho proceso, porque de lo contrario, NO podrás realizar las asignaciones.**
 
 Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu manuscrito desde el "repo local" (que alojarás en el servidor de RStudio) al repo remoto (en GitHub). Es decir, con usuario y password no podrás empujar cambios al repo remoto (proceso que en terminología git se conoce como *push*), para lo cual necesitarás un token. Créalo en este momento, y resérvalo para uso posterior, siguiendo estos pasos ([también tienes esta guía ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
@@ -82,7 +82,7 @@ Si ya tienes tu repo remoto de manuscrito, podrás hacer una copia local en mi s
 
 Antes de comenzar a redactar tu manuscrito, repasa la siguiente lista de control:
 
-1. Tienes cuenta de GitHub y token.
+1. Tienes cuenta de GitHub y token. También verifica que formas parte de la organización de la asignatura, porque de lo contrario, no podrás realizar asignaciones.
 
 2. Creaste una copia remota del repositorio de manuscrito al aceptar la asignación del Classroom de GitHub.
 
