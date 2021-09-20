@@ -147,6 +147,7 @@ Para preparar tu manuscrito, sigue las normas para autores/as del [Anuario de In
     * Nombre de autor/a.
     * Resumen y palabras clave.
     * *Abstract* y *keywords* (optativo).
+    * Introducción
     * Metodología.
     * Resultados.
     * Discusión.

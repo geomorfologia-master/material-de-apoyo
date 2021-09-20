@@ -276,6 +276,7 @@ Fungiré como editor ficticio de la revista, e incluso como revisor
     -   Nombre de autor/a.
     -   Resumen y palabras clave.
     -   *Abstract* y *keywords* (optativo).
+    -   Introducción
     -   Metodología.
     -   Resultados.
     -   Discusión.
