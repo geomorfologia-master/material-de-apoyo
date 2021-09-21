@@ -6,10 +6,6 @@
 
 * [Guía para la redacción de tu manuscrito](guia-redaccion-manuscrito.md)
 
-* [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
-
-* [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)
-
 * Diapositivas
 
     * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)
@@ -43,20 +39,11 @@
     * GRASS GIS desde R. Orden de red, análisis hortoniano, r.stream*. Mapas de orden de red (Strahler, Horton, etc.), delimitación de cuencas por orden, estadísticas de redes y de cuencas, razón de bifurcación. Visualización con leaflet. [Vídeo](https://www.youtube.com/watch?v=JO-25I2yj2I&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=11)
     * GRASS GIS desde R. Orden de red y razón de bifurcación explicados. Definiciones, 5 métodos de jerarquización, incluye Strahler y Horton, razón de bifurcación (promedio y calculada a partir de coeficientes de regresión), ejemplos. [Vídeo](https://www.youtube.com/watch?v=vzEBBhedypE&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=12)
     
-    
-* Asignaciones:
+* Bonus
 
-    * [Asignación introductoria. Hola mundo](https://github.com/geomorfologia-master/unidad-0-asignacion-0-hola-mundo)
-    
-    * [Asignación introductoria. RStudio, notificaciones por GitHub, issues](https://github.com/geomorfologia-master/unidad-0-asignacion-1-asig-conrstudio-issues)
-    
-    * [Asignación introductoria. Mi primer RMarkdown](https://github.com/geomorfologia-master/unidad-0-asignacion-2-mi-primer-rmd)
-    
-    * [Asignación de la unidad 1. Movimiento de las placas tectónicas, temperatura de fusión del hielo a presión mayor que la atmosférica, porcentaje de rocas por provincias
-](https://github.com/geomorfologia-master/unidad-1-asignacion-1-movimiento-temperatura-mapageo)
+    * [Guía mínima de RMarkdown](ref/guia-minima-de-rmarkdown.md)
 
-    * [Asignación de las unidades 2 y 3. Datación relativa usando la elevación topográfica y la edad de las rocas. Datación absoluta a partir del porcentaje isotópico remanente. Vida media y semivida (periodo de semidesintegración) isotópica. Tasa de denudación. Tamaños de clastos de tipos de rocas comunes en distintos tramos de río](https://github.com/geomorfologia-master/unidades-2y3-asignacion-1-tiempo-meteorizacion)
+    * [Introducción a R, *simple features* y *rasters*, análisis exploratorio de datos espaciales (ESDA)](ref/introduccion-a-r.md)
 
-    * [Asignación de la unidad 4. Región de GRASS, resolución/extensión. Comparar mapas de GRASS y R. Extraer el límite de una cuenca hidrográfica. Extraer la red de drenaje de una cuenca utilizando dos umbrales de acumulación distintos.](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales)
-    
+
 <img src="fringes.jpg" width="80"/>
