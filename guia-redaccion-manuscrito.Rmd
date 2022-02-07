@@ -13,15 +13,15 @@ library(kableExtra)
 ```
 
 
-## El "ecosistema" de servicios que usarás durante la asignatura
+## <a name="ecosistema"></a> El "ecosistema" de servicios que usarás durante la asignatura
 
-- R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta temporalmente en mi servidor que ya ofrece estos paquetes de software a través del navegador. No obstante, puedes prescindir de mi servidor si instalas R+RStudio+GRASS GIS en tu PC.
+- R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta temporalmente en mi servidor que ya ofrece estos paquetes de software a través del navegador. No obstante, puedes prescindir de mi servidor si instalas R+RStudio+GRASS GIS en modo tu PC (modo "Desktop").
 
-- Foro. Opcional, aunque imprescindible para resolver dudas. Se trata de un servidor Mattermost, parecido a Slack, pero de código abierto. Envía tus preguntas por esa vía.
+- Foro. Se trata de un servidor Mattermost, parecido a Slack, pero de código abierto. Envía tus preguntas por esa vía.
 
 - GitHub. Necesitarás una cuenta de GitHub y un token para crear tu manuscrito y hacerle modificaciones. Más adelante te explico.
 
-- Vídeos tutoriales en YouTube y código fuente de ejemplo. Los vídeos tutoriales se encuentran alojados en la lista de reproducción ["Asignatura Geomorfología"](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv). Consulta detalles sobre la lista y su contenido en [este resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md).
+- Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales se encuentran alojados en la lista de reproducción ["Asignatura Geomorfología"](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv). Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar como fuente, y se encuentran en el repo [Geomorfología. Asignaciones del tema 4: procesos fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales). No es necesario clonar dicho repo (más adelante explico en detalle), es preferible visualizarlo desde GitHub, como verás en los vídeos tutoriales en cada caso. Si quieres clonarlo para reproducirlo, perfecto, pero te recomiendo que lo uses sólo como fuente de los propios scripts que crearás, adaptando los ya existentes.
 
 ## Prepara el "terreno" para tu manuscrito
 
@@ -52,7 +52,6 @@ Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu manuscri
 4. Finalmente presiona *Generate token*. Tu token será una cadena de caracteres parecida a esta: "*ghp_Gsgxfd...*"
 
 5. **¡IMPORTANTE! Copia el token a un archivo de texto o a un mensaje de correo; GH no te lo mostrará nuevamente**.
-
 
 ### Crea tu repositorio remoto para el manuscrito en GitHub
 
@@ -104,16 +103,13 @@ Tienes una cuenca asignada; localiza la tuya en la siguiente lista así como los
 
 |Estudiante                          |Nombre de cuenca asignada |Archivo TIF DEM (carpeta `datos-fuente` de tu repo)   |
 |:-----------------------------------|:-------------------------|:-------------------------------------|
-|Daniel Beltrés Plasencio            |Grande o En Medio         |srtm_dem_cuenca_grande_o_en_medio.tif |
-|Edward Palmero Morel                |Nizao                     |srtm_dem_cuenca_nizao.tif             |
 |Frank F. De la Cruz Diaz            |Macasía                   |srtm_dem_cuenca_macasia.tif           |
-|Franklyn Gomez Espinal              |Bao                       |srtm_dem_cuenca_bao.tif               |
-|Isaac de la Rosa Caraballo          |Soco                      |srtm_dem_cuenca_soco.tif              |
 |Jennifer Núñez Montero              |Yaque del Norte           |srtm_dem_cuenca_yaque_del_norte.tif   |
-|Joel Benjamín Pérez García          |Camú                      |srtm_dem_cuenca_camu.tif              |
-|Rafael Martin Berroa Rosario        |Bajabonico                |srtm_dem_cuenca_bajabonico.tif        |
+|Lea Rebeca Pacheco Taveras          |Camú                      |srtm_dem_cuenca_camu.tif              |
+|Maderline Rondon Batista            |Bajabonico                |srtm_dem_cuenca_bajabonico.tif        |
 |Romanti Esther Aquino Payano        |Haina                     |srtm_dem_cuenca_haina.tif             |
-|Saderis Carmona Marte               |San Juan                  |srtm_dem_cuenca_san_juan.tif          |
+|Yerlyn Florentino Laurencio         |Grande o En Medio         |srtm_dem_cuenca_grande_o_en_medio.tif |
+
 
 ![Mapa de las cuencas disponibles](img/seleccion-cuencas.png)
 

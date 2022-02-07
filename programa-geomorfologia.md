@@ -3,7 +3,7 @@
 
 # Programa de “Geomorfología” <br/> Licenciatura en Geografía <br/> Universidad Autónoma de Santo Domingo (UASD)
 
-Septiembre 2021 <br/> *José Ramón Martínez Batlle, el tali*
+Febrero 2022 <br/> *José Ramón Martínez Batlle, el tali*
 
 ## Básicos:
 
@@ -16,37 +16,8 @@ Septiembre 2021 <br/> *José Ramón Martínez Batlle, el tali*
 ## Recursos informático de la asignatura
 
 Sitúa apropiadamente los recursos de los que dispondrás en esta
-asignatura.
-
--   R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta
-    temporalmente en mi servidor que ya ofrece estos paquetes de
-    software a través del navegador. No obstante, puedes prescindir de
-    mi servidor si instalas R+RStudio+GRASS GIS en modo “Desktop.”
-
--   Foro. Opcional. Se trata de un servidor Mattermost, parecido a
-    Slack, pero de código abierto. Envía tus preguntas por esa vía.
-
--   GitHub. Quizá ya dispones de una cuenta en GitHub, pero no es
-    obligatorio para hacer consultas (este texto se encuentra en GH y no
-    se requiere tener una cuenta para consultarlo). Sólo necesitarás
-    cuenta de GH para crear tu propio contenido, como por ejemplo, tu
-    manuscrito (más abajo te explico).
-
--   Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales
-    se encuentran alojados en la lista de reproducción [“Asignatura
-    Geomorfología”](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv).
-    Consulta detalles sobre la lista y su contenido en [este
-    resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md).
-    Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar
-    como fuente, y se encuentran en el repo [Geomorfología. Asignaciones
-    del tema 4: procesos
-    fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales).
-    No es necesario clonar dicho repo (más adelante explico en detalle),
-    es preferible visualizarlo desde GitHub, como verás en los vídeos
-    tutoriales en cada caso (detalles en el próximo apartado). Si
-    quieres clonarlo para reproducirlo, perfecto, pero te recomiendo que
-    lo uses sólo como fuente de los propios scripts que crearás,
-    adaptando los ya existentes.
+asignatura, los cuales describo
+[aquí](guia-redaccion-manuscrito.md#ecosistema).
 
 ## Descripción
 
@@ -200,9 +171,9 @@ por medio de asignaciones a lo largo del curso):
 
 ### Manuscrito
 
-Tratará sobre cuencas hidrográficas, con especial énfasis en
-morfometría, de manera que puedas combinar técnicas de geocomputación y
-geomorfometría digital.
+Tratará sobre una cuenca hidrográfica que te asignaré, con especial
+énfasis en morfometría, de manera que puedas combinar técnicas de
+geocomputación y geomorfometría digital.
 
 Alternativamente, tu manuscrito puede tratar sobre procesos
 geomorfológicos en morfosistemas o elementos morfológicos específicos
@@ -261,8 +232,7 @@ Los criterios de evaluación que usaré para el manuscrito son:
 3.  Resultados, con el debido apoyo estadístico y gráfico, que respondan
     a las preguntas formuladas.
 
-4.  Concisa extracción de conclusiones. Los resultados negativos son
-    igualmente válidos.
+4.  Concisa extracción de conclusiones.
 
 Para preparar tu manuscrito, sigue las normas para autores/as del
 [Anuario de Investigaciones Científicas de la
@@ -292,7 +262,7 @@ Fungiré como editor ficticio de la revista, e incluso como revisor
 
     -   No impartiré lecciones sobre redacción ni sobre procesadores de
         texto, por lo que te recomiendo consultar material tanto vía web
-        como en el economato, como forma de mejorar dichas capacidades.
+        como en el economato para mejorar dichas capacidades.
 
     -   El plagio y la falsificación de datos supondrán la reprobación
         inmediata de la asignatura.

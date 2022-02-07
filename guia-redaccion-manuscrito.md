@@ -3,26 +3,32 @@ Guía para la redacción de tu manuscrito <br> Asignatura Geomorfología
 ================
 José Ramón Martínez Batlle
 
-## El “ecosistema” de servicios que usarás durante la asignatura
+## <a name="ecosistema"></a> El “ecosistema” de servicios que usarás durante la asignatura
 
 -   R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta
     temporalmente en mi servidor que ya ofrece estos paquetes de
     software a través del navegador. No obstante, puedes prescindir de
-    mi servidor si instalas R+RStudio+GRASS GIS en tu PC.
+    mi servidor si instalas R+RStudio+GRASS GIS en modo tu PC (modo
+    “Desktop”).
 
--   Foro. Opcional, aunque imprescindible para resolver dudas. Se trata
-    de un servidor Mattermost, parecido a Slack, pero de código abierto.
-    Envía tus preguntas por esa vía.
+-   Foro. Se trata de un servidor Mattermost, parecido a Slack, pero de
+    código abierto. Envía tus preguntas por esa vía.
 
 -   GitHub. Necesitarás una cuenta de GitHub y un token para crear tu
     manuscrito y hacerle modificaciones. Más adelante te explico.
 
--   Vídeos tutoriales en YouTube y código fuente de ejemplo. Los vídeos
-    tutoriales se encuentran alojados en la lista de reproducción
-    [“Asignatura
+-   Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales
+    se encuentran alojados en la lista de reproducción [“Asignatura
     Geomorfología”](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv).
-    Consulta detalles sobre la lista y su contenido en [este
-    resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md).
+    Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar
+    como fuente, y se encuentran en el repo [Geomorfología. Asignaciones
+    del tema 4: procesos
+    fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales).
+    No es necesario clonar dicho repo (más adelante explico en detalle),
+    es preferible visualizarlo desde GitHub, como verás en los vídeos
+    tutoriales en cada caso. Si quieres clonarlo para reproducirlo,
+    perfecto, pero te recomiendo que lo uses sólo como fuente de los
+    propios scripts que crearás, adaptando los ya existentes.
 
 ## Prepara el “terreno” para tu manuscrito
 
@@ -160,16 +166,12 @@ la cuenca asignada, más un área buffer de 1 km):
 
 | Estudiante                   | Nombre de cuenca asignada | Archivo TIF DEM (carpeta `datos-fuente` de tu repo) |
 |:-----------------------------|:--------------------------|:----------------------------------------------------|
-| Daniel Beltrés Plasencio     | Grande o En Medio         | srtm\_dem\_cuenca\_grande\_o\_en\_medio.tif         |
-| Edward Palmero Morel         | Nizao                     | srtm\_dem\_cuenca\_nizao.tif                        |
 | Frank F. De la Cruz Diaz     | Macasía                   | srtm\_dem\_cuenca\_macasia.tif                      |
-| Franklyn Gomez Espinal       | Bao                       | srtm\_dem\_cuenca\_bao.tif                          |
-| Isaac de la Rosa Caraballo   | Soco                      | srtm\_dem\_cuenca\_soco.tif                         |
 | Jennifer Núñez Montero       | Yaque del Norte           | srtm\_dem\_cuenca\_yaque\_del\_norte.tif            |
-| Joel Benjamín Pérez García   | Camú                      | srtm\_dem\_cuenca\_camu.tif                         |
-| Rafael Martin Berroa Rosario | Bajabonico                | srtm\_dem\_cuenca\_bajabonico.tif                   |
+| Lea Rebeca Pacheco Taveras   | Camú                      | srtm\_dem\_cuenca\_camu.tif                         |
+| Maderline Rondon Batista     | Bajabonico                | srtm\_dem\_cuenca\_bajabonico.tif                   |
 | Romanti Esther Aquino Payano | Haina                     | srtm\_dem\_cuenca\_haina.tif                        |
-| Saderis Carmona Marte        | San Juan                  | srtm\_dem\_cuenca\_san\_juan.tif                    |
+| Yerlyn Florentino Laurencio  | Grande o En Medio         | srtm\_dem\_cuenca\_grande\_o\_en\_medio.tif         |
 
 ![Mapa de las cuencas disponibles](img/seleccion-cuencas.png)
 
