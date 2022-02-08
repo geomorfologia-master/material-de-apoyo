@@ -28,7 +28,9 @@ Febrero 2022 <br/>
 
 * [Programa (vínculo recursivo)](programa-geomorfologia.md)
 
-## Recursos informático de la asignatura
+* [Guía para la redacción de tu manuscrito](guia-redaccion-manuscrito.md)
+
+## Recursos informáticos de la asignatura
 
 Sitúa apropiadamente los recursos de los que dispondrás en esta asignatura, los cuales describo [aquí](guia-redaccion-manuscrito.md#ecosistema).
 

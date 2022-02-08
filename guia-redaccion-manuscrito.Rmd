@@ -41,7 +41,7 @@ Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu manuscri
 
 3. Rellena el formulario.
 
-    - En *Note* escribe un nombre para el token. Por ejemplo, "Semestre 202102"
+    - En *Note* escribe un nombre para el token. Por ejemplo, "Semestre 202201"
     
     - En *Expiration* elige *Custom* y ponle una fecha posterior al término del semestre.
     
@@ -63,7 +63,7 @@ Tu cuenta de GH, por sí sola, no te permite hacer modificaciones de tu manuscri
 
 4. Al hacer clic sobre la URL, te preguntará si aceptas la asignación del Classroom de GitHub. Presiona el botón *Accept this assignment*.
 
-5. Tras presionar el botón, se creará una copia remota vacía (un "esqueleto") del repositorio de manuscrito, a partir de una plantilla, en la organización [geomorfologia-202102](https://github.com/geomorfologia-202102). Puedes consultarlo visitando la organización y presionando sobre el nombre de tu repo, que será algo tal que `unidad-0-asignacion-99-mi-manuscrito-TUNOMBREDEUSUARIOENGITHUB`.
+5. Tras presionar el botón, se creará una copia remota vacía (un "esqueleto") del repositorio de manuscrito, a partir de una plantilla, en la organización [geomorfologia-202201](https://github.com/geomorfologia-202201). Puedes consultarlo visitando la organización y presionando sobre el nombre de tu repo, que será algo tal que `unidad-0-asignacion-99-mi-manuscrito-TUNOMBREDEUSUARIOENGITHUB`.
 
 
 ### Crea una copia local de tu repo de manuscrito en mi servidor RStudio
@@ -229,7 +229,7 @@ kable(cal, "latex", longtable = T, booktabs = T) %>%
   column_spec(2, width = "6em", border_right = T)
 ```
 
-|Ítem | ¿Qué entregas? | 20/sept/2021 | 27/sept/2021 | 4/oct/2021 | 18/oct/2021 | 1/nov/2021 | 15/nov/2021 | 29/nov/2021 | 29/nov/2021-13/dic/2021 | 20/dic/2021 |
+|Ítem | ¿Qué entregas? | 14/feb/2022 | 21/feb/2022 | 28/feb/2022 | 14/mar/2022 | 28/mar/2022 | 11/abr/2022 | 25/abr/2022 | 2/may/2022-16/may/2022 | 23/may/2022 |
 |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
 |Manuscrito | **Secciones de tu manuscrito**, incorporando análisis realizados con lo que aprendas en los tutoriales y en sesiones de seguimiento |   | Editado encabezado YAML, excepto `abstract`. Iniciada la introducción| Sección Introducción completada | Sección Metodología completada | Avances sobre sección Resultados | Sección Resultados completada | Discusión completada y Resumen. Manuscrito finalizado. | Recibes mi retroalimentación sobre tu texto | Atendido cada punto señalado por mí. Presentación de diapositivas.|
 |Tutoriales visualizados y adaptados | 1) **Pruebas** de que comprendes los tutoriales y/o 2) **Script reproducible aplicado** a tu cuenca; 3) Tu **manuscrito refleja** lo aprendido en dichos tutoriales | [tutorial1](https://geofis.shinyapps.io/tutorial1/) | Vídeos [1](https://www.youtube.com/watch?v=v1EX8OzAyBw&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=1) y [2](https://www.youtube.com/watch?v=5PARNk6QTgY&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=2) | Vídeos [3](https://www.youtube.com/watch?v=cORbTaa827g&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=5), [4](https://www.youtube.com/watch?v=YkqHMeko8-Y&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=6), [5](https://www.youtube.com/watch?v=w5lGrm_XKek&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=7), [6](https://www.youtube.com/watch?v=gPDf6w3NOgs&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=8) y [C1](https://www.youtube.com/watch?v=Y3_pgx9eq5w&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=16)| Vídeos [7](https://www.youtube.com/watch?v=acU2dj23DlM&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=9), [8](https://www.youtube.com/watch?v=17MRQTJ4gUU&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=10), [9](https://www.youtube.com/watch?v=vzEBBhedypE&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=12), [10](https://www.youtube.com/watch?v=JO-25I2yj2I&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=11) y [C2](https://www.youtube.com/watch?v=7kSjRB68sMs&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=17) | Vídeo [11](https://www.youtube.com/watch?v=wkkNKBSh4lQ&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=13) | Vídeos [12](https://www.youtube.com/watch?v=n17NcoCGfak&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=14) y [13](https://www.youtube.com/watch?v=kLDUq9W15lk&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=15) |   |   |  |
@@ -261,14 +261,14 @@ Sobre las demás secciones (metodología, resultados, y discusión), te sugerir�
 
 - [Esta guía](guia-redaccion-manuscrito.md).
 
-- [Programa de la asignatura](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/programa-geomorfologia.md).
+- [Programa de la asignatura](https://github.com/geomorfologia-202201/material-de-apoyo/blob/master/programa-geomorfologia.md).
 
 - [Tutorial "Introducción a R"](https://geofis.shinyapps.io/tutorial1/).
 
-- [Drive de Google conteniendo vídeos de las sesiones de clase](https://drive.google.com/drive/folders/1easFCxheErCrCl5OXFsJKIYXqyia-PON?usp=sharing).
+- [Drive de Google conteniendo vídeos de las sesiones de clase](https://drive.google.com/drive/u/2/folders/1cuV5Y_oUzSw7G0LXmLg6-5fDJlXtjzlc).
 
 - [Drive de Google conteniendo referencias bibliográficas y otras fuentes/recursos](https://drive.google.com/drive/u/1/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD).
 
-- [Organización de GitHub "geomorfologia-202102" (repos de estudiantes del semestre actual)](https://github.com/geomorfologia-202102/).
+- [Organización de GitHub "geomorfologia-202201" (repos de estudiantes del semestre actual)](https://github.com/geomorfologia-202201/).
 
 - [Lista de reproducción "Geomorfología (GEO114), licenciatura en Geografía, UASD"](https://www.youtube.com/playlist?list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv). Detalle de cada vídeo en la propia lista.
