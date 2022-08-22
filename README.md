@@ -6,6 +6,8 @@
 
 * [Guía para la redacción de tu manuscrito](guia-redaccion-manuscrito.md)
 
+* [Asignación 1 del tema 4: elementos morfológicos y morfometría](https://classroom.github.com/a/cKpJA8ZL)
+
 * Diapositivas
 
     * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)

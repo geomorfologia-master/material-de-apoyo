@@ -3,26 +3,32 @@ Guía para la redacción de tu manuscrito <br> Asignatura Geomorfología
 ================
 José Ramón Martínez Batlle
 
-## El “ecosistema” de servicios que usarás durante la asignatura
+## <a name="ecosistema"></a> El “ecosistema” de servicios que usarás durante la asignatura
 
 -   R+RStudio+GRASS GIS. Imprescindible. Dispondrás de una cuenta
     temporalmente en mi servidor que ya ofrece estos paquetes de
     software a través del navegador. No obstante, puedes prescindir de
-    mi servidor si instalas R+RStudio+GRASS GIS en tu PC.
+    mi servidor si instalas R+RStudio+GRASS GIS en modo tu PC (modo
+    “Desktop”).
 
--   Foro. Opcional, aunque imprescindible para resolver dudas. Se trata
-    de un servidor Mattermost, parecido a Slack, pero de código abierto.
-    Envía tus preguntas por esa vía.
+-   Foro. Se trata de un servidor Mattermost, parecido a Slack, pero de
+    código abierto. Envía tus preguntas por esa vía.
 
 -   GitHub. Necesitarás una cuenta de GitHub y un token para crear tu
     manuscrito y hacerle modificaciones. Más adelante te explico.
 
--   Vídeos tutoriales en YouTube y código fuente de ejemplo. Los vídeos
-    tutoriales se encuentran alojados en la lista de reproducción
-    [“Asignatura
+-   Vídeos tutoriales en YouTube y repo de Github. Los vídeos tutoriales
+    se encuentran alojados en la lista de reproducción [“Asignatura
     Geomorfología”](https://www.youtube.com/watch?v=9F7BIAUNvRY&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv).
-    Consulta detalles sobre la lista y su contenido en [este
-    resumen](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/README.md).
+    Los vídeos se asocian con *scripts* de R y GRASS GIS que podrás usar
+    como fuente, y se encuentran en el repo [Geomorfología. Asignaciones
+    del tema 4: procesos
+    fluviales](https://github.com/geomorfologia-master/unidad-4-asignacion-1-procesos-fluviales).
+    No es necesario clonar dicho repo (más adelante explico en detalle),
+    es preferible visualizarlo desde GitHub, como verás en los vídeos
+    tutoriales en cada caso. Si quieres clonarlo para reproducirlo,
+    perfecto, pero te recomiendo que lo uses sólo como fuente de los
+    propios scripts que crearás, adaptando los ya existentes.
 
 ## Prepara el “terreno” para tu manuscrito
 
@@ -68,7 +74,7 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
 3.  Rellena el formulario.
 
     -   En *Note* escribe un nombre para el token. Por ejemplo,
-        “Semestre 202102”
+        “Semestre 202201”
 
     -   En *Expiration* elige *Custom* y ponle una fecha posterior al
         término del semestre.
@@ -94,7 +100,7 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
     la asignatura.
 
 3.  Haz clic en la URL de la asignación (Classroom de GitHub):
-    <https://classroom.github.com/a/IPHYG5uI>
+    <https://classroom.github.com/a/g99RFrW8>
 
 4.  Al hacer clic sobre la URL, te preguntará si aceptas la asignación
     del Classroom de GitHub. Presiona el botón *Accept this assignment*.
@@ -102,7 +108,7 @@ ilustrada)](https://docs.github.com/es/github/authenticating-to-github/keeping-y
 5.  Tras presionar el botón, se creará una copia remota vacía (un
     “esqueleto”) del repositorio de manuscrito, a partir de una
     plantilla, en la organización
-    [geomorfologia-202102](https://github.com/geomorfologia-202102).
+    [geomorfologia-202201](https://github.com/geomorfologia-202201).
     Puedes consultarlo visitando la organización y presionando sobre el
     nombre de tu repo, que será algo tal que
     `unidad-0-asignacion-99-mi-manuscrito-TUNOMBREDEUSUARIOENGITHUB`.
@@ -160,16 +166,12 @@ la cuenca asignada, más un área buffer de 1 km):
 
 | Estudiante                   | Nombre de cuenca asignada | Archivo TIF DEM (carpeta `datos-fuente` de tu repo) |
 |:-----------------------------|:--------------------------|:----------------------------------------------------|
-| Daniel Beltrés Plasencio     | Grande o En Medio         | srtm\_dem\_cuenca\_grande\_o\_en\_medio.tif         |
-| Edward Palmero Morel         | Nizao                     | srtm\_dem\_cuenca\_nizao.tif                        |
 | Frank F. De la Cruz Diaz     | Macasía                   | srtm\_dem\_cuenca\_macasia.tif                      |
-| Franklyn Gomez Espinal       | Bao                       | srtm\_dem\_cuenca\_bao.tif                          |
-| Isaac de la Rosa Caraballo   | Soco                      | srtm\_dem\_cuenca\_soco.tif                         |
 | Jennifer Núñez Montero       | Yaque del Norte           | srtm\_dem\_cuenca\_yaque\_del\_norte.tif            |
-| Joel Benjamín Pérez García   | Camú                      | srtm\_dem\_cuenca\_camu.tif                         |
-| Rafael Martin Berroa Rosario | Bajabonico                | srtm\_dem\_cuenca\_bajabonico.tif                   |
+| Lea Rebeca Pacheco Taveras   | Camú                      | srtm\_dem\_cuenca\_camu.tif                         |
+| Maderline Rondon Batista     | Bajabonico                | srtm\_dem\_cuenca\_bajabonico.tif                   |
 | Romanti Esther Aquino Payano | Haina                     | srtm\_dem\_cuenca\_haina.tif                        |
-| Saderis Carmona Marte        | San Juan                  | srtm\_dem\_cuenca\_san\_juan.tif                    |
+| Yerlyn Florentino Laurencio  | Grande o En Medio         | srtm\_dem\_cuenca\_grande\_o\_en\_medio.tif         |
 
 ![Mapa de las cuencas disponibles](img/seleccion-cuencas.png)
 
@@ -431,7 +433,7 @@ ayuda!!**
 
 ### Calendario de entregas
 
-| Ítem                                | ¿Qué entregas?                                                                                                                                                       | 20/sept/2021                                        | 27/sept/2021                                                                                                                                                                                               | 4/oct/2021                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 18/oct/2021                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 1/nov/2021                                                                                               | 15/nov/2021                                                                                                                                                                                                    | 29/nov/2021                                            | 29/nov/2021-13/dic/2021                     | 20/dic/2021                                                        |
+| Ítem                                | ¿Qué entregas?                                                                                                                                                       | 14/feb/2022                                         | 21/feb/2022                                                                                                                                                                                                | 28/feb/2022                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 14/mar/2022                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 28/mar/2022                                                                                              | 11/abr/2022                                                                                                                                                                                                    | 25/abr/2022                                            | 2/may/2022-16/may/2022                      | 23/may/2022                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|---------------------------------------------|--------------------------------------------------------------------|
 | Manuscrito                          | **Secciones de tu manuscrito**, incorporando análisis realizados con lo que aprendas en los tutoriales y en sesiones de seguimiento                                  |                                                     |  Editado encabezado YAML, excepto `abstract`. Iniciada la introducción                                                                                                                                     | Sección Introducción completada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Sección Metodología completada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Avances sobre sección Resultados                                                                         | Sección Resultados completada                                                                                                                                                                                  | Discusión completada y Resumen. Manuscrito finalizado. | Recibes mi retroalimentación sobre tu texto | Atendido cada punto señalado por mí. Presentación de diapositivas. |
 | Tutoriales visualizados y adaptados | 1\) **Pruebas** de que comprendes los tutoriales y/o 2) **Script reproducible aplicado** a tu cuenca; 3) Tu **manuscrito refleja** lo aprendido en dichos tutoriales | [tutorial1](https://geofis.shinyapps.io/tutorial1/) | Vídeos [1](https://www.youtube.com/watch?v=v1EX8OzAyBw&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=1) y [2](https://www.youtube.com/watch?v=5PARNk6QTgY&list=PLDcT2n8UzsCRDqjqSeqHI1wsiNOqpYmsJ&index=2) | Vídeos [3](https://www.youtube.com/watch?v=cORbTaa827g&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=5), [4](https://www.youtube.com/watch?v=YkqHMeko8-Y&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=6), [5](https://www.youtube.com/watch?v=w5lGrm_XKek&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=7), [6](https://www.youtube.com/watch?v=gPDf6w3NOgs&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=8) y [C1](https://www.youtube.com/watch?v=Y3_pgx9eq5w&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=16) | Vídeos [7](https://www.youtube.com/watch?v=acU2dj23DlM&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=9), [8](https://www.youtube.com/watch?v=17MRQTJ4gUU&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=10), [9](https://www.youtube.com/watch?v=vzEBBhedypE&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=12), [10](https://www.youtube.com/watch?v=JO-25I2yj2I&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=11) y [C2](https://www.youtube.com/watch?v=7kSjRB68sMs&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=17) | Vídeo [11](https://www.youtube.com/watch?v=wkkNKBSh4lQ&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=13) | Vídeos [12](https://www.youtube.com/watch?v=n17NcoCGfak&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=14) y [13](https://www.youtube.com/watch?v=kLDUq9W15lk&list=PLDcT2n8UzsCSt1-NnUQ8anwHhmouFr0Kv&index=15) |                                                        |                                             |                                                                    |
@@ -520,19 +522,19 @@ sugeriré algunos tips próximamente.
 -   [Esta guía](guia-redaccion-manuscrito.md).
 
 -   [Programa de la
-    asignatura](https://github.com/geomorfologia-202102/material-de-apoyo/blob/master/programa-geomorfologia.md).
+    asignatura](https://github.com/geomorfologia-202201/material-de-apoyo/blob/master/programa-geomorfologia.md).
 
 -   [Tutorial “Introducción a
     R”](https://geofis.shinyapps.io/tutorial1/).
 
 -   [Drive de Google conteniendo vídeos de las sesiones de
-    clase](https://drive.google.com/drive/folders/1easFCxheErCrCl5OXFsJKIYXqyia-PON?usp=sharing).
+    clase](https://drive.google.com/drive/u/2/folders/1cuV5Y_oUzSw7G0LXmLg6-5fDJlXtjzlc).
 
 -   [Drive de Google conteniendo referencias bibliográficas y otras
     fuentes/recursos](https://drive.google.com/drive/u/1/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD).
 
--   [Organización de GitHub “geomorfologia-202102” (repos de estudiantes
-    del semestre actual)](https://github.com/geomorfologia-202102/).
+-   [Organización de GitHub “geomorfologia-202201” (repos de estudiantes
+    del semestre actual)](https://github.com/geomorfologia-202201/).
 
 -   [Lista de reproducción “Geomorfología (GEO114), licenciatura en
     Geografía,
