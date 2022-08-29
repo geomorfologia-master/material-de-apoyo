@@ -29,15 +29,7 @@ Al terminar esta práctica deberías ser capaz de:
 
 - Instalar y poner en marcha software y lenguajes de programación para SIG en una PC.
 
-- Cargar distintas fuentes (rásters, vectoriales y delimitados).
-
-- Aplicar simbología.
-
-- Derivar productos a partir de un modelo digital de elevaciones (DEM).
-
-- Extraer información geomorfológica a partir de un DEM y conservarla en un archivo vectorial.
-
-- Generar e interpretar un mapa de geomórfonos.
+- Cargar una capa de prueba.
 
 # Lecturas previas recomendadas, preparación, recursos disponibles
 
@@ -211,11 +203,6 @@ kable(d[, c("Nombre completo", 'e1')])
 7. Describe lo que has realizado. Obviando los pasos de instalación, creación y activación de entorno virtual e instalación de paquetes, resume los pasos necesarios para representar tu capa asignada (remítete a los pasos dados en el cuaderno de Jupyter).
 
 8. Reflexiona. ¿Qué fortalezas entiendes que tiene Python?
-
-## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
-
-1. Obtén 
-
 
 
 # Referencias

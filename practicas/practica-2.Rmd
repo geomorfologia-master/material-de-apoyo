@@ -1,0 +1,122 @@
+---
+title: "Introducción a software SIG de código abierto (QGIS + GRASS GIS + R + Python) aplicados a la cartografía geomorfológica."
+author: José Ramón Martínez Batlle
+date: 29-08-2022
+output: github_document
+bibliography: ../ref/biblio.bib
+csl: ../ref/apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, cache=F)
+```
+
+# Introducción
+
+Desde su origen en el siglo pasado (sin considerar momentáneamente los orígenes de la cartografía), los sistemas de información geográfica (SIG) han experimentado una densa evolución. Diría que la confusión más común entre usuarios ha sido el asociar SIG con el software que nos dan acceso a ellos propiamente. Aunque el software es una pieza (importante) de los SIG, no es lo único ni lo que los define, puesto que también se incluyen los usuarios, los datos y modelos, el hardware, las fuentes, entre otros elementos [@olaya2020sistemas].
+
+Lo que hoy conocemos como software SIG está en crisis. La irrupción del software como servicio en el mercado, ha traigo consigo el hecho de que muchas aplicaciones se ofrezcan alternativa o únicamente en la nube, relegando así la tradicional aplicación de escritorio o ejecutada localmente en la consola. Trabajar en la nube tiene muchas ventajas, una de las más importantes es que se reduce el riesgo de fallos en la aplicación (o al menos se pueden corregir con mayor facilidad) y se elimina la necesidad de una instalación previa (el "infierno de dependencias" desaparece). También, las aplicaciones en la nube, ofrecen la posibilidad de conectar con grandes y diversas bases de datos grandes ("*big data*"). Entre las desventajas, las más importante es que, como usuarios, perdemos libertad, puesto que cada vez estamos más atados a la nube para hacer nuestro trabajo, y dependemos más de la voluntad de los proveedores. Asimismo, estos servicios en la nube terminan convirtiéndose en una cuota mensual más que se añade a nuestra factura.
+
+Mientras nos preparamos para ese "promisorio futuro", todavía tenemos la posibilidad de hacer análisis en la PC propia. Tratándose de geomorfología, los software SIG son fundamentales para nuestros análisis, sobre todo para realizar cartografía del relieve de forma masiva.
+
+En esta práctica usarás dos aplicaciones y dos lenguajes de programación punteros para SIG, algunas de las cuales quizá ya las conoces. Comenzarás desde lo básico, la instalación de las aplicaciones y los lenguajes en cuestión; aunque parecería algo rutinario, instalar software puede ser desafiante y, por tal razón, además de valorar tus destrezas de uso, también te asigno puntuación por realizar la instalación adecuadamente. Luego, usarás la interfaz gráfica de QGIS y de GRASS GIS para operaciones básicas. Finalmente, te introducirás en los lenguajes de programación R y Python con operaciones sencillas. En todos los casos aplicarás estas herramientas a ejemplos muy básicos sobre cartografía geomorfológica.
+
+# Objetivos de aprendizaje
+
+Al terminar esta práctica deberías ser capaz de:
+
+- Cargar distintas fuentes (rásters, vectoriales y delimitados).
+
+- Aplicar simbología.
+
+- Derivar productos a partir de un modelo digital de elevaciones (DEM).
+
+- Extraer información geomorfológica a partir de un DEM y conservarla en un archivo vectorial.
+
+- Generar e interpretar un mapa de geomórfonos.
+
+# Lecturas previas recomendadas, preparación, recursos disponibles
+
+- @olaya2020sistemas, páginas 1-28 de la versión PDF. En el [Drive de la asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing), bajo el nombre "OLAYA-Sistemas-de-Informacion-Geografica.pdf".
+
+- @qgis2022qgis\.  En el [Drive de la asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing), bajo el nombre "QGIS-Guia-de-usuario-version-escritorio-de-QGIS-3.22.pdf".
+
+- @grass2022grass\. Disponible sólo en línea. Ver vínculo en [Referencias](#referencias)
+
+- @Wickham2019Res\. Capítulos 1 a 7. Ver vínculo en [Referencias](#referencias)
+
+- @jose_ramon_martinez_batlle_2022_7028143\. Específicamente, leer el tutorial "Introducción a R, simple features y análisis exploratorio de datos espaciales (ESDA)" (vínculo en [Referencias](#referencias)).
+
+- Demostraciones en aula.
+
+# Informe
+
+Entregarás tu informe en formato PDF, el cual podrás elaborar con tu procesador de texto favorito (por ejemplo, LibreOffice Writer, LaTeX, Word) o mediante entornos de desarrollo integrado (e.g. Atom, Visual Studio Code, Jupyter Notebooks, RMarkdown-RStudio). Características del documento:
+
+- Número máximo de páginas: 10.
+
+- En la primera página, deberás incluir nombre, matrícula, asignatura, nombre de la práctica, fecha.
+
+- Para evitar la proliferación de tipografías y formatos, debes usar estilos. Lo más fácil es basarse en plantillas. Hay muchos recursos en la web sobre cómo usar estilos (término de búsqueda recomendado: estilos en procesadores de texto).
+
+- Debes incluir tu código informático en las respuestas de los ejercicios donde uses lenguajes de programación (e.g. R, Python). El código debe ser incluido como texto, no como imagen (e.g. captura de pantalla).
+
+- Realiza doble revisión de ortografía y gramática.
+
+- Las páginas deben estar numeradas.
+
+- Si aplica, incluir ilustraciones y tablas de apoyo (a ambas debes incluirles título, "*caption*"), así como lista de referencias bibliográficas.
+
+- Puedes usar un apéndice para incluir información complementaria que no te quepa en las 10 páginas centrales.
+
+- Podré solicitar los archivos fuente empleados para elaborar el PDF y los resultados intermedios generados en cada ejercicio.
+
+# Criterios de evaluación
+
+```{r, echo=F}
+library(kableExtra)
+criterios_eval <- data.frame(
+  Concepto = c('Redacción, que incluye organización de las ideas, gramática, ortografía', 'Presentación, que incluye uso apropiado de estilos, tablas y figuras (legibilidad, uso de *caption*), numeración de páginas'),
+  Porcentaje = c('60%', '40%')
+)
+kable(criterios_eval, format="markdown")
+```
+
+
+# Ejercicios
+
+```{r, echo=F, warning=F, message=F, include=F}
+library(readr)
+d <- read_csv('../../courseid_494_participants.csv')
+d$`Nombre completo` <- with(d, paste(Nombre, `Apellido(s)`))
+```
+
+
+```{r, echo=F, warning=F, message=F, include=F}
+#e1a
+tmpfile <- tempfile()
+download.file('https://github.com/maestria-geotel-master/material-de-apoyo/raw/master/data/divisionRD.gpkg', tmpfile)
+division <- sf::st_read(tmpfile)
+set.seed(10)
+nombres_d001 <- paste0('data/d001/', qs::randomStrings(nrow(d), 8), '.gpkg')
+set.seed(10)
+extracto_e1 <- division[sample(nrow(d)),]
+lapply(1:nrow(extracto_e1),
+       function(x)
+         sf::st_write(
+           extracto_e1[x, ],
+           paste0('../', nombres_d001[x]),
+             delete_dsn = TRUE))
+d$e1 <- nombres_d001
+```
+
+
+## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
+
+1. Obtén 
+
+
+
+# Referencias
