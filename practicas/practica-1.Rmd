@@ -53,15 +53,15 @@ Al terminar esta práctica deberías ser capaz de:
 
 - Demostraciones en aula.
 
-# Informe a entregar
+# Informe
 
-Documento en formato PDF, el cual podrás elaborar con tu procesador de texto favorito (por ejemplo, LibreOffice Writer, LaTeX, Word) o mediante entornos de desarrollo integrado (e.g. Atom, Visual Studio Code, Jupyter Notebooks, RMarkdown-RStudio). Características del documento:
+Entregarás tu informe en formato PDF, el cual podrás elaborar con tu procesador de texto favorito (por ejemplo, LibreOffice Writer, LaTeX, Word) o mediante entornos de desarrollo integrado (e.g. Atom, Visual Studio Code, Jupyter Notebooks, RMarkdown-RStudio). Características del documento:
 
 - Número máximo de páginas: 10.
 
 - En la primera página, deberás incluir nombre, matrícula, asignatura, nombre de la práctica, fecha.
 
-- Para evitar la proliferación de tipografías y formatos, debes usar estilos. Lo más fácil es basarse en plantillas. Hay muchos recursos en la web sobre cómo usar estilos (recomendación: estilos en procesadores de texto).
+- Para evitar la proliferación de tipografías y formatos, debes usar estilos. Lo más fácil es basarse en plantillas. Hay muchos recursos en la web sobre cómo usar estilos (término de búsqueda recomendado: estilos en procesadores de texto).
 
 - Debes incluir tu código informático en las respuestas de los ejercicios donde uses lenguajes de programación (e.g. R, Python). El código debe ser incluido como texto, no como imagen (e.g. captura de pantalla).
 
