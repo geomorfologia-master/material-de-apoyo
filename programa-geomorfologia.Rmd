@@ -80,7 +80,9 @@ Aplicaciones de las siguientes técnicas a la geomorfología:
 
 4. Teledetección (SNAP + QGIS).
 
-5. Machine learning (R + Python)
+5. Práctica de campo.
+
+6. Machine learning (R + Python)
 
 Estas asignaciones te ayudarán a manejar herramientas (algunas reproducibles) en geomorfología. Necesitarás una PC en la cual deberás instalar los programas y lenguajes requeridos.
 
