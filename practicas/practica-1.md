@@ -56,17 +56,7 @@ Al terminar esta práctica deberías ser capaz de:
 -   Instalar y poner en marcha software y lenguajes de programación para
     SIG en una PC.
 
--   Cargar distintas fuentes (rásters, vectoriales y delimitados).
-
--   Aplicar simbología.
-
--   Derivar productos a partir de un modelo digital de elevaciones
-    (DEM).
-
--   Extraer información geomorfológica a partir de un DEM y conservarla
-    en un archivo vectorial.
-
--   Generar e interpretar un mapa de geomórfonos.
+-   Cargar una capa de prueba.
 
 # Lecturas previas recomendadas, preparación, recursos disponibles
 
@@ -91,12 +81,13 @@ Al terminar esta práctica deberías ser capaz de:
 
 -   Demostraciones en aula.
 
-# Informe a entregar
+# Informe
 
-Documento en formato PDF, el cual podrás elaborar con tu procesador de
-texto favorito (por ejemplo, LibreOffice Writer, LaTeX, Word) o mediante
-entornos de desarrollo integrado (e.g. Atom, Visual Studio Code, Jupyter
-Notebooks, RMarkdown-RStudio). Características del documento:
+Entregarás tu informe en formato PDF, el cual podrás elaborar con tu
+procesador de texto favorito (por ejemplo, LibreOffice Writer, LaTeX,
+Word) o mediante entornos de desarrollo integrado (e.g. Atom, Visual
+Studio Code, Jupyter Notebooks, RMarkdown-RStudio). Características del
+documento:
 
 -   Número máximo de páginas: 10.
 
@@ -105,8 +96,8 @@ Notebooks, RMarkdown-RStudio). Características del documento:
 
 -   Para evitar la proliferación de tipografías y formatos, debes usar
     estilos. Lo más fácil es basarse en plantillas. Hay muchos recursos
-    en la web sobre cómo usar estilos (recomendación: estilos en
-    procesadores de texto).
+    en la web sobre cómo usar estilos (término de búsqueda recomendado:
+    estilos en procesadores de texto).
 
 -   Debes incluir tu código informático en las respuestas de los
     ejercicios donde uses lenguajes de programación (e.g. R, Python). El
@@ -392,10 +383,6 @@ data/d001/6nLwFTBa.gpkg
     (remítete a los pasos dados en el cuaderno de Jupyter).
 
 8.  Reflexiona. ¿Qué fortalezas entiendes que tiene Python?
-
-## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
-
-1.  Obtén
 
 # Referencias
 
