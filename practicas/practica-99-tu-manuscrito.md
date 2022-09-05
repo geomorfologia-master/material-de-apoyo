@@ -72,7 +72,7 @@ criterios generales:
 
 Para preparar tu manuscrito, sigue las normas para autores/as del
 [Anuario de Investigaciones Científicas de la
-UASD](docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf).
+UASD](../docs/instrucciones-para-autores-anuario-investigaciones-cientificas-UASD.pdf).
 Fungiré como editor ficticio de la revista, e incluso como revisor
 (*reviewer \#2*).
 
