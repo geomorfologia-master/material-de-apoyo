@@ -123,6 +123,8 @@ final) que te resulte de interés. En general, trabajarás sobre procesos
 geomorfológicos en morfosistemas o elementos morfológicos específicos
 elegidos por ti. Algunos ejemplos concretos agrupados por temas:
 
+#### Temas sugeridos
+
 1.  Geomorfología tectónica: deformación, ¿depósitos? (difíciles de
     conseguir), perfiles de ríos afectados.
 
@@ -140,6 +142,8 @@ elegidos por ti. Algunos ejemplos concretos agrupados por temas:
 
 6.  Morfosistema kárstico: morfometría kárstica, procesos, depósitos,
     evolución.
+
+#### Fases de desarrollo
 
 Elaborarás tu manuscrito siguiendo estas fases:
 
@@ -164,6 +168,8 @@ Elaborarás tu manuscrito siguiendo estas fases:
 
 6.  Redacción. Volver eterna y recursivamente a 5 hasta que la redacción
     quede “nítida.”
+
+#### Criterios de evaluación del manuscrito
 
 Los criterios de evaluación que usaré para el manuscrito son:
 
@@ -223,7 +229,7 @@ Dispondrás de 15 minutos para presentar oralmente tu trabajo al final
 del semestre. Valoraré el dominio que muestres del tema y de tus
 resultados.
 
-## Contenido teórico
+## Contenido teórico de la asignatura
 
 -   Tema 1. Epistemología, conceptos, bases geológicas e introducción a
     los procesos de la superficie terrestre. Páginas en Gutiérrez

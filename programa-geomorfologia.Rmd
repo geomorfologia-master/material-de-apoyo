@@ -92,6 +92,8 @@ Orientaré con ejemplos y soluciones de forma pública en las sesiones de clases
 
 Tratará sobre un tema de geomorfología del contenido teórico (ver al final) que te resulte de interés. En general, trabajarás sobre procesos geomorfológicos en morfosistemas o elementos morfológicos específicos elegidos por ti. Algunos ejemplos concretos agrupados por temas:
 
+#### Temas sugeridos
+
 a. Geomorfología tectónica: deformación, ¿depósitos? (difíciles de conseguir), perfiles de ríos afectados.
     
 b. Procesos fluviales (ríos y relacionados): evolución de canales, distribución de depósitos, inundaciones, abanicos aluviales, cuencas.
@@ -103,6 +105,8 @@ d. Procesos litorales: costas rocosas, costas no rocosas, evolución, depósitos
 e. Procesos eólicas: depósitos, dunas, evolución.
     
 f. Morfosistema kárstico: morfometría kárstica, procesos, depósitos, evolución.
+
+#### Fases de desarrollo
 
 Elaborarás tu manuscrito siguiendo estas fases:
 
@@ -117,6 +121,8 @@ Elaborarás tu manuscrito siguiendo estas fases:
 5. Análisis de datos.
 
 6. Redacción. Volver eterna y recursivamente a 5 hasta que la redacción quede "nítida".
+
+#### Criterios de evaluación del manuscrito
 
 Los criterios de evaluación que usaré para el manuscrito son:
 
@@ -157,7 +163,7 @@ Para preparar tu manuscrito, sigue las normas para autores/as del [Anuario de In
 
 Dispondrás de 15 minutos para presentar oralmente tu trabajo al final del semestre. Valoraré el dominio que muestres del tema y de tus resultados.
 
-## Contenido teórico
+## Contenido teórico de la asignatura
 
 * Tema 1. Epistemología, conceptos, bases geológicas e introducción a los procesos de la superficie terrestre. Páginas en @gutierrez2008geomorfologia: 1 a 45, ambas inclusive. Páginas @anderson2010geomorphology: 1 a 15, ambas inclusive.
 

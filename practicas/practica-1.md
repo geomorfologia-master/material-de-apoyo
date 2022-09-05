@@ -1,8 +1,12 @@
-Introducción a software SIG de código abierto (QGIS + GRASS GIS + R +
-Python) aplicados a la cartografía geomorfológica.
+Práctica 1. Introducción a software SIG de código abierto (QGIS + GRASS
+GIS + R + Python) aplicados a la cartografía geomorfológica.
 ================
 José Ramón Martínez Batlle
 29-08-2022
+
+# Fecha de entrega
+
+-   9 de septiembre de 2022
 
 # Introducción
 
