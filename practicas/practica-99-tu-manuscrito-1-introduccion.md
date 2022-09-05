@@ -68,6 +68,6 @@ Mi recomendación es que sigas este flujo:
 4.  Discútelas conmigo. Elegiremos las idóneas.
 
 5.  Redacta tu introducción siguiendo el esquema de la [sección
-    anterior](#que-contiene-una-introduccion)
+    anterior](#qué-contiene-una-introducción)
 
 # Referencias
