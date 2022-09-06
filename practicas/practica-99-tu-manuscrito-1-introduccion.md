@@ -67,7 +67,7 @@ Mi recomendación es que sigas este flujo:
         elegido (Zotero dispone de un addon para LibreOffice Writer y
         para Word). Recuerda que el estilo de cita requerido para el
         Anuario de Investigaciones Científicas de la UASD, es el
-        archiconocido APA (por defecto, elegimos APA 6ta edición). [Este
+        archiconocido APA (por defecto, elegimos APA 7ma edición). [Este
         repo](https://github.com/citation-style-language/styles) incluye
         todos los estilos de cita en formato XML que te puedas imaginar;
         normalmente, herramientas como Zotero incluyen todos estos
