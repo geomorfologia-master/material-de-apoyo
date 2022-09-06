@@ -45,29 +45,74 @@ Mi recomendación es que sigas este flujo:
     lista](../programa-geomorfologia.md#temas-sugeridos) y elige uno. Si
     tienes algún tema no incluido en la lista, lo discutimos.
 
-2.  Esta es la parte más importante: **revisa artículos disponibles
-    sobre el tema** (busca en Google Scholar, por ejemplo), pero no te
-    pierdas en el océano de fuentes que encontrarás. Pregúntame y te
-    dirijo oportunamente. A medida que leas fuentes, haz lo siguiente: -
-    Lleva cuenta de los artículos revisados. Los usarás en tu
-    introducción y los tendrás que referir apropiadamente. Usa alguna
-    herramienta de apoyo, como Zotero o las propias herramientas
-    incorporadas en tu procesador de texto elegido. - Concéntrate en el
-    resumen del artículo y, si acaso, lee la última parte de la
-    introducción. Si algún método empleado te pareciera interesante,
-    mira el detalle en la sección de metodología del artículo. - Toma
-    nota de las fuentes que encuentres e identifica su aportación más
-    relevante (esto es lo que antes se hacía por medio de “fichas”). -
-    Identifica los problemas no resueltos que se destacan en las más
-    recientes publicaciones. - Evalúa la posibilidad de aplicar lo leído
-    al caso dominicano.
+2.  Lee sobre el tema específico en cuestión y sobre las técnicas que
+    entiendes necesitarás, pero es importante que en este punto evites
+    entrar en literatura especializada para no abrumarte. Consulta por
+    ejemplo los libros de texto de la asignatura (ver programa o
+    consúltame) y fuentes divulgativas, como Wikipedia o vídeos. Esto te
+    preparará para los próximos pasos, que son los más importantes.
 
-3.  A partir de lo leido, redacta varias preguntas de investigación
-    candidatas.
+3.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**
+    (busca en Google Scholar, por ejemplo), pero no te pierdas en el
+    océano de fuentes que encontrarás. Usa palabras clave dirigidas,
+    destacando tema, técnicas y área geográfica de estudio. Pregúntame y
+    te dirijo oportunamente. A medida que leas fuentes, haz lo
+    siguiente:
 
-4.  Discútelas conmigo. Elegiremos las idóneas.
+    -   Lleva cuenta de los artículos revisados. Los usarás en tu
+        introducción y los tendrás que referir apropiadamente. Usa
+        alguna herramienta de apoyo para citas y lista de referencias,
+        como Zotero (se instala tu PC como una app de escritorio), o las
+        propias herramientas incorporadas en tu procesador de texto
+        elegido (Zotero dispone de un addon para LibreOffice Writer y
+        para Word). Recuerda que el estilo de cita requerido para el
+        Anuario de Investigaciones Científicas de la UASD, es el
+        archiconocido APA (por defecto, elegimos APA 6ta edición). [Este
+        repo](https://github.com/citation-style-language/styles) incluye
+        todos los estilos de cita en formato XML que te puedas imaginar;
+        normalmente, herramientas como Zotero incluyen todos estos
+        estilos con sólo hacer clic en una opción. Si eras usuario/a de
+        Mendeley Desktop, [este
+        anuncio](https://blog.mendeley.com/2022/02/22/introducing-mendeley-reference-manager-designed-for-todays-researcher-workflow/)
+        te interesará;
+        [aquí](https://twitter.com/MushtaqBilalPhD/status/1563437651646349314)
+        una guía para migrar a Zotero. Si usas R+Rstudio para escribir
+        tu manuscrito, consulta [esta
+        guía](https://inbo.github.io/tutorials/tutorials/r_citations_markdown/)
+        para configurar Zotero con tu documento RMarkdown.
+    -   En cada artículo, concéntrate en el resumen y, si acaso, lee la
+        última parte de la introducción. De manera global, cuando hayas
+        revisado varios trabajos, identifica los problemas no resueltos
+        que se destacan en las más recientes publicaciones. Los vacíos
+        de investigación son muy importantes, porque tú precisamente te
+        concentrarás en esos vacíos.
 
-5.  Redacta tu introducción siguiendo el esquema de la [sección
+4.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
+    revisita las fuentes que consultaste, ampliando en caso necesario**.
+    Pregúntame y te dirijo. Amplío dos detalles relevantes:
+
+    -   Cuando revisites las fuentes, elige las que aporten a tus
+        preguntas; las que no aporten, descártalas. Profundiza en los
+        artículos que aporten, leyendo otras secciones, como la
+        metodología y la discusión. También, identifica la o las
+        aportaciones más relevantes en cada caso (conclusiones). Si una
+        fuente es útil, normalmente citará otras relacionadas; recata
+        esas otras fuentes también para ampliar tu biblioteca.
+        Finalmente, importante, anota una oración sobre cómo el artículo
+        se relaciona o puede ser útil para tu pregunta de investigación
+        (los lectores de PDF permiten anotar, pero Zotero también tiene
+        herramientas para ello). Es común que citemos un mínimo de 10
+        fuentes muy relacionadas con nuestro problema de investigación.
+        No obstante, la lista de referencias final de tu manuscrito será
+        tendrá más de 10 referencias, porque hay artículos conexos o
+        metodológicos que también deben citarse.
+    -   Durante la revisión, ten presente que aplicarás tu investigación
+        al caso dominicano, por lo que los artículos de tu tema que
+        traten sobre RD o del entorno próximo, son importantes.
+
+5.  Discútelas conmigo. Elegiremos las idóneas.
+
+6.  Redacta tu introducción siguiendo el esquema de la [sección
     anterior](#qué-contiene-una-introducción)
 
 # Referencias
