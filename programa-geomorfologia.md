@@ -121,9 +121,11 @@ intenté esta solución … pero no consigo dar con el fallo”*.
 Tratará sobre un tema de geomorfología del contenido teórico (ver al
 final) que te resulte de interés. En general, trabajarás sobre procesos
 geomorfológicos en morfosistemas o elementos morfológicos específicos
-elegidos por ti. Algunos ejemplos concretos agrupados por temas:
+elegidos por ti.
 
 #### Temas sugeridos
+
+Algunos ejemplos concretos agrupados por temas:
 
 1.  Geomorfología tectónica: deformación, ¿depósitos? (difíciles de
     conseguir), perfiles de ríos afectados.
