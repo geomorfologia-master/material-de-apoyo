@@ -67,12 +67,12 @@ Mi recomendación es que sigas este flujo:
         elegido (Zotero dispone de un addon para LibreOffice Writer y
         para Word). Recuerda que el estilo de cita requerido para el
         Anuario de Investigaciones Científicas de la UASD, es el
-        archiconocido APA (por defecto, elegimos APA 7ma edición). [Este
-        repo](https://github.com/citation-style-language/styles) incluye
-        todos los estilos de cita en formato XML que te puedas imaginar;
-        normalmente, herramientas como Zotero incluyen todos estos
-        estilos con sólo hacer clic en una opción. Si eras usuario/a de
-        Mendeley Desktop, [este
+        archiconocido APA (por defecto, elegimos APA 6ta o 7ma edición).
+        [Este repo](https://github.com/citation-style-language/styles)
+        incluye todos los estilos de cita en formato XML que te puedas
+        imaginar; normalmente, herramientas como Zotero incluyen todos
+        estos estilos con sólo hacer clic en una opción. Si eras
+        usuario/a de Mendeley Desktop, [este
         anuncio](https://blog.mendeley.com/2022/02/22/introducing-mendeley-reference-manager-designed-for-todays-researcher-workflow/)
         te interesará;
         [aquí](https://twitter.com/MushtaqBilalPhD/status/1563437651646349314)
