@@ -1,5 +1,5 @@
 ---
-title: "Introducción a software SIG de código abierto (QGIS + GRASS GIS + R + Python) aplicados a la cartografía geomorfológica."
+title: "Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS GIS + R + Python): derivar productos, estadística zonal."
 author: José Ramón Martínez Batlle
 date: 29-08-2022
 output: github_document
@@ -17,11 +17,6 @@ knitr::opts_chunk$set(echo = T, cache=F)
 
 Desde su origen en el siglo pasado (sin considerar momentáneamente los orígenes de la cartografía), los sistemas de información geográfica (SIG) han experimentado una densa evolución. Diría que la confusión más común entre usuarios ha sido el asociar SIG con el software que nos dan acceso a ellos propiamente. Aunque el software es una pieza (importante) de los SIG, no es lo único ni lo que los define, puesto que también se incluyen los usuarios, los datos y modelos, el hardware, las fuentes, entre otros elementos [@olaya2020sistemas].
 
-Lo que hoy conocemos como software SIG está en crisis. La irrupción del software como servicio en el mercado, ha traigo consigo el hecho de que muchas aplicaciones se ofrezcan alternativa o únicamente en la nube, relegando así la tradicional aplicación de escritorio o ejecutada localmente en la consola. Trabajar en la nube tiene muchas ventajas, una de las más importantes es que se reduce el riesgo de fallos en la aplicación (o al menos se pueden corregir con mayor facilidad) y se elimina la necesidad de una instalación previa (el "infierno de dependencias" desaparece). También, las aplicaciones en la nube, ofrecen la posibilidad de conectar con grandes y diversas bases de datos grandes ("*big data*"). Entre las desventajas, las más importante es que, como usuarios, perdemos libertad, puesto que cada vez estamos más atados a la nube para hacer nuestro trabajo, y dependemos más de la voluntad de los proveedores. Asimismo, estos servicios en la nube terminan convirtiéndose en una cuota mensual más que se añade a nuestra factura.
-
-Mientras nos preparamos para ese "promisorio futuro", todavía tenemos la posibilidad de hacer análisis en la PC propia. Tratándose de geomorfología, los software SIG son fundamentales para nuestros análisis, sobre todo para realizar cartografía del relieve de forma masiva.
-
-En esta práctica usarás dos aplicaciones y dos lenguajes de programación punteros para SIG, algunas de las cuales quizá ya las conoces. Comenzarás desde lo básico, la instalación de las aplicaciones y los lenguajes en cuestión; aunque parecería algo rutinario, instalar software puede ser desafiante y, por tal razón, además de valorar tus destrezas de uso, también te asigno puntuación por realizar la instalación adecuadamente. Luego, usarás la interfaz gráfica de QGIS y de GRASS GIS para operaciones básicas. Finalmente, te introducirás en los lenguajes de programación R y Python con operaciones sencillas. En todos los casos aplicarás estas herramientas a ejemplos muy básicos sobre cartografía geomorfológica.
 
 # Objetivos de aprendizaje
 
@@ -113,7 +108,7 @@ d$e1 <- nombres_d001
 ```
 
 
-## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
+## Ejercicio 1. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
 
 1. Obtén 
 
