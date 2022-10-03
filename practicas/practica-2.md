@@ -100,9 +100,61 @@ documento:
 
 # Ejercicios
 
-## Ejercicio 1. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
+## Ejercicio 1. Extrae estadísticos descriptivos
+
+1.  Localiza la capa ráster `gtopo_30_arcsec.tif`, que es el DEM GTOPO30
+    (“30” se refiere al “espaciado,” de 30 arco-segundos), el cual
+    descargué para ti por medio del
+    [EarthExplorer](https://earthexplorer.usgs.gov/)). Localiza tu capa
+    vectorial en la lista de capas asignadas de la práctica 1,
+    [aquí](practica-1.md#1a-instala-y-prueba-qgis); recuerda que las
+    capas vectoriales se encuentran en el subdirectorio `d001` del
+    directorio `data` del repo de [material de
+    apoyo](https://github.com/geomorfologia-202202/material-de-apoyo),
+    que es el repo desde donde, de hecho, estás leyendo este texto.
+    Descarga dichos archivos a tu PC y, mediante dos
+    software<sup>(1)</sup> de los instalados en la práctica 1, extrae
+    los siguientes estadísticos descriptivos de la elevación:
+
+-   Media
+-   Mediana
+-   Desviación estándar
+-   Varianza
+-   Valor mínimo
+-   Valor máximo
+
+<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente manera
+- QGIS con Python. - GRASS GIS con R
+
+2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
+    máximo, dos capturas de pantalla.
+
+3.  En un párrafo, compara el resultado obtenido a partir en cada uno de
+    los dos software usados.
+
+Te regalo 20 puntos adicionales si respondes esta pregunta: ¿Es
+significativamente diferente el promedio de elevación de tu provincia
+respecto del de la provincia contenida en la capa `HE0jF91U.gpkg`.
+
+## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
+
+## Ejercicio 3. Aplica simbología apropiadamente al ráster y al vectorial
+
+## Ejercicio 4. Genera una capa de geomórfonos y extrae las proporciones de cada uno para
 
 1.  Obtén
+
+-   Cargar distintas fuentes (rásters, vectoriales y delimitados).
+
+-   Aplicar simbología.
+
+-   Derivar productos a partir de un modelo digital de elevaciones
+    (DEM).
+
+-   Extraer información geomorfológica a partir de un DEM y conservarla
+    en un archivo vectorial.
+
+-   Generar e interpretar un mapa de geomórfonos.
 
 # Referencias
 

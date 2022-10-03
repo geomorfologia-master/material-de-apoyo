@@ -17,7 +17,6 @@ knitr::opts_chunk$set(echo = T, cache=F)
 
 Desde su origen en el siglo pasado (sin considerar momentáneamente los orígenes de la cartografía), los sistemas de información geográfica (SIG) han experimentado una densa evolución. Diría que la confusión más común entre usuarios ha sido el asociar SIG con el software que nos dan acceso a ellos propiamente. Aunque el software es una pieza (importante) de los SIG, no es lo único ni lo que los define, puesto que también se incluyen los usuarios, los datos y modelos, el hardware, las fuentes, entre otros elementos [@olaya2020sistemas].
 
-
 # Objetivos de aprendizaje
 
 Al terminar esta práctica deberías ser capaz de:
@@ -82,35 +81,47 @@ kable(criterios_eval, format="markdown")
 
 # Ejercicios
 
-```{r, echo=F, warning=F, message=F, include=F}
-library(readr)
-d <- read_csv('../../courseid_494_participants.csv')
-d$`Nombre completo` <- with(d, paste(Nombre, `Apellido(s)`))
-```
+## Ejercicio 1. Extrae estadísticos descriptivos
+
+1. Localiza la capa ráster `gtopo_30_arcsec.tif`, que es el DEM GTOPO30 ("30" se refiere al "espaciado", de 30 arco-segundos), el cual descargué para ti por medio del [EarthExplorer](https://earthexplorer.usgs.gov/)). Localiza tu capa vectorial en la lista de capas asignadas de la práctica 1, [aquí](practica-1.md#1a-instala-y-prueba-qgis); recuerda que las capas vectoriales se encuentran en el subdirectorio `d001` del directorio `data` del repo de [material de apoyo](https://github.com/geomorfologia-202202/material-de-apoyo), que es el repo desde donde, de hecho, estás leyendo este texto. Descarga dichos archivos a tu PC y, mediante dos software<sup>(1)</sup> de los instalados en la práctica 1, extrae los siguientes estadísticos descriptivos de la elevación:
+
+- Media
+- Mediana
+- Desviación estándar
+- Varianza
+- Valor mínimo
+- Valor máximo
+
+<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente manera:
+- QGIS con Python.
+- GRASS GIS con R
+
+2. Describe el procedimiento mediante un párrafo y auxiliándote de, máximo, dos capturas de pantalla.
+
+3. En un párrafo, compara el resultado obtenido a partir de cada uno de los dos software usados. Reflexiona al respecto sobre las diferencias o similitudes encontradas.
+
+Te regalo 20 puntos adicionales si respondes esta pregunta: ¿Es significativamente diferente el promedio de elevación de tu provincia respecto del de la provincia contenida en la capa `HE0jF91U.gpkg`.
+
+## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
 
 
-```{r, echo=F, warning=F, message=F, include=F}
-#e1a
-tmpfile <- tempfile()
-download.file('https://github.com/maestria-geotel-master/material-de-apoyo/raw/master/data/divisionRD.gpkg', tmpfile)
-division <- sf::st_read(tmpfile)
-set.seed(10)
-nombres_d001 <- paste0('data/d001/', qs::randomStrings(nrow(d), 8), '.gpkg')
-set.seed(10)
-extracto_e1 <- division[sample(nrow(d)),]
-lapply(1:nrow(extracto_e1),
-       function(x)
-         sf::st_write(
-           extracto_e1[x, ],
-           paste0('../', nombres_d001[x]),
-             delete_dsn = TRUE))
-d$e1 <- nombres_d001
-```
 
+## Ejercicio 3. Aplica simbología apropiadamente al ráster y al vectorial
 
-## Ejercicio 1. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
+## Ejercicio 4. Genera una capa de geomórfonos y extrae las proporciones de cada uno para 
 
 1. Obtén 
+
+
+- Cargar distintas fuentes (rásters, vectoriales y delimitados).
+
+- Aplicar simbología.
+
+- Derivar productos a partir de un modelo digital de elevaciones (DEM).
+
+- Extraer información geomorfológica a partir de un DEM y conservarla en un archivo vectorial.
+
+- Generar e interpretar un mapa de geomórfonos.
 
 
 
