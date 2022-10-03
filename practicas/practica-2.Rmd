@@ -1,7 +1,7 @@
 ---
 title: "Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS GIS + R + Python): derivar productos, estadística zonal, simbología."
 author: José Ramón Martínez Batlle
-date: 29-08-2022
+date: 03-|0-2022
 output: github_document
 bibliography: ../ref/biblio.bib
 csl: ../ref/apa.csl

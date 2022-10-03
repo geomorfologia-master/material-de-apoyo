@@ -1,8 +1,8 @@
 Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS
-GIS + R + Python): derivar productos, estadística zonal.
+GIS + R + Python): derivar productos, estadística zonal, simbología.
 ================
 José Ramón Martínez Batlle
-29-08-2022
+03-\|0-2022
 
 # Fecha de entrega
 
