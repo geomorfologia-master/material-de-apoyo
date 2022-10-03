@@ -2,7 +2,7 @@ Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS
 GIS + R + Python): derivar productos, estadística zonal, simbología.
 ================
 José Ramón Martínez Batlle
-03-\|0-2022
+03-10-2022
 
 # Fecha de entrega
 
@@ -106,14 +106,14 @@ documento:
 
 ## Ejercicio 1. Extrae estadísticos descriptivos
 
-1.  Localiza la capa ráster `gtopo_30_arcsec.tif`, que es el DEM GTOPO30
-    (“30” se refiere al “espaciado”, de 30 arco-segundos), el cual
-    descargué para ti por medio del
-    [EarthExplorer](https://earthexplorer.usgs.gov/)). Localiza tu capa
-    vectorial en la lista de capas asignadas de la práctica 1,
-    [aquí](practica-1.md#1a-instala-y-prueba-qgis); recuerda que las
-    capas vectoriales se encuentran en el subdirectorio `d001` del
-    directorio `data` del repo de [material de
+1.  Localiza la capa ráster `gtopo_30_arcsec.tif` en el subdirectorio
+    `d002` del directorio `data/`, que es el DEM GTOPO30 (“30” se
+    refiere al “espaciado”, de 30 arco-segundos), el cual descargué para
+    ti por medio del [EarthExplorer](https://earthexplorer.usgs.gov/).
+    Localiza tu capa vectorial en la lista de capas asignadas de la
+    práctica 1, [aquí](practica-1.md#1a-instala-y-prueba-qgis); recuerda
+    que las capas vectoriales se encuentran en el subdirectorio `d001`
+    del directorio `data` del repo de [material de
     apoyo](https://github.com/geomorfologia-202202/material-de-apoyo),
     que es el repo desde donde, de hecho, estás leyendo este texto.
     Descarga dichos archivos a tu PC y, mediante dos
@@ -128,7 +128,8 @@ documento:
 -   Valor máximo
 
 <sup>(1)</sup>Sólo puedes combinar los dos software la siguiente
-manera: - QGIS con Python. - GRASS GIS con R
+manera: - QGIS con Python. - GRASS GIS con R - QGIS con R - GRASS GIS
+con Python
 
 2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
     máximo, dos capturas de pantalla.
@@ -137,9 +138,9 @@ manera: - QGIS con Python. - GRASS GIS con R
     los dos software usados. Reflexiona al respecto sobre las
     diferencias o similitudes encontradas.
 
-Te regalo 10 puntos adicionales si respondes esta pregunta: ¿Es
-significativamente diferente el promedio de elevación de tu provincia
-respecto del de la provincia contenida en la capa `HE0jF91U.gpkg`.
+Te añado 20 puntos si respondes esta pregunta: ¿Es significativamente
+diferente el promedio de elevación de tu provincia respecto del de la
+provincia contenida en la capa `HE0jF91U.gpkg`.
 
 ## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
 
