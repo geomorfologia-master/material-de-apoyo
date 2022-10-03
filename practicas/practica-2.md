@@ -4,6 +4,10 @@ GIS + R + Python): derivar productos, estadística zonal.
 José Ramón Martínez Batlle
 29-08-2022
 
+# Fecha de entrega
+
+-   14 de octubre de 2022
+
 # Introducción
 
 Desde su origen en el siglo pasado (sin considerar momentáneamente los
@@ -35,12 +39,12 @@ Al terminar esta práctica deberías ser capaz de:
 
 -   Olaya (2020), páginas 1-28 de la versión PDF. En el [Drive de la
     asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing),
-    bajo el nombre “OLAYA-Sistemas-de-Informacion-Geografica.pdf.”
+    bajo el nombre “OLAYA-Sistemas-de-Informacion-Geografica.pdf”.
 
 -   QGIS Development Team (2022). En el [Drive de la
     asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing),
     bajo el nombre
-    “QGIS-Guia-de-usuario-version-escritorio-de-QGIS-3.22.pdf.”
+    “QGIS-Guia-de-usuario-version-escritorio-de-QGIS-3.22.pdf”.
 
 -   GRASS Development Team (2022). Disponible sólo en línea. Ver vínculo
     en [Referencias](#referencias)
@@ -103,7 +107,7 @@ documento:
 ## Ejercicio 1. Extrae estadísticos descriptivos
 
 1.  Localiza la capa ráster `gtopo_30_arcsec.tif`, que es el DEM GTOPO30
-    (“30” se refiere al “espaciado,” de 30 arco-segundos), el cual
+    (“30” se refiere al “espaciado”, de 30 arco-segundos), el cual
     descargué para ti por medio del
     [EarthExplorer](https://earthexplorer.usgs.gov/)). Localiza tu capa
     vectorial en la lista de capas asignadas de la práctica 1,
@@ -123,38 +127,71 @@ documento:
 -   Valor mínimo
 -   Valor máximo
 
-<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente manera
-- QGIS con Python. - GRASS GIS con R
+<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente
+manera: - QGIS con Python. - GRASS GIS con R
 
 2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
     máximo, dos capturas de pantalla.
 
-3.  En un párrafo, compara el resultado obtenido a partir en cada uno de
-    los dos software usados.
+3.  En un párrafo, compara el resultado obtenido a partir de cada uno de
+    los dos software usados. Reflexiona al respecto sobre las
+    diferencias o similitudes encontradas.
 
-Te regalo 20 puntos adicionales si respondes esta pregunta: ¿Es
+Te regalo 10 puntos adicionales si respondes esta pregunta: ¿Es
 significativamente diferente el promedio de elevación de tu provincia
 respecto del de la provincia contenida en la capa `HE0jF91U.gpkg`.
 
 ## Ejercicio 2. Genera información morfométrica a partir de un DEM y simboliza adecuadamente
 
+1.  Obtén, mediante R o Python, el promedio de la pendiente, orientación
+    (*aspect*), TPI y TRI de tu provincia. Para ello, necesitarás usar
+    funciones que crean estos derivados a partir del DEM.
+
+2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
+    máximo, dos capturas de pantalla.
+
+Te regalo 10 puntos adicionales si generas estos mismos derivados desde
+QGIS o GRASS GIS (aparte de en R o en Python).
+
 ## Ejercicio 3. Aplica simbología apropiadamente al ráster y al vectorial
 
-## Ejercicio 4. Genera una capa de geomórfonos y extrae las proporciones de cada uno para
+1.  En GRASS GIS o en QGIS, aplica una simbología apropiada para lograr
+    que, de manera conjunta, el lienzo de mapa muestre el DEM dentro de
+    la provincia coloreado de acuerdo a la elevación sobre el mapa de
+    sombras y la provincia; fuera de la provincia debes hacer visible el
+    mismo DEM (duplicándolo) pero sólo en modo sombras. Adicionalmente,
+    añade alguna capa web de referencia territorial, por ejemplo,
+    OpenStreetMap. Toma en cuenta que …
 
-1.  Obtén
+    -   Las elevaciones deben colorearse de acuerdo al rango valores de
+        tu provincia. Tendrás que recortar el DEM al ámbito de tu
+        provincia (puedes hacerlo cortándolo efectivamente o usando un
+        ráster virtual).
 
--   Cargar distintas fuentes (rásters, vectoriales y delimitados).
+    -   Las capas superiores no pueden ocultar a las inferiores. Deberás
+        usar modos de mezcla apropiados (algunas personas prefieren usar
+        la transparencia, pero no se basa en el mismo principio).
 
--   Aplicar simbología.
+    -   EL límite de la provincia debe estar visible, pero también el
+        interior de misma (relleno) debe destacarse con alguna
+        coloración, por lo que también deberás usar un modo de mezcla
+        apropiado. También sería apropiado destacar las elevaciones y
+        las sombras sólo en el interior de la provincia usando “Polígono
+        invertido”.
 
--   Derivar productos a partir de un modelo digital de elevaciones
-    (DEM).
+2.  Describe, en un párrafo, la topografía de tu provincia. Usa tus
+    habilidades de descripción geográfica, por ejemplo, rangos de
+    elevación, sectores con mayores o menores elevaciones o donde se
+    concentran los áreas altas y bajas, si las hubiere.
 
--   Extraer información geomorfológica a partir de un DEM y conservarla
-    en un archivo vectorial.
+## Ejercicio 4. Genera una capa de geomórfonos y extrae las proporciones de cada geomórfono dentro de la provincia
 
--   Generar e interpretar un mapa de geomórfonos.
+1.  Usando GRASS GIS o QGIS, podrás generar los geomórfonos sólo de tu
+    provincia.
+
+2.  Extrae, con GRASS GIS o QGIS, las proporciones de cada geomórfono.
+
+3.  Describe, en un párrafo, la distribución de los geomórfonos.
 
 # Referencias
 
