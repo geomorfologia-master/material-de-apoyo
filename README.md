@@ -4,7 +4,9 @@
 
 * [Programa](programa-geomorfologia.md)
 
-* [Prácticas](practicas/README.md)
+* [Asignaciones prácticas](practicas/README.md)
+
+* [Asignación "Manuscrito""](practicas/practica-99-tu-manuscrito.md)
 
 * Diapositivas
 

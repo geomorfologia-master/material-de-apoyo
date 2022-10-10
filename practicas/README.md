@@ -1,4 +1,14 @@
-# Prácticas de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
+# Asignaciones prácticas y manuscrito de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
+
+## Asignación "manuscrito"
+
+1. [Práctica 99. Tu manuscrito (portal de entrada)](practica-99-tu-manuscrito.md)
+
+2. [Práctica 99. Introducción de tu manuscrito.](practica-99-tu-manuscrito-1-introduccion.md)
+
+3. [Práctica 99. Metodología de tu manuscrito.](practica-99-tu-manuscrito-2-metodologia.md)
+
+## Asignaciones prácticas
 
 1.  [Práctica 1. Introducción a software SIG de código abierto (QGIS + GRASS GIS + R + Python) aplicados a la cartografía geomorfológica.](practica-1.md)
 
