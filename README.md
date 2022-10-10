@@ -4,6 +4,8 @@
 
 * [Programa](programa-geomorfologia.md)
 
+* [Prácticas](practicas/README.md)
+
 * Diapositivas
 
     * [Tema 1. Epistemología, conceptos, bases geológicas, introducción a los procesos de la superficie terrestre](https://geomorfologia-master.github.io/tema-1-epistemologia-geologia-intro-procesos/)
