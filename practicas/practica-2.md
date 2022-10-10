@@ -10,14 +10,22 @@ José Ramón Martínez Batlle
 
 # Introducción
 
-Desde su origen en el siglo pasado (sin considerar momentáneamente los
-orígenes de la cartografía), los sistemas de información geográfica
-(SIG) han experimentado una densa evolución. Diría que la confusión más
-común entre usuarios ha sido el asociar SIG con el software que nos dan
-acceso a ellos propiamente. Aunque el software es una pieza (importante)
-de los SIG, no es lo único ni lo que los define, puesto que también se
-incluyen los usuarios, los datos y modelos, el hardware, las fuentes,
-entre otros elementos (Olaya, 2020).
+Al usar información geoespacial, una de las tareas más comunes que
+tendrás que realizar será la estadística zonal (precisamente con ese
+nombre la encontrarás en muchas aplicaciones de escritorio). Esta
+herramienta es parte de una de las múltiples técnicas del álgebra de
+mapas empleadas en SIG, para obtener, a partir de una función regional
+(aritmética, lógica/booleana o estadística) y un área convencionalmente
+delimitada, un conjunto de estadísticos sobre cada una de las unidades
+de dicha área. Por lo tanto, es necesaria una capa que contenga la o las
+regiones o “zonas” y otra que contenga los valores (Olaya, 2020).
+
+En esta práctica, usarás funciones regionales dentro del álgebra de
+mapas, para obtener estadísticos de la elevación de áreas
+convencionales, usando una capa de elevación (modelo digital de
+elevaciones, DEM) bastante resumida (GTOPO30) y la capa vectorial que
+contiene tu provincia asignada. Además derivarás productos topográficos
+y geomorfológicos a partir del DEM.
 
 # Objetivos de aprendizaje
 
@@ -39,12 +47,12 @@ Al terminar esta práctica deberías ser capaz de:
 
 -   Olaya (2020), páginas 1-28 de la versión PDF. En el [Drive de la
     asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing),
-    bajo el nombre “OLAYA-Sistemas-de-Informacion-Geografica.pdf”.
+    bajo el nombre “OLAYA-Sistemas-de-Informacion-Geografica.pdf.”
 
 -   QGIS Development Team (2022). En el [Drive de la
     asignatura](https://drive.google.com/drive/folders/1orlvmg86kad08FznStkmYaesxaTbzAQD?usp=sharing),
     bajo el nombre
-    “QGIS-Guia-de-usuario-version-escritorio-de-QGIS-3.22.pdf”.
+    “QGIS-Guia-de-usuario-version-escritorio-de-QGIS-3.22.pdf.”
 
 -   GRASS Development Team (2022). Disponible sólo en línea. Ver vínculo
     en [Referencias](#referencias)
@@ -87,7 +95,7 @@ documento:
 
 -   Si aplica, incluir ilustraciones y tablas de apoyo (a ambas debes
     incluirles título, “*caption*”), así como lista de referencias
-    bibliográficas.
+    bibliográficas. Sólo incluye figuras que refieras en el texto.
 
 -   Puedes usar un apéndice para incluir información complementaria que
     no te quepa en las 10 páginas centrales.
@@ -108,7 +116,7 @@ documento:
 
 1.  Localiza la capa ráster `gtopo_30_arcsec.tif` en el subdirectorio
     `d002` del directorio `data/`, que es el DEM GTOPO30 (“30” se
-    refiere al “espaciado”, de 30 arco-segundos), el cual descargué para
+    refiere al “espaciado,” de 30 arco-segundos), el cual descargué para
     ti por medio del [EarthExplorer](https://earthexplorer.usgs.gov/).
     Localiza tu capa vectorial en la lista de capas asignadas de la
     práctica 1, [aquí](practica-1.md#1a-instala-y-prueba-qgis); recuerda
@@ -118,7 +126,8 @@ documento:
     que es el repo desde donde, de hecho, estás leyendo este texto.
     Descarga dichos archivos a tu PC y, mediante dos
     software<sup>(1)</sup> de los instalados en la práctica 1, extrae
-    los siguientes estadísticos descriptivos de la elevación:
+    los siguientes estadísticos descriptivos de la elevación para tu
+    provincia asignada:
 
 -   Media
 -   Mediana
@@ -127,9 +136,14 @@ documento:
 -   Valor mínimo
 -   Valor máximo
 
-<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente
-manera: - QGIS con Python. - GRASS GIS con R - QGIS con R - GRASS GIS
-con Python
+<sup>(1)</sup>Sólo puedes combinar los dos software la siguiente manera:
+- QGIS con Python
+
+-   GRASS GIS con R
+
+-   QGIS con R
+
+-   GRASS GIS con Python
 
 2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
     máximo, dos capturas de pantalla.
@@ -151,8 +165,8 @@ provincia contenida en la capa `HE0jF91U.gpkg`.
 2.  Describe el procedimiento mediante un párrafo y auxiliándote de,
     máximo, dos capturas de pantalla.
 
-Te regalo 10 puntos adicionales si generas estos mismos derivados desde
-QGIS o GRASS GIS (aparte de en R o en Python).
+Te añado 10 puntos adicionales si, además de en R o en Python, generas
+estos mismos derivados desde QGIS o GRASS GIS.
 
 ## Ejercicio 3. Aplica simbología apropiadamente al ráster y al vectorial
 
@@ -178,7 +192,7 @@ QGIS o GRASS GIS (aparte de en R o en Python).
         coloración, por lo que también deberás usar un modo de mezcla
         apropiado. También sería apropiado destacar las elevaciones y
         las sombras sólo en el interior de la provincia usando “Polígono
-        invertido”.
+        invertido.”
 
 2.  Describe, en un párrafo, la topografía de tu provincia. Usa tus
     habilidades de descripción geográfica, por ejemplo, rangos de

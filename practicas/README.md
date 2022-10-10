@@ -1,8 +1,8 @@
 # Prácticas de la asignatura "Geomorfología", Licenciatura en Geografía, Universidad Autónoma de Santo Domingo (UASD)
 
-1.  Práctica 1. Introducción a software SIG de código abierto (QGIS + GRASS GIS + R + Python) aplicados a la cartografía geomorfológica.
+1.  [Práctica 1. Introducción a software SIG de código abierto (QGIS + GRASS GIS + R + Python) aplicados a la cartografía geomorfológica.](practica-1.md)
 
-2.  Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS GIS + R + Python): derivar productos, estadística zonal.
+2.  [Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS GIS + R + Python): derivar productos, estadística zonal, simbología.](practica-2.md)
 
 3.  Práctica 3. Fundamentos básicos sobre GNSS aplicados a la deformación del terreno.
 
