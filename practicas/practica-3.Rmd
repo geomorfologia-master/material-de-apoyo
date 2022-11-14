@@ -1,5 +1,5 @@
 ---
-title: "Práctica 3. Colecta y procesamiento de datos GNSS."
+title: "Práctica 3. Colecta y procesamiento de datos GNSS <br> Asignatura Geomorfología, UASD"
 author: José Ramón Martínez Batlle
 date: 14-11-2022
 output: github_document
