@@ -14,7 +14,7 @@
 
 2.  [Práctica 2. Uso básico de software SIG de código abierto (QGIS + GRASS GIS + R + Python): derivar productos, estadística zonal, simbología.](practica-2.md)
 
-3.  Práctica 3. Fundamentos básicos sobre GNSS aplicados a la deformación del terreno.
+3.  [Práctica 3. Colecta y procesamiento de datos GNSS.](practica-3.md)
 
 4.  Práctica 4. Fotogrametría aérea (OpenDroneMap + GRASS GIS + QGIS) aplicada al análisis de formas unitarias y la morfometría.
 
