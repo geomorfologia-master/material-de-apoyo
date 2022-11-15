@@ -106,7 +106,7 @@ documento:
 
 ¡Hecho! Si quieres, puedes incluir tu foto de campo en esta sección.
 Verás la que te tomé (guardada con tu nombre) en esta ruta del repo:
-`data/d003/fotos/`
+`data/d003/estudiantes/fotos/`
 
 ## Ejercicio 2. Instala software
 
@@ -134,32 +134,39 @@ Instala los siguientes programas:
 
 ## Ejercicio 3. Explora tu archivo de observaciones del rover
 
-1.  Descarga el contenido de la carpeta `data/d003/` de este repo. La
-    mejor forma de hacerlo es descargando el repo, mediante el botón
-    verde `Code` que se encuentra en la
+1.  Los datos con los que trabajarás se encuentran en la carpeta
+    `data/d003/` de este repo. La mejor forma de disponer de ellos es
+    descargando el repo, mediante el botón verde `Code` que se encuentra
+    en la
     [raíz](https://github.com/geomorfologia-202202/material-de-apoyo).
-    La misma estructura que veas en GitHub, la tendrás replicada en el
-    comprimido que descargues.
+    La misma estructura que ves en GitHub, la tendrás replicada en el
+    comprimido descargado.
 
-2.  Los datos que colectaste en campo les llamaremos “observaciones del
-    rover”. Cada estudiante tiene sus propias observaciones, y se
-    encuentran en un archivo de extensión `.ubx`, con el nombre de cada
-    quien, dentro del comprimido `rover.zip`, que se encuentra a su vez
-    en `data/d003/` (importante: Windows normalmente oculta las
-    extensiones de los archivos). Extrae tu archivo fuera del
-    comprimido.
+2.  Usaré la denominación “observaciones rover” para el archivo generado
+    en campo. Cada estudiante tiene sus propias observaciones rover, y
+    se encuentran en un archivo de extensión `.ubx`, con el nombre de
+    cada quien, dentro del comprimido `rover.zip`, que se encuentra a su
+    vez en `data/d003/estudiantes/` (importante: Windows normalmente
+    oculta las extensiones de los archivos; te recomiendo que las hagas
+    visibles). Localiza tu archivo bajo tu nombre dentro
+    `data/d003/estudiantes/rover.zip`, y extráelo fuera del comprimido.
 
-3.  Abre tu archivo de observaciones del rover y explóralo con el
-    u-center2 (deberás convertirlo primero de `.ubx` a `.uc2`).
+3.  Abre tu archivo de observaciones rover y explóralo con el u-center2
+    (deberás convertirlo primero de `.ubx` a `.uc2`).
 
-4.  Convierte tu archivo de observaciones del rover desde formato `.ubx`
-    a `.obs` mediante RTKCONV. Puedes abrir esta herramienta mediante el
-    lanzador de aplicaciones de RTKLIB, el cual puedes arrancar haciendo
-    doble-clic en `rtklaunch.exe`.
+4.  Convierte tu archivo de observaciones rover desde el formato
+    propietario `.ubx` al formato RINEX v3.00 (extensión `.obs`)
+    mediante RTKCONV (en el vídeo doy detalles). Puedes abrir esta
+    herramienta mediante el lanzador de aplicaciones de RTKLIB; para
+    ejecutar el lanzador, haz doble-clic en `rtklaunch.exe`. Tras
+    generar el RINEX (archivo extensión `.obs`), ábrelo con RTKPLOT
+    (puedes lanzar RTKPLOT desde RTKCONV)
 
-5.  Abre y explora tanto el archivo `.ubx` como el `.obs` con RTKPLOT de
-    RTKLIB. Al igual que en el caso anterior, puedes abrir esta
-    aplicación por medio de `rtklaunch.exe`.
+5.  Explora también el archivo de observaciones rover `.ubx` (que
+    contiene también las soluciones RTK-FIX generadas en campo) con
+    RTKPLOT de RTKLIB. Si tienes RTKPLOT abierto, ábrelo desde
+    `File>Open solution 1`. Si no tienes RTKPLOT abierto, puedes abrirlo
+    por medio de `rtklaunch.exe`.
 
 6.  Describe el proceso de exploración, y destaca alguna observación
     particular que demuestre que abriste y exploraste tu archivo
@@ -172,8 +179,8 @@ Instala los siguientes programas:
     Ahora toca explorar las observaciones de la base. Para ello,
     localiza el archivo de observaciones correspondiente (`.obs`) y el
     de mensajes de navegación (`.nav`), contenidos dentro del comprimido
-    `base.zip` que se encuentra en `data/d003/`. Extrae ambos archivos
-    fuera del comprimido.
+    `base.zip` que se encuentra en `data/d003/estudiantes/`. Extrae
+    ambos archivos fuera del comprimido.
 
 2.  Extrae y abre los PDF que se encuentran en el comprimido
     `info-complementaria.zip` de la carpeta `data/d003/`. Estos
@@ -188,17 +195,18 @@ Instala los siguientes programas:
     el programa RTKPOST.
 
 5.  Realiza el posproceso correspondiente tal como muestro en el vídeo,
-    obteniendo un archivo `.pos`. En dicho archivo quedarán contenidas
-    las coordenadas generadas, así como estadísticos básicos de las
-    mismas. **El archivo `.pos` debes enviarlo junto con el informe de
-    la práctica**.
+    obteniendo un archivo de soluciones de extensión `.pos`. En dicho
+    archivo quedarán contenidas las coordenadas de la solución PPK, así
+    como estadísticos básicos de las mismas. **El archivo `.pos` debes
+    enviarlo junto con el informe de la práctica**.
 
 6.  Convierte el archivo `.pos` a KML, y represéntalo en Google Earth
     Pro. Igualmente, abre el archivo `.pos` en QGIS (el archivo `.pos`
     es de tipo “texto delimitado”; debes abrirlo como tal desde QGIS).
 
 7.  BONUS: calcula, por tu cuenta, la desviación estándar y el error
-    estándar de las componentes latitud, longitud y altura.
+    estándar de las componentes latitud, longitud y altura, compara tu
+    resultado con el generado por RTKLIB.
 
 8.  Describe el proceso realizado en un párrafo. Comenta el resultado,
     centrándote especialmente en la desviación y el error reportado en
