@@ -44,7 +44,7 @@ Al terminar esta práctica deberías ser capaz de:
 
 # Lecturas previas recomendadas, preparación, recursos disponibles
 
-- El libro *An introduction to GNSS: GPS, GLONASS, galileo and other
+- El libro *An introduction to GNSS: GPS, GLONASS, Galileo and other
   global navigation satellite systems* (Jeffrey, 2010).
 
 - Demostraciones en aula.
@@ -211,9 +211,9 @@ line-spacing="2">
 
 <div id="ref-jeffrey2010" class="csl-entry">
 
-Jeffrey, C. (2010). *An introduction to GNSS: GPS, GLONASS, galileo and
-other global navigation satellite systems*. Retrieved from
-<https://novatel.com/an-introduction-to-gnss>
+Jeffrey, C. (2010). *<span class="nocase">An introduction to GNSS: GPS,
+GLONASS, Galileo and other global navigation satellite systems</span>*.
+Retrieved from <https://novatel.com/an-introduction-to-gnss>
 
 </div>
 

@@ -37,7 +37,7 @@ Al terminar esta práctica deberías ser capaz de:
 
 # Lecturas previas recomendadas, preparación, recursos disponibles
 
--   El libro *An introduction to GNSS: GPS, GLONASS, galileo and other global navigation satellite systems* [@jeffrey2010].
+-   El libro *An introduction to GNSS: GPS, GLONASS, Galileo and other global navigation satellite systems* [@jeffrey2010].
 
 -   Demostraciones en aula.
 
