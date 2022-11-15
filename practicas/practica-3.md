@@ -44,7 +44,8 @@ Al terminar esta práctica deberías ser capaz de:
 
 # Lecturas previas recomendadas, preparación, recursos disponibles
 
-- (Jeffrey, 2010)
+- El libro *An introduction to GNSS: GPS, GLONASS, galileo and other
+  global navigation satellite systems* (Jeffrey, 2010).
 
 - Demostraciones en aula.
 
@@ -92,6 +93,13 @@ documento:
 | Redacción, que incluye organización de las ideas, gramática, ortografía                                                     | 60%        |
 | Presentación, que incluye uso apropiado de estilos, tablas y figuras (legibilidad, uso de *caption*), numeración de páginas | 40%        |
 
+# ¿Qué necesitarás?
+
+- Conexión a internet.
+
+- Una PC. Los programas a instalar los he probado tanto en Linux como en
+  Windows.
+
 # Ejercicios
 
 ## Ejercicio 1. Colecta tus datos en terreno
@@ -104,11 +112,16 @@ Verás la que te tomé (guardada con tu nombre) en esta ruta del repo:
 
 Instala los siguientes programas:
 
-1.  Instala u-center2 y u-center v22.07 (de u-blox) desde
-    <https://www.u-blox.com/en/product/u-center>. Abre ambos programas.
+1.  Instala u-center2 (de u-blox) desde
+    <https://www.u-blox.com/en/product/u-center>. Abre el programa;
+    necesitarás registrarte en u-blox (vía el navegador) para poder
+    usarlo.
 
-2.  Descarga los ejecutables del fork demo5 de RTKBLIB desde
-    <https://github.com/rtklibexplorer/RTKLIB/releases/download/b34g/demo5_b34g.zip>
+2.  Descarga el fork demo5 de RTKBLIB desde
+    <https://github.com/rtklibexplorer/RTKLIB/releases/download/b34g/demo5_b34g.zip>.
+    Sólo tendrás que extraer el contenido; cuando necesites ejecutar
+    aplicaciones, lo harás a través de los ejecutables (no requiere
+    instalación).
 
 3.  QGIS y Google Earth Pro si aún no los tienes. ¿Aún no los tienes?
     Mejor no me respondas, no quiero saber. Abre ambos programas.
@@ -119,7 +132,7 @@ Instala los siguientes programas:
 
 5.  Describe el proceso de instalación en cada caso.
 
-## Ejercicio 3. Explora tu archivo con software propietario
+## Ejercicio 3. Explora tu archivo de observaciones del rover
 
 1.  Descarga el contenido de la carpeta `data/d003/` de este repo. La
     mejor forma de hacerlo es descargando el repo, mediante el botón
@@ -128,52 +141,68 @@ Instala los siguientes programas:
     La misma estructura que veas en GitHub, la tendrás replicada en el
     comprimido que descargues.
 
-2.  Los datos que colectaste en campo se denominan “observaciones del
+2.  Los datos que colectaste en campo les llamaremos “observaciones del
     rover”. Cada estudiante tiene sus propias observaciones, y se
     encuentran en un archivo de extensión `.ubx`, con el nombre de cada
-    quien, dentro del comprimido `rover.zip`, que se encuentra en
-    `data/d003/` (importante: Windows normalmente oculta las extensiones
-    de los archivos). Extrae tu archivo fuera del comprimido.
+    quien, dentro del comprimido `rover.zip`, que se encuentra a su vez
+    en `data/d003/` (importante: Windows normalmente oculta las
+    extensiones de los archivos). Extrae tu archivo fuera del
+    comprimido.
 
-3.  Abre y explora tus datos con los dos programas u-center.
+3.  Abre tu archivo de observaciones del rover y explóralo con el
+    u-center2 (deberás convertirlo primero de `.ubx` a `.uc2`).
 
-4.  Abre y explora tus observaciones del rover con RTKPLOT de RTKLIB.
-    Puedes abrir esta herramienta mediante el lanzador de aplicaciones
-    de RTKLIB, el cual puedes arrancar haciendo doble-clic en
-    `rtklaunch.exe`.
+4.  Convierte tu archivo de observaciones del rover desde formato `.ubx`
+    a `.obs` mediante RTKCONV. Puedes abrir esta herramienta mediante el
+    lanzador de aplicaciones de RTKLIB, el cual puedes arrancar haciendo
+    doble-clic en `rtklaunch.exe`.
 
-5.  Describe el proceso de exploración, y destaca alguna observación
+5.  Abre y explora tanto el archivo `.ubx` como el `.obs` con RTKPLOT de
+    RTKLIB. Al igual que en el caso anterior, puedes abrir esta
+    aplicación por medio de `rtklaunch.exe`.
+
+6.  Describe el proceso de exploración, y destaca alguna observación
     particular que demuestre que abriste y exploraste tu archivo
-    asignado. Coloca alguna captura de pantalla.
+    asignado. Coloca una captura de pantalla en tu informe para este
+    ejercicio.
 
 ## Ejercicio 4. Genera una solución fija por posproceso
 
 1.  En el ejercicio anterior, exploraste tus observaciones del rover.
-    Ahora localiza el archivo de observaciones brutas de la base
-    (`.obs`) y el archivo de mensajes de navegación (`.nav`),
-    localizados dentro del comprimido `base.zip`, que se encuentra en
-    `data/d003/`. Extrae ambos archivos fuera del comprimido.
+    Ahora toca explorar las observaciones de la base. Para ello,
+    localiza el archivo de observaciones correspondiente (`.obs`) y el
+    de mensajes de navegación (`.nav`), contenidos dentro del comprimido
+    `base.zip` que se encuentra en `data/d003/`. Extrae ambos archivos
+    fuera del comprimido.
 
 2.  Extrae y abre los PDF que se encuentran en el comprimido
-    `coordenadas-base-conf.zip` de la carpeta \`data/d003/. Estos
+    `info-complementaria.zip` de la carpeta `data/d003/`. Estos
     contienen las coordenadas de la base en formato ITRF2014 y WGS84.
-    Explorálos.
+    Explorálos e interpreta su contenido.
 
 3.  Extrae y abre el archivo de configuración `.conf` que se encuentra
-    en el comprimido `coordenadas-base-conf.zip` de la carpeta
+    en el comprimido `info-complementaria.zip` de la carpeta
     `data/d003/`. Lo necesitarás más adelante.
 
 4.  Mediante la lanzador de programas de RTKLIB (`rtklaunch.exe`), abre
     el programa RTKPOST.
 
-5.  Realiza el posproceso tal como muestro en el vídeo, obteniendo un
-    archivo `.pos`. Aquí verás las coordenadas, así como estadísticos
-    básicos de las mismas.
+5.  Realiza el posproceso correspondiente tal como muestro en el vídeo,
+    obteniendo un archivo `.pos`. En dicho archivo quedarán contenidas
+    las coordenadas generadas, así como estadísticos básicos de las
+    mismas. **El archivo `.pos` debes enviarlo junto con el informe de
+    la práctica**.
 
-6.  BONUS: calcula, por tu cuenta, la desviación estándar y el error
+6.  Convierte el archivo `.pos` a KML, y represéntalo en Google Earth
+    Pro. Igualmente, abre el archivo `.pos` en QGIS (el archivo `.pos`
+    es de tipo “texto delimitado”; debes abrirlo como tal desde QGIS).
+
+7.  BONUS: calcula, por tu cuenta, la desviación estándar y el error
     estándar de las componentes latitud, longitud y altura.
 
-7.  Describe el proceso realizado en un párrafo.
+8.  Describe el proceso realizado en un párrafo. Comenta el resultado,
+    centrándote especialmente en la desviación y el error reportado en
+    el archivo `.pos`.
 
 # Referencias
 
