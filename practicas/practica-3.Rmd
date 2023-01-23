@@ -1,0 +1,135 @@
+---
+title: "Práctica 3. Colecta y procesamiento de datos GNSS <br> Asignatura Geomorfología, UASD"
+author: José Ramón Martínez Batlle
+date: 14-11-2022
+output: github_document
+bibliography: ../ref/biblio.bib
+csl: ../ref/apa.csl
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, cache=F)
+```
+
+# Fecha de entrega
+
+-   21 de noviembre de 2022
+
+# Introducción
+
+Desde la navegación a estima (dead reckoning), basada en una posición previa conocida, la humanidad ha avanzado enormemente en las técnicas de navegación y posicionamiento. El recurso más eficiente disponible en la actualidad para el posicionamiento global preciso, son los sistemas de navegación por satélite. Las versiones con cobertura global de estos sistemas, se denominan sistemas de navegación global por satélite o "GNSS" (siglas de **Global Navigation Satellite Systems**), y la modalidad que provee coordenadas precisas al instante se denomina "navegación cinética satelital en tiempo real" o "GNSS-RTK" o, simplemente, "RTK". Tanto la tecnología GNSS en general, como su modalidad RTK, son muy útiles en aplicaciones de geografía física (especialmente en geomorfología), agrimensura, topografía, agricultura de precisión, entre otras disciplinas.
+
+En esta práctica instalarás y utilizarás recursos de software y hardware para iniciarte en la tecnología GNSS desde cero. Específicamente, verás software de código abierto para procesamiento de datos GNSS y representación de soluciones (RTKLIB, QGIS, GoogleEarth),
+
+# Objetivos de aprendizaje
+
+Al terminar esta práctica deberías ser capaz de:
+
+-   Colectar datos en terreno con un receptor GNSS DIY de bajo costo.
+
+-   Reconocer algunos formatos de datos GNSS.
+
+-   Aplicar herramientas de código abierto para procesamiento de datos GNSS.
+
+-   Generar soluciones fijas por posproceso.
+
+# Lecturas previas recomendadas, preparación, recursos disponibles
+
+-   El libro *An introduction to GNSS: GPS, GLONASS, Galileo and other global navigation satellite systems* [@jeffrey2010].
+
+-   Demostraciones en aula.
+
+# Informe
+
+Entregarás tu informe en formato PDF, el cual podrás elaborar con tu procesador de texto favorito (por ejemplo, LibreOffice Writer, LaTeX, Word) o mediante entornos de desarrollo integrado (e.g. Atom, Visual Studio Code, Jupyter Notebooks, RMarkdown-RStudio). Características del documento:
+
+-   Número máximo de páginas: 10.
+
+-   En la primera página, deberás incluir nombre, matrícula, asignatura, nombre de la práctica, fecha.
+
+-   Para evitar la proliferación de tipografías y formatos, debes usar estilos. Lo más fácil es basarse en plantillas. Hay muchos recursos en la web sobre cómo usar estilos (término de búsqueda recomendado: estilos en procesadores de texto).
+
+-   En los casos que aplique, debes incluir tu código informático en las respuestas de los ejercicios donde uses lenguajes de programación (e.g. R, Python). El código debe ser incluido como texto, no como imagen (e.g. captura de pantalla).
+
+-   Realiza doble revisión de ortografía y gramática.
+
+-   Las páginas deben estar numeradas.
+
+-   Si aplica, incluir ilustraciones y tablas de apoyo (a ambas debes incluirles título, "*caption*"), así como lista de referencias bibliográficas. Sólo incluye figuras que refieras en el texto.
+
+-   Puedes usar un apéndice para incluir información complementaria que no te quepa en las 10 páginas centrales.
+
+-   Podré solicitar los archivos fuente empleados para elaborar el PDF y los resultados intermedios generados en cada ejercicio.
+
+# Criterios de evaluación
+
+```{r, echo=F}
+library(kableExtra)
+criterios_eval <- data.frame(
+  Concepto = c('Redacción, que incluye organización de las ideas, gramática, ortografía', 'Presentación, que incluye uso apropiado de estilos, tablas y figuras (legibilidad, uso de *caption*), numeración de páginas'),
+  Porcentaje = c('60%', '40%')
+)
+kable(criterios_eval, format="markdown")
+```
+
+# ¿Qué necesitarás?
+
+-   Conexión a internet.
+
+-   Una PC. Los programas a instalar los he probado tanto en Linux como en Windows.
+
+# Ejercicios
+
+## Ejercicio 1. Colecta tus datos en terreno
+
+¡Hecho! Si quieres, puedes incluir tu foto de campo en esta sección. Verás la que te tomé (guardada con tu nombre) en esta ruta del repo: `data/d003/estudiantes/fotos/`
+
+## Ejercicio 2. Instala software
+
+Instala los siguientes programas:
+
+1. Instala u-center2 (de u-blox) desde https://www.u-blox.com/en/product/u-center. Abre el programa; necesitarás registrarte en u-blox (vía el navegador) para poder usarlo.
+
+2. Descarga el fork demo5 de RTKBLIB desde https://github.com/rtklibexplorer/RTKLIB/releases/download/b34g/demo5_b34g.zip. Sólo tendrás que extraer el contenido; cuando necesites ejecutar aplicaciones, lo harás a través de los ejecutables (no requiere instalación).
+
+3. QGIS y Google Earth Pro si aún no los tienes. ¿Aún no los tienes? Mejor no me respondas, no quiero saber. Abre ambos programas.
+
+4. Redimensiona las ventanas para que quepan todas en la pantalla. Captura la pantalla con todos los programas abierto y pégala en tu informe.
+
+5. Describe el proceso de instalación en cada caso.
+
+## Ejercicio 3. Explora tu archivo de observaciones del rover
+
+1. Los datos con los que trabajarás se encuentran en la carpeta `data/d003/` de este repo. La mejor forma de disponer de ellos es descargando el repo, mediante el botón verde `Code` que se encuentra en la [raíz](https://github.com/geomorfologia-202202/material-de-apoyo). La misma estructura que ves en GitHub, la tendrás replicada en el comprimido descargado.
+
+2. Usaré la denominación "observaciones rover" para el archivo generado en campo. Cada estudiante tiene sus propias observaciones rover, y se encuentran en un archivo de extensión `.ubx`, con el nombre de cada quien, dentro del comprimido `rover.zip`, que se encuentra a su vez en `data/d003/estudiantes/` (importante: Windows normalmente oculta las extensiones de los archivos; te recomiendo que las hagas visibles). Localiza tu archivo bajo tu nombre dentro `data/d003/estudiantes/rover.zip`, y extráelo fuera del comprimido.
+
+3. Abre tu archivo de observaciones rover y explóralo con el u-center2 (deberás convertirlo primero de `.ubx` a `.uc2`).
+
+4.  Convierte tu archivo de observaciones rover desde el formato propietario `.ubx` al formato RINEX v3.00 (extensión `.obs`) mediante RTKCONV (en el vídeo doy detalles). Puedes abrir esta herramienta mediante el lanzador de aplicaciones de RTKLIB; para ejecutar el lanzador, haz doble-clic en `rtklaunch.exe`. Tras generar el RINEX (archivo extensión `.obs`), ábrelo con RTKPLOT (puedes lanzar RTKPLOT desde RTKCONV)
+
+4. Explora también el archivo de observaciones rover `.ubx` (que contiene también las soluciones RTK-FIX generadas en campo) con RTKPLOT de RTKLIB. Si tienes RTKPLOT abierto, ábrelo desde `File>Open solution 1`. Si no tienes RTKPLOT abierto, puedes abrirlo por medio de `rtklaunch.exe`.
+
+5. Describe el proceso de exploración, y destaca alguna observación particular que demuestre que abriste y exploraste tu archivo asignado. Coloca una captura de pantalla en tu informe para este ejercicio.
+
+## Ejercicio 4. Genera una solución fija por posproceso
+
+1. En el ejercicio anterior, exploraste tus observaciones del rover. Ahora toca explorar las observaciones de la base. Para ello, localiza el archivo de observaciones correspondiente (`.obs`) y el de mensajes de navegación (`.nav`), contenidos dentro del comprimido `base.zip` que se encuentra en `data/d003/estudiantes/`. Extrae ambos archivos fuera del comprimido.
+
+2. Extrae y abre los PDF que se encuentran en el comprimido `info-complementaria.zip` de la carpeta `data/d003/`. Estos contienen las coordenadas de la base en formato ITRF2014 y WGS84. Explorálos e interpreta su contenido.
+
+3. Extrae y abre el archivo de configuración `.conf` que se encuentra en el comprimido `info-complementaria.zip` de la carpeta `data/d003/`. Lo necesitarás más adelante.
+
+4. Mediante la lanzador de programas de RTKLIB (`rtklaunch.exe`), abre el programa RTKPOST.
+
+5. Realiza el posproceso correspondiente tal como muestro en el vídeo, obteniendo un archivo de soluciones de extensión `.pos`. En dicho archivo quedarán contenidas las coordenadas de la solución PPK, así como estadísticos básicos de las mismas. **El archivo `.pos` debes enviarlo junto con el informe de la práctica**.
+
+6. Convierte el archivo `.pos` a KML, y represéntalo en Google Earth Pro. Igualmente, abre el archivo `.pos` en QGIS (el archivo `.pos` es de tipo "texto delimitado"; debes abrirlo como tal desde QGIS).
+
+6. BONUS: calcula, por tu cuenta, la desviación estándar y el error estándar de las componentes latitud, longitud y altura, compara tu resultado con el generado por RTKLIB.
+
+7. Describe el proceso realizado en un párrafo. Comenta el resultado, centrándote especialmente en la desviación y el error reportado en el archivo `.pos`.
+
+# Referencias
